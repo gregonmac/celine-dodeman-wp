@@ -1,0 +1,25 @@
+/**
+ * @copyright	Copyright (C) 2016. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ * @author		Plugins CK - Cédric KEIFLIN - http://www.wp-pluginsck.com
+ */
+
+.ckradio-fieldset {
+	display: inline-block;
+	margin: 0 2px;
+}
+
+.ckradio-fieldset label {
+	display: inline-block !important;
+	float: none !important;
+	width: auto !important;
+}
+
+.ckradio-fieldset input[type="radio"] {
+	display: none;
+}
+
+
+.ckradio-fieldset input[type="radio"]:checked + label {
+	display: none;
+}

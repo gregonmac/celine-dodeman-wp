@@ -1,0 +1,57 @@
+/**
+ * @copyright	Copyright (C) 2016. All rights reserved.
+ * @license		GNU General Public License version 2 or later; see LICENSE.txt
+ * @author		Plugins CK - Cédric KEIFLIN - http://www.wp-pluginsck.com
+ */
+
+.ckinterface label {
+	/*float: left;
+	width: 180px;*/
+}
+
+.ckinterface input, .ckinterface select {
+	max-width: 100%;
+	margin-right: 2px;
+	margin-left: 2px; 
+}
+
+.ckinterface .ckheading { 
+	color: #2EA2CC;
+	font-weight: bold;
+}
+
+.ckinterface span { 
+	display: inline-block; 
+}
+
+.ckinterface span.ckdesc { 
+	display: inline;
+	font-style: italic;
+}
+
+.ckinterface .wp-color-result, .ckinterface img, .ckinterface fieldset { 
+	vertical-align: middle; 
+}
+
+.ckinterface .ckbutton img { 
+	vertical-align: sub; 
+}
+
+.ckinterface .inside > div { 
+	padding: 4px 0; 
+}
+
+.settings-error { 
+	clear: both; 
+}
+
+.ckmessage {
+	border-top: 1px solid #ddd;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+#ckoptionswrapper {
+	padding: 5px 0;
+}

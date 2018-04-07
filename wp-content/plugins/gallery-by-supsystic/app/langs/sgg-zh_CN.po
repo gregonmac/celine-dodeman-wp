@@ -1,0 +1,2027 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+
+msgid "An error has occurred"
+msgstr "发生错误"
+
+msgid "Overview"
+msgstr "概述"
+
+msgid "New Gallery"
+msgstr "新相册"
+
+msgid "Galleries"
+msgstr "相册"
+
+msgid "Image Optimize"
+msgstr ""
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "License"
+msgstr "许可证"
+
+msgid "Featured Plugins"
+msgstr ""
+
+msgid "Images"
+msgstr "图片"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Flickr"
+msgstr "Flickr"
+
+msgid "Tumblr"
+msgstr "Tumblr"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Get PRO"
+msgstr "获取PRO"
+
+msgid "Loading"
+msgstr "载入中"
+
+msgid "Authorization code is not specified."
+msgstr "不指定授权码。"
+
+msgid "Gallery by Supsystic"
+msgstr "Gallery by Supsystic"
+
+msgid "Import images"
+msgstr "导入图像"
+
+msgid "Facebook authorization"
+msgstr "Facebook 授权"
+
+msgid "Upload your images from the Facebook Media Library"
+msgstr "上传您的图片从 Facebook 媒体库"
+
+msgid "Login with Facebook"
+msgstr "用Facebook账号登入"
+
+msgid "Return to the gallery"
+msgstr "返回相册"
+
+msgid "Upload new images"
+msgstr "上传新图片"
+
+msgid "Logout"
+msgstr "退出"
+
+msgid "Select/unselect all photos"
+msgstr "选择/取消选择所有照片"
+
+msgid ""
+"Here you can specify your business pages and images will load from those pages. "
+"You can set several pages, just separate ID of pages by \",\". To get the ID of "
+"your page you need to switch to the wanted page, then click on \"About\" link "
+"right below page cover, and at the bottom of \"About\" page you will find "
+"Facebook Page ID."
+msgstr ""
+"您可以在这里指定商业页面并且从这些页面里加载图片。您可以设置多个页面，只需要使"
+"用“,”隔开ID即可。您需要开关目标页面以获取页面ID，然后点击页面封面右下角的“关"
+"于”链接，并且页面上的“关于”按钮您可以找到Facebook页面ID。"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Empty user data."
+msgstr "空的用户数据。"
+
+msgid "Flickr authorization"
+msgstr "Flickr 授权"
+
+msgid "Upload your images from the Flickr Media Library"
+msgstr "上传您的图片从 Flickr 媒体库"
+
+msgid "Upload from Flickr"
+msgstr "从 Flickr 上传"
+
+msgid "Images not in albums"
+msgstr "图片不在相册中"
+
+msgid "Albums"
+msgstr "专辑"
+
+msgid "Fullscreen"
+msgstr "全屏显示"
+
+msgid "Load More Button"
+msgstr "加载更多按钮"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Disable"
+msgstr "禁用"
+
+msgid "Load with scroll"
+msgstr "加载更多滚动"
+
+msgid "No"
+msgstr "No"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "Load more button text"
+msgstr "载入更多按鈕文字。"
+
+msgid "Loading text"
+msgstr "加载文本"
+
+msgid "Loading..."
+msgstr "正在加载..."
+
+msgid "Images amount"
+msgstr "图像数量"
+
+msgid "Load more amount"
+msgstr "加载更多"
+
+msgid "Custom Buttons"
+msgstr "自定义按钮"
+
+msgid "Gallery Loader"
+msgstr "相册加载"
+
+msgid "Background color"
+msgstr "背景颜色"
+
+msgid "Choose Icon"
+msgstr "选择图标"
+
+msgid "Open by link in popup"
+msgstr "在新的窗口打开链接"
+
+msgid "Gallery link"
+msgstr "相册链接"
+
+msgid "Disable right click"
+msgstr "禁用右键"
+
+msgid "Video size"
+msgstr "视频大小"
+
+msgid "Autoplay video"
+msgstr "自动播放视频"
+
+msgid "When video ends"
+msgstr "视频结束时"
+
+msgid "Do nothing"
+msgstr "什么都不做"
+
+msgid "Open next slide"
+msgstr "下一张幻灯片"
+
+msgid "Close popup"
+msgstr "关闭弹窗"
+
+msgid "Posts layout"
+msgstr "帖子布局"
+
+msgid "Posts layout style"
+msgstr "文章布局方式"
+
+msgid "Auto posts"
+msgstr "自动滚动文章"
+
+msgid "Number of posts"
+msgstr "文章数"
+
+msgid "Auto Posts Categories"
+msgstr "自动帖子类别"
+
+msgid "Select categories"
+msgstr "选择类别"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Posts"
+msgstr "文章"
+
+msgid "Pages"
+msgstr "页面"
+
+msgid "Show author"
+msgstr "显示作者"
+
+msgid "Show date"
+msgstr "显示日期"
+
+msgid "Show contents"
+msgstr "显示内容"
+
+msgid "Show categories"
+msgstr "显示类别"
+
+msgid "Hide \"All\" category"
+msgstr "隐藏\"All\"类别"
+
+msgid "Enable shuffling animation"
+msgstr "启用随机播放动画"
+
+msgid "Animation duration"
+msgstr "动画时间"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Over the gallery"
+msgstr "选择画廊"
+
+msgid "Under the gallery"
+msgstr "下库"
+
+msgid "Align"
+msgstr "对齐"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Center"
+msgstr "居中"
+
+msgid "Right"
+msgstr "右"
+
+msgid "Presets"
+msgstr "预设"
+
+msgid "Choose preset"
+msgstr "选择一个预置"
+
+msgid "Preset Editor"
+msgstr "预设的编辑"
+
+msgid "Categories order"
+msgstr "分类顺序"
+
+msgid "Enable pagination"
+msgstr "启用分页"
+
+msgid "Pagination"
+msgstr "分页"
+
+msgid "Images per page"
+msgstr "每页图片数"
+
+msgid "Buttons position"
+msgstr "按钮位置"
+
+msgid "Top"
+msgstr "顶部"
+
+msgid "Bottom"
+msgstr "底部"
+
+msgid "Container background"
+msgstr "容器背景"
+
+msgid "Hide container background."
+msgstr "隐藏容器背景。"
+
+msgid "Text background"
+msgstr "文本背景"
+
+msgid "Hide text background."
+msgstr "隐藏文本背景。"
+
+msgid "Text color"
+msgstr "文字颜色"
+
+msgid "Use color, based on my theme."
+msgstr "使用颜色，基于我的主题。"
+
+msgid "Vertical padding"
+msgstr "垂直填充"
+
+msgid "Horizontal padding"
+msgstr "水平填充"
+
+msgid "Font weight"
+msgstr "字体式样"
+
+msgid "Font size"
+msgstr "字体大小"
+
+msgid "Border width"
+msgstr "边框宽度"
+
+msgid "Border type"
+msgstr "边框类型"
+
+msgid "Border color"
+msgstr "边框颜色"
+
+msgid "Border radius"
+msgstr "边框半径"
+
+msgid "Buttons preset editor for Paginations, Categories and Load More buttons"
+msgstr "Paginations、 类别和负载更多按钮按钮预设的编辑器"
+
+msgid "Custom class"
+msgstr "自定义class"
+
+msgid "Font family"
+msgstr "字体库"
+
+msgid "Border style"
+msgstr "边框样式"
+
+msgid "Choose icon"
+msgstr "选择图标"
+
+msgid "Page "
+msgstr "页面"
+
+msgid "Activate License"
+msgstr "激活许可证"
+
+msgid "Renew License"
+msgstr "续订许可"
+
+msgid "Slider by Supsystic"
+msgstr "Slider by Supsystic"
+
+msgid ""
+"Congratulations! You have successfully installed and activated PRO version of ' "
+"~ environment.getMenu().getMenuTitle() ~ ' plugin."
+msgstr ""
+"祝贺你 ！您已成功安装并激活 PRO 版本的 ‘~ environment.getMenu().getMenuTitle() "
+"~’ 插件。"
+
+msgid "Your premium support is expired in ' ~ days ~ ' days"
+msgstr "您享受技术支持还剩 ‘ ~ days ~ ‘ 天"
+
+msgid "You will not be able to update your pro version with expired license"
+msgstr "你不能用来更新您的专业版已过期的许可证"
+
+msgid "Activate"
+msgstr "激活"
+
+msgid "Authorization oauth_verifier is not specified."
+msgstr "未指定授权 oauth_verifier。"
+
+msgid "Tumblr authorization"
+msgstr "Tumblr 授权"
+
+msgid "Upload your images from the Tumblr Media Library"
+msgstr "上传您的图片从 Tumblr 媒体库"
+
+msgid "Upload from Tumblr"
+msgstr "从Tumblr上传"
+
+msgid "FTP"
+msgstr "FTP"
+
+msgid "Upload your images from the FTP Server"
+msgstr "从FTP上传您的图片"
+
+msgid "Enter images folder name, e.g. my-images"
+msgstr "输入图像文件夹名称，例如我图像"
+
+msgid "Upload"
+msgstr ""
+
+msgid "Note: images folder must be in wp-content/uploads/directory"
+msgstr "请确保/ wp-content/uploads目录有写权限来使用此功能。"
+
+msgid "Host"
+msgstr "主机名"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Enter the full path to images folder"
+msgstr "输入图像文件夹的完整路径"
+
+msgid "Note: you need to specify the full path to images folder"
+msgstr "注意︰ 您需要指定图像的文件夹的完整路径"
+
+msgid "Please fill all fields"
+msgstr "请填写所有字段"
+
+msgid "Popup Linked Image Text"
+msgstr ""
+
+msgid "Title"
+msgstr "标题"
+
+msgid "Alt text"
+msgstr "替代文本"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Disable source image for Linked Images"
+msgstr ""
+
+msgid "Disable title optimize"
+msgstr ""
+
+msgid "Show Watermark"
+msgstr ""
+
+msgid "Show Watermark for"
+msgstr ""
+
+msgid "Thumbnails"
+msgstr ""
+
+msgid "Popup Images"
+msgstr ""
+
+msgid "Thumbnail and Popup Images"
+msgstr ""
+
+msgid "Apply to all images"
+msgstr ""
+
+msgid "Save source images"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Image"
+msgstr "图像"
+
+msgid "Text"
+msgstr ""
+
+msgid "Watermark Image"
+msgstr ""
+
+msgid "Margin"
+msgstr ""
+
+msgid "Left Top"
+msgstr ""
+
+msgid "Left Center"
+msgstr ""
+
+msgid "Left Bottom"
+msgstr ""
+
+msgid "Top Center"
+msgstr ""
+
+msgid "Center Center"
+msgstr ""
+
+msgid "Bottom Center"
+msgstr ""
+
+msgid "Right Top"
+msgstr ""
+
+msgid "Right Center"
+msgstr ""
+
+msgid "Right Bottom"
+msgstr ""
+
+msgid "Transparency"
+msgstr "透明度"
+
+msgid ""
+"To use this option, you must install php-extension GD. The list of functions "
+"that are used in the plugin can be seen in readme.txt file."
+msgstr ""
+
+msgid "Image on hover"
+msgstr ""
+
+msgid "Select image on hover"
+msgstr ""
+
+msgid "Upload Image"
+msgstr ""
+
+msgid "Google Drive authorization"
+msgstr "Google Drive 授权"
+
+msgid "Upload your images from Google Drive CDN"
+msgstr "从Google Drive CDN上传图片"
+
+msgid "Upload from Google Drive"
+msgstr "从Google Drive上传"
+
+msgid "Google Drive"
+msgstr "Google Drive"
+
+msgid "Popup Plugin"
+msgstr ""
+
+msgid ""
+"The Best WordPress PopUp option plugin to help you gain more subscribers, "
+"social followers or advertisement. Responsive pop-ups with friendly options."
+msgstr ""
+
+msgid "Slider Plugin"
+msgstr ""
+
+msgid ""
+"Creating slideshows with Slider plugin is fast and easy. Simply select images "
+"from your WordPress Media Library, Flickr, Instagram or Facebook, set slide "
+"captions, links and SEO fields all from one page."
+msgstr ""
+
+msgid "Photo Gallery Plugin"
+msgstr ""
+
+msgid ""
+"Photo Gallery Plugin with a great number of layouts will help you to create "
+"quality respectable portfolios and image galleries."
+msgstr ""
+
+msgid "Data Tables Generator"
+msgstr ""
+
+msgid ""
+"Create and manage beautiful data tables with custom design. No HTML knowledge "
+"is required."
+msgstr ""
+
+msgid "Social Share Buttons"
+msgstr ""
+
+msgid ""
+"Social share buttons to increase social traffic and popularity. Social sharing "
+"to Facebook, Twitter and other social networks."
+msgstr ""
+
+msgid "Live Chat Plugin"
+msgstr ""
+
+msgid ""
+"Be closer to your visitors and customers with Live Chat Support by Supsystic. "
+"Help you visitors, support them in real-time with exceptional Live Chat "
+"WordPress plugin by Supsystic."
+msgstr ""
+
+msgid "Pricing Table"
+msgstr ""
+
+msgid ""
+"It’s never been so easy to create and manage pricing and comparison tables with "
+"table builder. Any element of the table can be customise with mouse click."
+msgstr ""
+
+msgid "Coming Soon Plugin"
+msgstr ""
+
+msgid ""
+"Coming soon page with drag-and-drop builder or under construction | maintenance "
+"mode to notify visitors and collects emails."
+msgstr ""
+
+msgid "Backup Plugin"
+msgstr ""
+
+msgid ""
+"Backup and Restore WordPress Plugin by Supsystic provides quick and unhitched "
+"DropBox, FTP, Amazon S3, Google Drive backup for your WordPress website."
+msgstr ""
+
+msgid "Google Maps Easy"
+msgstr ""
+
+msgid ""
+"Display custom Google Maps. Set markers and locations with text, images, "
+"categories and links. Customize google map in a simple and intuitive way."
+msgstr ""
+
+msgid "Digital Publication Plugin"
+msgstr ""
+
+msgid ""
+"Digital Publication WordPress Plugin by Supsystic for Magazines, Catalogs, "
+"Portfolios. Convert images, posts, PDF to the page flip book."
+msgstr ""
+
+msgid "Contact Form Plugin"
+msgstr ""
+
+msgid ""
+"One of the best plugin for creating Contact Forms on your WordPress site. "
+"Changeable fonts, backgrounds, an option for adding fields etc."
+msgstr ""
+
+msgid "Newsletter Plugin"
+msgstr ""
+
+msgid ""
+"Supsystic Newsletter plugin for automatic mailing of your letters. You will "
+"have no need to control it or send them manually. No coding, hard skills or "
+"long hours of customizing are required."
+msgstr ""
+
+msgid "Membership by Supsystic"
+msgstr ""
+
+msgid ""
+"Create online membership community with custom user profiles, roles, FrontEnd "
+"registration and login. Members Directory, activity, groups, messages."
+msgstr ""
+
+msgid "New gallery successfully created"
+msgstr "新图册创建成功"
+
+msgid "Title successfully updated"
+msgstr "标题更新成功"
+
+msgid "Not enough data."
+msgstr "没有足够的数据"
+
+msgid "Preset successfully saved."
+msgstr "保存成功！"
+
+msgid "The preset ID is not specified."
+msgstr "未指定的预设的 ID。"
+
+msgid "Preset successfully removed."
+msgstr "已成功移除"
+
+msgid "Failed to find the preset."
+msgstr "未能找到文件"
+
+msgid "Preset successfully applied to the gallery."
+msgstr "添加图片到该相册"
+
+msgid "Unnamed gallery"
+msgstr "未命名相册"
+
+msgid "The identifier of the gallery is invalid"
+msgstr "无效的相册"
+
+msgid "Title is empty"
+msgstr "标题为空"
+
+msgid "Failed to rename the gallery"
+msgstr "重命名失败"
+
+msgid "Invalid gallery identifier specified"
+msgstr "所选的库类型无效"
+
+msgid "Failed to delete the gallery"
+msgstr "删除失败！"
+
+msgid "Resources are does not exists"
+msgstr "文件不存在。"
+
+msgid "The identifier of the Gallery is not specified"
+msgstr "无效的相册"
+
+msgid "New gallery"
+msgstr "新相册"
+
+msgid "Add Images"
+msgstr "添加图像"
+
+msgid "Add selected items"
+msgstr "添加所选的项目"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid ""
+"You need to import images to your gallery before you can start using galleries"
+msgstr "在您保存前需要向您的模板添加一个标题。"
+
+msgid "Selected"
+msgstr "选择"
+
+msgid "Create new gallery"
+msgstr "创建新相册"
+
+msgid ""
+"Choose Gallery Template. You can change template and settings on the next step."
+msgstr ""
+
+msgid "Gallery Name:"
+msgstr "相册名称："
+
+msgid "Choose Gallery Template."
+msgstr "选择库模板。"
+
+msgid "Remove selected"
+msgstr "移除选定"
+
+msgid "Select/unselect all posts"
+msgstr "选择/取消 所有文章"
+
+msgid "Images: "
+msgstr ""
+
+msgid "There are %s photos in the gallery %s"
+msgstr "在库 %s 中有 %s 照片"
+
+msgid " Size: "
+msgstr ""
+
+msgid " Mb "
+msgstr ""
+
+msgid "Images list"
+msgstr "相册列表"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "Images Optimization"
+msgstr ""
+
+msgid "Are you sure you want to delete this gallery?"
+msgstr "确实要删除此库吗？"
+
+msgid "Delete gallery"
+msgstr "删除相册"
+
+msgid "Shortcode:"
+msgstr "短代码："
+
+msgid "PHPCode:"
+msgstr "PHPCode:"
+
+msgid "You have no galleries"
+msgstr "尚无相册"
+
+msgid "You don't have any galleries yet."
+msgstr "您还没有任何的相册。"
+
+msgid "Want to create one right now?"
+msgstr "想要现在创建一个吗？"
+
+msgid "What is a gallery"
+msgstr "gallery是什么"
+
+msgid ""
+"<strong>Gallery</strong> &mdash; the highest type of entity in the Gallery by "
+"Supsystic."
+msgstr "<strong>Gallery</strong> &mdash; Gallery by Supsystic 最高的实体类型。"
+
+msgid ""
+"You can have an unlimited number of galleries, to which you can attach the "
+"preloaded pictures."
+msgstr "你可以有无限的多个相册，预加载的图片可以重视。"
+
+msgid ""
+"Each gallery has a number of display settings and behaviors that you can save "
+"to presets and apply to other galleries."
+msgstr "每个库有大量的显示设置和行为，你可以保存到预置并应用到其他画廊。"
+
+msgid "Gallery title can't be empty!"
+msgstr "图集标题不能为空！"
+
+msgid "Gallery title:"
+msgstr "相册标题"
+
+msgid "Select source to import from"
+msgstr "选择导入"
+
+msgid "Back to the gallery"
+msgstr "返回图库"
+
+msgid "Main"
+msgstr "主菜单"
+
+msgid "Captions"
+msgstr "说明"
+
+msgid "Categories"
+msgstr "分类目录"
+
+msgid "Watermark"
+msgstr ""
+
+msgid "Add images"
+msgstr "添加图片"
+
+msgid "Import settings"
+msgstr "导入设置"
+
+msgid "Social"
+msgstr ""
+
+msgid "Load More"
+msgstr ""
+
+msgid "Buttons"
+msgstr ""
+
+msgid "Scroll"
+msgstr ""
+
+msgid "Border"
+msgstr "边框"
+
+msgid "Shadow"
+msgstr "阴影"
+
+msgid "Lightbox"
+msgstr ""
+
+msgid "Loader"
+msgstr ""
+
+msgid "Your changes not saved. You really want to leave without saving?"
+msgstr "您确定要离开而不保存吗？"
+
+msgid "Gallery Type"
+msgstr "相册类型"
+
+msgid "Number of Columns"
+msgstr "列数"
+
+msgid "Responsive columns"
+msgstr "响应列"
+
+msgid "Gallery Position"
+msgstr "相册位置"
+
+msgid "Images distance"
+msgstr "图像的距离"
+
+msgid "Gallery width"
+msgstr "图库宽度"
+
+msgid "Full screen width"
+msgstr "屏幕宽度"
+
+msgid "Gallery padding"
+msgstr "图像填充"
+
+msgid "Gallery height"
+msgstr "图像高度"
+
+msgid "Image width"
+msgstr "图片宽度"
+
+msgid "Image height"
+msgstr "图像高度"
+
+msgid "Image radius"
+msgstr "图像半径"
+
+msgid "Image crop quality"
+msgstr "图像质量"
+
+msgid "Display only first image"
+msgstr "显示仅第一个图片"
+
+msgid "Social Sharing"
+msgstr "社交分享"
+
+msgid "Social Buttons Project"
+msgstr "社交分享按钮"
+
+msgid "Gallery Sharing"
+msgstr "图集分享"
+
+msgid "Image Sharing"
+msgstr "图像分享"
+
+msgid "Buttons align"
+msgstr "按钮对齐"
+
+msgid "Popup Image Sharing"
+msgstr "弹出图片分享"
+
+msgid "You have no Social Sharing projects for now."
+msgstr "你现在有没有社交共享的项目。"
+
+msgid "Create your first project"
+msgstr "创建一个项目。"
+
+msgid ""
+"then just reload page with your Gallery settings, and you will see list with "
+"available Social Projects for your Gallery."
+msgstr "然后只需要重载图集设置页面，并且您将看到图集允许的社交项目列表。"
+
+msgid "You need to install Social Share Buttons by Supsystic to use this feature."
+msgstr "您需要从Supsystic安装社交分享按钮来使用这个功能。"
+
+msgid "Install plugin"
+msgstr "安装插件"
+
+msgid "here."
+msgstr "这里。"
+
+msgid "Horizontal Scroll"
+msgstr "横向滚动条"
+
+msgid "Scroll Bar Color"
+msgstr "滚动条颜色"
+
+msgid "Scroll Bar Transparency"
+msgstr "滚动条透明度"
+
+msgid "Available"
+msgstr "可用"
+
+msgid "Border Type"
+msgstr "边框类型"
+
+msgid "Shadow preset"
+msgstr "阴影预设"
+
+msgid "When mouse is over"
+msgstr "鼠标悬停时"
+
+msgid "Off"
+msgstr "关闭"
+
+msgid "Show mouse on"
+msgstr "显示鼠标"
+
+msgid "Hide mouse on"
+msgstr "隐藏鼠标"
+
+msgid "Overlay image with shadow"
+msgstr "阴影覆盖图像"
+
+msgid "Shadow color"
+msgstr "阴影颜色"
+
+msgid "Shadow blur"
+msgstr "模糊阴影"
+
+msgid "Shadow X"
+msgstr "阴影间隔 X"
+
+msgid "Shadow Y"
+msgstr "阴影间隔 Y"
+
+msgid "Pop-up Image"
+msgstr "弹出图像"
+
+msgid "Popup box theme"
+msgstr "弹出对话框主题"
+
+msgid "Choose theme"
+msgstr "选择主题"
+
+msgid "Disable on mobile"
+msgstr "在移动设备上停用"
+
+msgid "Popup Image Text"
+msgstr "弹出图像文本"
+
+msgid "Caption"
+msgstr "字幕"
+
+msgid "Hide Popup Captions"
+msgstr "隐藏弹出窗口标题"
+
+msgid "Hide long titles"
+msgstr ""
+
+msgid "Slideshow"
+msgstr "幻灯片"
+
+msgid "Slideshow speed"
+msgstr "幻灯片速度"
+
+msgid "Slideshow pause on hover"
+msgstr "鼠标悬停时幻灯片显示暂停"
+
+msgid "Slideshow autostart"
+msgstr "幻灯片自动启动"
+
+msgid "Popup Image size"
+msgstr "弹出图像大小"
+
+msgid "Disable browser history"
+msgstr ""
+
+msgid "Effect"
+msgstr "效果"
+
+msgid "Choose effect"
+msgstr "选择效果"
+
+msgid "Personal captions"
+msgstr "个人字幕"
+
+msgid "Polaroid Style"
+msgstr "宝丽来样式"
+
+msgid "Polaroid Image Animation"
+msgstr "宝丽来形象动画"
+
+msgid "Polaroid Image Scattering "
+msgstr "宝丽来图像散射"
+
+msgid "Polaroid Frame Width"
+msgstr "宝丽来帧宽度"
+
+msgid "Text size"
+msgstr "字体大小"
+
+msgid "Text horizontal align"
+msgstr "文字水平对齐"
+
+msgid "Text vertical align"
+msgstr "文字垂直对齐"
+
+msgid "Hide image title tooltip"
+msgstr "隐藏图像标题工具提示"
+
+msgid "Mobile - show always caption"
+msgstr "移动设备-总显示标题"
+
+msgid "Disable captions on mobile"
+msgstr ""
+
+msgid "Show icons"
+msgstr "显示图标"
+
+msgid "Select effect"
+msgstr "选择效果"
+
+msgid "Animation"
+msgstr "动画"
+
+msgid "Icons color"
+msgstr "图标颜色"
+
+msgid "Icons hover color"
+msgstr "图标悬停颜色"
+
+msgid "Background hover color"
+msgstr "背景悬停颜色"
+
+msgid "Icons size"
+msgstr "图标大小"
+
+msgid "Distance between icons"
+msgstr "图标之间的距离"
+
+msgid "Show overlay"
+msgstr "显示叠加"
+
+msgid "Overlay color"
+msgstr "叠加颜色"
+
+msgid "Overlay transparency"
+msgstr "叠加透明度"
+
+msgid "Categorize images in the gallery"
+msgstr "对相册中的图像进行分类"
+
+msgid "Let user switch gallery pages"
+msgstr "让用户切换相册页面"
+
+msgid "Add watermarks to your photos"
+msgstr ""
+
+msgid "Save settings as preset"
+msgstr "将设置保存为预设"
+
+msgid "Preset title:"
+msgstr "预设标题："
+
+msgid "Delete preset"
+msgstr "删除该预设"
+
+msgid "Are you really want to delete preset \"%s\"?"
+msgstr "您确定要删除”%s”预设？"
+
+msgid "Load settings from presets"
+msgstr "从预设加载设置"
+
+msgid "Select preset:"
+msgstr "选择预设︰"
+
+msgid "Failed to load the presets."
+msgstr "预设加载失败"
+
+msgid "Currently you have no presets."
+msgstr "目前你没有预设。"
+
+msgid "Select \"Big image\" theme"
+msgstr "选择\"大图像\"主题"
+
+msgid "Select a theme"
+msgstr "选择主题"
+
+msgid "Select"
+msgstr "选择"
+
+msgid "Select overlay effect"
+msgstr "选择叠加效应"
+
+msgid "This effect requires icons be enabled. Enable Icons?"
+msgstr "此效果需要图标启用。使图标？"
+
+msgid "Select shadow preset"
+msgstr "选择阴影预设"
+
+msgid "Select shadow"
+msgstr "选择阴影"
+
+msgid "Import settings from gallery"
+msgstr "导入设置"
+
+msgid ""
+"Here you can import settings from other galleries, but right now, you have only "
+"one gallery, create more - and see how it works"
+msgstr ""
+"在这里你可以从导入设置其他相册，但现在，你只有一个相册，创建更多-并看到它是如何"
+"工作"
+
+msgid "Improve free version"
+msgstr "免费版本"
+
+msgid "Select icons effects"
+msgstr "选择效果图标"
+
+msgid "Click on the icon to select effect"
+msgstr "单击该图标，选择效果"
+
+msgid "close"
+msgstr "关闭"
+
+msgid "next"
+msgstr "下一个"
+
+msgid "previous"
+msgstr "上一个"
+
+msgid "start slideshow"
+msgstr "启动幻灯片"
+
+msgid "stop slideshow"
+msgstr "停止幻灯片"
+
+msgid "image"
+msgstr "图片"
+
+msgid "of"
+msgstr "of"
+
+msgid "Choose source"
+msgstr "选择数据源"
+
+msgid "Import from WordPress Media Library"
+msgstr "从WordPress的媒体库导入"
+
+msgid "Import from social networks"
+msgstr "从社交网络导入"
+
+msgid "Import from your Instagram account"
+msgstr "从您的 Instagram 帐户导入"
+
+msgid "Import from your Flickr account"
+msgstr "从您的 Flickr 帐户中导入"
+
+msgid "Import from your Tumblr account"
+msgstr "从您的 Tumblr 帐户导入"
+
+msgid "Import from your Facebook account"
+msgstr "从您的 Facebook 帐户导入"
+
+msgid "Import from cloud services"
+msgstr "从云服务中导入"
+
+msgid "Import from your FTP server"
+msgstr "从 FTP 服务器导入"
+
+msgid "Import from your Google Drive account"
+msgstr "从您的 Google Drive 帐户导入"
+
+msgid "Get Pro to enable import"
+msgstr "获得 Pro版本 开启导入"
+
+msgid "Properties"
+msgstr "属性"
+
+msgid "Delete Image"
+msgstr "删除图片"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Sort By: "
+msgstr "排序方式："
+
+msgid "Sort To: "
+msgstr "排序到︰"
+
+msgid "Apply"
+msgstr "应用"
+
+msgid "The gallery is does not exists"
+msgstr "这个相册不存在"
+
+msgid "Currently this gallery has no images"
+msgstr "目前此相册有没有图像"
+
+msgid "Linked Images"
+msgstr "图像连接"
+
+msgid "Instagram authorization"
+msgstr "Instagram 授权"
+
+msgid "Upload your images from the Instagram Media Library"
+msgstr "从Instagram媒体库 上传您的图片"
+
+msgid "Upload from Instagram"
+msgstr "从 Instagram 上传"
+
+msgid "Error occurred"
+msgstr ""
+
+msgid "Auth key saved!"
+msgstr ""
+
+msgid "Service data was saved!"
+msgstr ""
+
+msgid "Error! Incorrect service params!"
+msgstr ""
+
+msgid "Error! Incorrect selected service!"
+msgstr ""
+
+msgid "Error! Incorrect params!"
+msgstr ""
+
+msgid "Table ' . $this->table. ' not exists! Please reactivate this plugin!"
+msgstr ""
+
+msgid "Minimal version of php = 5.3.0"
+msgstr ""
+
+msgid "Enable cUrl extension"
+msgstr ""
+
+msgid "Can't check current version of cUrl extension"
+msgstr ""
+
+msgid "Minimal cUrl extension version 7.20.0"
+msgstr ""
+
+msgid "Optimization"
+msgstr ""
+
+msgid "Image Optimization"
+msgstr ""
+
+msgid "Your host does not support the minimum requirements:"
+msgstr ""
+
+msgid "Transfer to CDN"
+msgstr ""
+
+msgid "KeyCDN"
+msgstr ""
+
+msgid "Change Details"
+msgstr ""
+
+msgid "Setup"
+msgstr ""
+
+msgid "Transfer selected"
+msgstr ""
+
+msgid "Gallery Name"
+msgstr ""
+
+msgid "Total Images"
+msgstr ""
+
+msgid "Total Size"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Mb"
+msgstr ""
+
+msgid "website"
+msgstr ""
+
+msgid "Transfer to"
+msgstr ""
+
+msgid "Transfer Gallery to"
+msgstr ""
+
+msgid "Servicename"
+msgstr ""
+
+msgid "Total images"
+msgstr ""
+
+msgid "Total size"
+msgstr ""
+
+msgid "Delete source image after transfer"
+msgstr ""
+
+msgid "Start Transfer"
+msgstr ""
+
+msgid "Connected to"
+msgstr ""
+
+msgid "service"
+msgstr ""
+
+msgid "Transfer information:"
+msgstr ""
+
+msgid "galleries"
+msgstr ""
+
+msgid "images"
+msgstr ""
+
+msgid "Transfer ending with errors!"
+msgstr ""
+
+msgid "Transfer completed successfully!"
+msgstr ""
+
+msgid "Image optimization"
+msgstr ""
+
+msgid "Start Optimization"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "Setup Service"
+msgstr ""
+
+msgid "Backup Images Source"
+msgstr ""
+
+msgid "Optimize Preview images"
+msgstr ""
+
+msgid "Optimization in process..."
+msgstr ""
+
+msgid "Optimize:"
+msgstr ""
+
+msgid "images (preview and original images)"
+msgstr ""
+
+msgid "Error ocured. Optimize process stopped!"
+msgstr ""
+
+msgid "Optimization complete"
+msgstr ""
+
+msgid "Images size before:"
+msgstr ""
+
+msgid "Images size after:"
+msgstr ""
+
+msgid "Total Saving:"
+msgstr ""
+
+msgid "Optimize one more time"
+msgstr ""
+
+msgid "Show image comparision"
+msgstr ""
+
+msgid "TinyPNG"
+msgstr ""
+
+msgid "Another Service"
+msgstr ""
+
+msgid "Optimize selected"
+msgstr ""
+
+msgid "optimize"
+msgstr ""
+
+msgid "Restore Source Images"
+msgstr ""
+
+msgid "Optimize"
+msgstr ""
+
+msgid "Optimize Now"
+msgstr ""
+
+msgid "Enter your TinyPNG API key"
+msgstr ""
+
+msgid "Enter your Site name"
+msgstr ""
+
+msgid "Enter your username"
+msgstr ""
+
+msgid "Enter your password"
+msgstr ""
+
+msgid "Enter your ftp base path"
+msgstr ""
+
+msgid "Incorrect service Code"
+msgstr ""
+
+msgid "Last 24 hours"
+msgstr ""
+
+msgid "Week"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Number of images"
+msgstr ""
+
+msgid "Total size before"
+msgstr ""
+
+msgid "Total size after"
+msgstr ""
+
+msgid "Save in Mb"
+msgstr ""
+
+msgid "Save in %"
+msgstr ""
+
+msgid "Your message successfully send. We contact you soon."
+msgstr "您的邮件成功发送。我们尽快与您联系。"
+
+msgid "Start step-by-step tutorial"
+msgstr ""
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Email"
+msgstr "电子邮件"
+
+msgid "Website"
+msgstr "网站"
+
+msgid "Subject"
+msgstr "主题"
+
+msgid "Topic"
+msgstr "话题"
+
+msgid "Plugin options"
+msgstr "插件选项"
+
+msgid "Report a bug"
+msgstr "报告错误"
+
+msgid "Require a new functionallity"
+msgstr "需要新的开发"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "Message"
+msgstr "信息"
+
+msgid "Hello Supsystic Team!"
+msgstr "Hello Supsystic Team!"
+
+msgid ""
+"Some errors occurred while sending mail please send your message trough this "
+"contact form:"
+msgstr "在发送邮件的副本时发生错误。但是，管理员也可以接收它。"
+
+msgid "Unable to save chosen photo %s: %s"
+msgstr "无法储存照片 %s: %s"
+
+msgid "New Folder"
+msgstr "新文件夹"
+
+msgid "The title can't be empty"
+msgstr "标题不能为空"
+
+msgid "Failed to update position."
+msgstr "更新的位置出错。"
+
+msgid "Position updated successfully!"
+msgstr "已成功更新位置 ！"
+
+msgid "Rename folder"
+msgstr "重命名目录"
+
+msgid "Folder name:"
+msgstr "文件夹名:"
+
+msgid "Add images to the gallery"
+msgstr "添加图片到该画册"
+
+msgid "Please wait while the plugin to get the list of galleries..."
+msgstr "请稍候插件正在加载相册列表..."
+
+msgid "Select the gallery:"
+msgstr "选择相册:"
+
+msgid "New folder"
+msgstr "新文件夾"
+
+msgid "Add images to the new gallery"
+msgstr "添加图片到该相册"
+
+msgid "Create new folder"
+msgstr "创建新文件夹"
+
+msgid "Edit selected item"
+msgstr "编辑已选项"
+
+msgid "Delete selected items"
+msgstr "删除已选项"
+
+msgid "Create new gallery from the selected items"
+msgstr "创建新选项"
+
+msgid "New gallery from selected"
+msgstr "新相册从选项"
+
+msgid "Add the selected items to the existing gallery"
+msgstr "将选定的项目添加到现有相册"
+
+msgid "Add selected to the gallery"
+msgstr "添加所选到相册"
+
+msgid "Switch to the list view"
+msgstr "切换到列表"
+
+msgid "Switch to the block view"
+msgstr "切换到视图"
+
+msgid "Upload your images from the WordPress Media Library"
+msgstr "上传您的图片从 WordPress 媒体库"
+
+msgid "All photos"
+msgstr "所有照片"
+
+msgid "Drop photos here to move them from the folder"
+msgstr "拖放照片到该文件夹这里"
+
+msgid "Next"
+msgstr "下一个"
+
+msgid "Close Tutorial"
+msgstr "关闭教程"
+
+msgid "Welcome to Photo Gallery plugin by Supsystic!"
+msgstr "欢迎来到 Supsystic 的图集插件 ！"
+
+msgid ""
+"Thank you for choosing our Gallery plugin. Just click here to start using it - "
+"and we will show you it's possibilities and powerfull features."
+msgstr ""
+"非常感谢您选择我们的库插件。请点击这里，开始使用它-，我们将向您展示它的可能性和"
+"强大的功能。"
+
+msgid "Hello! This is the Gallery by Supsystic Overview."
+msgstr "你好 ！这是由 Supsystic 概述相册。"
+
+msgid ""
+"Here you can get help: watch the video tutorial or read FAQ and Documentation, "
+"make use of contact form. Also here requirements for server - Server Settings."
+msgstr ""
+"在这里你可以得到帮助︰ 观看视频教程或阅读常见问题和文档，使使用的联系人窗体。这"
+"里还要求服务器-服务器设置。"
+
+msgid "Create your first Gallery"
+msgstr "创建您的第一个图集"
+
+msgid ""
+"To Create New Gallery select gallery template. You can change template and "
+"settings later. Now here are four different templates. With PRO version you’ll "
+"get more features like Categories, Load More button, Post Feed (Content) "
+"gallery, Polaroid gallery and more. Enter name of the gallery and click “Save”."
+msgstr ""
+
+msgid "Add images to your Gallery"
+msgstr "添加图片到该相册"
+
+msgid ""
+"Now you are in the edit menu of your gallery. And the first thing you need to "
+"do are add media to the gallery. Click \"Add Images\" button."
+msgstr ""
+"你现在在你的相册的编辑菜单中。你需要做的第一件事，向库中添加媒体。单击\"添加图像"
+"\"按钮。"
+
+msgid "Images Import Options"
+msgstr "图像导入选项"
+
+msgid ""
+"<p>Import images in several ways:</p><p>Import from Wordpress Media Library/"
+"Upload files from your computer</p><p>Import from social networks</"
+"p><p>Instagram (in the Free version)</p><p>With PRO-version also will be "
+"available import from Flickr, Tumblr and Facebook.</p><p>Besides with Gallery "
+"PRO version you can import images from such cloud services - FTP server, Google "
+"Drive.</p>"
+msgstr ""
+"<p>导入图片的几种方法︰</p><p>从 Wordpress 媒体库/上传文件，从您的计算机中导入</"
+"p><p>从社交网络导入</p><p>Instagram （免费版本）</p><p>PRO版本也可以允许从 "
+"Flickr，Tumblr 和 Facebook 导入。</p><p>此外与图集插件 PRO 版本您可以从云服务 "
+"— — FTP 服务器，Google Drive导入图片。</p>"
+
+msgid "Image List"
+msgstr "图像列表"
+
+msgid ""
+"<p>Now you can see your image list. Here you can:</p><p>Change the order of "
+"images – simply by dragging them manually.</p><p>Delete images.</p><p>Add new "
+"images from different sources to the grid gallery – click “Add Images” button "
+"and select the source to import from.</p><p><b>Caption tab</b> – add caption to "
+"image – it will be displayed on the caption effect of the gallery. Also here "
+"included the support of html-elements inside caption effect</p><p><b>SEO tab</"
+"b> – manage image title and description</p><p><b>Link tab</b> – attach links to "
+"image – it will go to the link when you click the image.</p><p><b>Video tab</b> "
+"– attach video url – it will be displayed in a pop-up image when you click on "
+"the image.</p><p><b>Categories tab</b> – add tags for image categories.</"
+"p><p><b>Linked images tab</b> – add linked images to the chosen image.</"
+"p><p><b>Crop tab</b> – choose image crop position.</p><p><b>Replace image tab</"
+"b> – replace image without losing image settings.</p><p>Now follow to the "
+"gallery settings – сlick “Properties” button.</p>"
+msgstr ""
+
+msgid "Preview of Gallery settings"
+msgstr "预览图库设置"
+
+msgid ""
+"At the left side of the monitor you see a preview image in which will be seen "
+"changes made to the settings. This window for the settings of your gallery."
+msgstr ""
+"图集属性：在监视器的左边，你看到一个预览图像，将被视为对设置的更改。在这个窗口设"
+"置您的图集。"
+
+msgid "Main Settings"
+msgstr "主要设置"
+
+msgid ""
+"<p>Here you can set main settings of gallery - choose Gallery Type, for more "
+"information check this <a href=\"//supsystic.com/gallery-order-types/\" target="
+"\"_blank\">article</a>.</p><p>Social Sharing: add social share buttons to your "
+"gallery. Or showcase images in a Horizontal Scroll view.</p><p>Load More: adds "
+"\"load more\" button to your gallery. And with Custom Buttons: you can make "
+"your button better.</p><p>Add to images border and shadow with Border Type and "
+"Shadow settings.</p><p>In the Pop-up Image section customize lightbox of your "
+"gallery.</p>"
+msgstr ""
+"<p>Here you can set main settings of gallery - choose Gallery Type, for more "
+"information check this <a href=\"//supsystic.com/gallery-order-types/\" target="
+"\"_blank\">article</a>.</p><p>Social Sharing: add social share buttons to your "
+"gallery. Or showcase images in a Horizontal Scroll view.</p><p>Load More: adds "
+"\"load more\" button to your gallery. And with Custom Buttons: you can make "
+"your button better.</p><p>Add to images border and shadow with Border Type and "
+"Shadow settings.</p><p>In the Pop-up Image section customize lightbox of your "
+"gallery.</p>"
+
+msgid "Captions and Icons"
+msgstr "字幕和图标"
+
+msgid ""
+"<p>On Captions tab you can manage the Captions and Icons, and make them your "
+"style.</p>"
+msgstr "<p>标题： 在这个标签您可以管理标题并且可以变成您喜欢的风格。</p>"
+
+msgid "Categories and Pagination"
+msgstr "分类和分页"
+
+msgid ""
+"<p>Categories tab: here you can enable Categories and Pagination options.</"
+"p><p>To this tab become available you need to buy PRO version."
+msgstr ""
+"<p>分类标签：您可以在这里允许分类和分页选项。</p><p>您需要PRO版本来允许这个标"
+"签。"
+
+msgid ""
+"<p>Posts tab: here you can add posts and pages to your gallery and also manage "
+"them. Posts of gallery included in the PRO version of Gallery by Supsystic.</p>"
+msgstr ""
+"<p>文章标签：您可以在这里添加文章和页面并且管理他们。图册文章功能包含在PRO版本"
+"中。</p>"
+
+msgid "Well done!"
+msgstr "太棒了！"
+
+msgid ""
+"<p><b>Upgrading</b></p><p>Once you have purchased Premium version of plugin - "
+"you’ll have to enter license key (you can find it in your personal account on "
+"our site). Go to the License tab and enter your email and license key. Once you "
+"have activated your PRO license - you can use all its advanced options.</"
+"p><p>That’s all. From this moment you can use your Gallery without any doubt. "
+"But if you still have some question - do not hesitate to contact us through our "
+"<a href=\"https://supsystic.com/contact-us/\">internal support</a> or on our <a "
+"href=\"http://supsystic.com/forum/photo-gallery-plugin/\">Supsystic Forum.</a> "
+"Besides you can always describe your questions on <a href=\"https://wordpress."
+"org/support/plugin/gallery-by-supsystic\">WordPress Ultimate Forum.</a></"
+"p><p><b>Enjoy this plugin?</b></p><p>It will be nice if you`ll help us and "
+"boost plugin with <a href=\"https://wordpress.org/support/view/plugin-reviews/"
+"gallery-by-supsystic?rate=5#postform/\">Five Stars rating on WordPress.org.</"
+"a></p><p>We hope that you like this plugin and wish you all the best! Good luck!"
+"</p>"
+msgstr ""
+
+msgid "Welcome to the"
+msgstr "欢迎来到"
+
+msgid ""
+"Photo Gallery plugin is created for people who would like to show their photos "
+"in a marvelous way. Perform your best ideas, making delightful presentations or "
+"galleries from videos and photos."
+msgstr ""
+"图片图册插件是为那些想以一种奇妙的方式展示他们的照片的人创造的。执行你的最好的想"
+"法，从图片或视频中建立令人愉悦的幻灯片或或图集。"
+
+msgid "Step-by-step tutorial"
+msgstr "开始起步教程"
+
+msgid ""
+"There’re really many options of photo gallery plugin customization. So as soon "
+"as you close that page, I’ll show you step-by-step tutorial of how to use "
+"plugin. Hope it will be usefull for you :)"
+msgstr ""
+
+msgid "Support"
+msgstr "支持"
+
+msgid ""
+"We love our plugin and do the best to improve all features you want and fix all "
+"issues. But sometimes some issues happened or you can’t find feature you "
+"want :) Don’t worry, just <a href=\"//supsystic.com/plugins/photo-gallery?"
+"utm_source=plugin&utm_medium=welcomepage&utm_campaign=photo-gallery#contact\" "
+"target=\"_blank\"> contact us </a> . We’ll answer in an hour and fix all issues."
+msgstr ""
+
+msgid "Video Tutorial"
+msgstr "视频教程"
+
+msgid "Frequently Asked Questions"
+msgstr "常见问题"
+
+msgid ""
+"Gallery doesn’t load on the front end. If the loading gallery icon just keeps "
+"playing but never loads the gallery."
+msgstr ""
+
+msgid "How to change the position of photos in gallery?"
+msgstr "如何更改图集中的位置？"
+
+msgid "How to insert gallery into widget?"
+msgstr "如何将图集插件添加到WordPress小工具？"
+
+msgid "Go to Appearance -> Widgets."
+msgstr "转到外观->小工具。"
+
+msgid ""
+"You’ll see Gallery by Supsystic Widget on the left. Drag it to the area, where "
+"you want it to appear."
+msgstr ""
+
+msgid "Then choose what gallery you want to display. And press save."
+msgstr "然后选择哪个图集是您想要显示的，点击保存。"
+
+msgid "Check all other FAQs"
+msgstr "查看全部其它问题"
+
+msgid "Image Editor"
+msgstr ""
+
+msgid "Roles"
+msgstr "角色"
+
+msgid "PRO option"
+msgstr "PRO 选项"
+
+msgid "Edit image"
+msgstr "编辑图片"
+
+msgid "SEO"
+msgstr "SEO"
+
+msgid "Alternative text"
+msgstr "可选文字"
+
+msgid "External link"
+msgstr "外部链接"
+
+msgid "Available in PRO version."
+msgstr "升级到专业版"
+
+msgid "Link"
+msgstr "链接"
+
+msgid "Open in new window"
+msgstr "在新窗口中打开"
+
+msgid "Embeded video"
+msgstr "嵌入式视频"
+
+msgid "Video URL"
+msgstr "视频URL"
+
+msgid "Supports Youtube and Vimeo. URL will be converted to embed automatically."
+msgstr "支持 Youtube 和 Vimeo。URL 将被转换为自动嵌入。"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Select %s"
+msgstr "选择 %s"
+
+msgid "photo"
+msgstr "照片"
+
+msgid "photos"
+msgstr "相册"
+
+msgid "Caption effect"
+msgstr "字幕特效"
+
+msgid "Video"
+msgstr "视频"
+
+msgid "Linked images"
+msgstr "图像连接"
+
+msgid "Crop"
+msgstr "裁切"
+
+msgid "Replace image"
+msgstr "替换图片"
+
+msgid "http://example.com/"
+msgstr "http://example.com/"
+
+msgid "Add nofollow attribute"
+msgstr "添加nofollow属性"
+
+msgid "Choose images"
+msgstr "选择图像"
+
+msgid "Choose image"
+msgstr ""
+
+#~ msgid "Parse"
+#~ msgstr "解析"
+
+#~ msgid ""
+#~ "Choose Gallery Template.You can change template and settings on the next "
+#~ "step."
+#~ msgstr "选择库 Template.You 可以更改模板和设置下, 一步。"
+
+#~ msgid "Total Images: "
+#~ msgstr "共计图片数量: "
+
+#~ msgid "Step-by-step Tutorial"
+#~ msgstr "开始起步教程"
+
+#~ msgid "Begin Step-by-step Tutorial"
+#~ msgstr "开始起步教程"
+
+#~ msgid ""
+#~ "To Create New Gallery select gallery template. You can change template and "
+#~ "settings later. Now here are four different templates. With PRO version "
+#~ "youâll get more features like Categories, Load More button, Post Feed "
+#~ "(Content) gallery, Polaroid gallery and more. Enter name of the gallery and "
+#~ "click âSaveâ."
+#~ msgstr ""
+#~ "向选择库模板创建新库。您可以在以后更改模板和设置。现在这里有四个不同的模板。"
+#~ "与 PRO 版中，你会得到更多的功能，如类别，负载更多按钮、 邮政饲料 （内容） 的"
+#~ "画廊、 宝丽来画廊和更多。输入库的名称并单击\"保存\"。"
+
+#~ msgid ""
+#~ "<p>Now you can see your image list. Here you can:</p><p>Change the order of "
+#~ "images â simply by dragging them manually.</p><p>Delete images.</p><p>Add "
+#~ "new images from different sources to the grid gallery â click âAdd Imagesâ "
+#~ "button and select the source to import from.</p><p><b>Caption tab</b> â add "
+#~ "caption to image â it will be displayed on the caption effect of the "
+#~ "gallery. Also here included the support of html-elements inside caption "
+#~ "effect</p><p><b>SEO tab</b> â manage image title and description</"
+#~ "p><p><b>Link tab</b> â attach links to image â it will go to the link when "
+#~ "you click the image.</p><p><b>Video tab</b> â attach video url â it will be "
+#~ "displayed in a pop-up image when you click on the image.</p><p><b>Categories "
+#~ "tab</b> â add tags for image categories.</p><p><b>Linked images tab</b> â "
+#~ "add linked images to the chosen image.</p><p><b>Crop tab</b> â choose image "
+#~ "crop position.</p><p><b>Replace image tab</b> â replace image without losing "
+#~ "image settings.</p><p>Now follow to the gallery settings â Ñlick "
+#~ "âPropertiesâ button.</p>"
+#~ msgstr ""
+#~ "<p>Now you can see your image list. Here you can:</p><p>Change the order of "
+#~ "images â simply by dragging them manually.</p><p>Delete images.</p><p>Add "
+#~ "new images from different sources to the grid gallery â click âAdd Imagesâ "
+#~ "button and select the source to import from.</p><p><b>Caption tab</b> â add "
+#~ "caption to image â it will be displayed on the caption effect of the "
+#~ "gallery. Also here included the support of html-elements inside caption "
+#~ "effect</p><p><b>SEO tab</b> â manage image title and description</"
+#~ "p><p><b>Link tab</b> â attach links to image â it will go to the link when "
+#~ "you click the image.</p><p><b>Video tab</b> â attach video url â it will be "
+#~ "displayed in a pop-up image when you click on the image.</p><p><b>Categories "
+#~ "tab</b> â add tags for image categories.</p><p><b>Linked images tab</b> â "
+#~ "add linked images to the chosen image.</p><p><b>Crop tab</b> â choose image "
+#~ "crop position.</p><p><b>Replace image tab</b> â replace image without losing "
+#~ "image settings.</p><p>Now follow to the gallery settings â Ñlick "
+#~ "âPropertiesâ button.</p>"
+
+#~ msgid ""
+#~ "<p><b>Upgrading</b></p><p>Once you have purchased Premium version of plugin "
+#~ "- youâll have to enter license key (you can find it in your personal account "
+#~ "on our site). Go to the License tab and enter your email and license key. "
+#~ "Once you have activated your PRO license - you can use all its advanced "
+#~ "options.</p><p>Thatâs all. From this moment you can use your Gallery without "
+#~ "any doubt. But if you still have some question - do not hesitate to contact "
+#~ "us through our <a href=\"https://supsystic.com/contact-us/\">internal "
+#~ "support</a> or on our <a href=\"http://supsystic.com/forum/photo-gallery-"
+#~ "plugin/\">Supsystic Forum.</a> Besides you can always describe your "
+#~ "questions on <a href=\"https://wordpress.org/support/plugin/gallery-by-"
+#~ "supsystic\">WordPress Ultimate Forum.</a></p><p><b>Enjoy this plugin?</b></"
+#~ "p><p>It will be nice if you`ll help us and boost plugin with <a href="
+#~ "\"https://wordpress.org/support/view/plugin-reviews/gallery-by-supsystic?"
+#~ "rate=5#postform/\">Five Stars rating on WordPress.org.</a></p><p>We hope "
+#~ "that you like this plugin and wish you all the best! Good luck!</p>"
+#~ msgstr ""
+#~ "<p><b>Upgrading</b></p><p>Once you have purchased Premium version of plugin "
+#~ "- youâll have to enter license key (you can find it in your personal account "
+#~ "on our site). Go to the License tab and enter your email and license key. "
+#~ "Once you have activated your PRO license - you can use all its advanced "
+#~ "options.</p><p>Thatâs all. From this moment you can use your Gallery without "
+#~ "any doubt. But if you still have some question - do not hesitate to contact "
+#~ "us through our <a href=\"https://supsystic.com/contact-us/\">internal "
+#~ "support</a> or on our <a href=\"http://supsystic.com/forum/photo-gallery-"
+#~ "plugin/\">Supsystic Forum.</a> Besides you can always describe your "
+#~ "questions on <a href=\"https://wordpress.org/support/plugin/gallery-by-"
+#~ "supsystic\">WordPress Ultimate Forum.</a></p><p><b>Enjoy this plugin?</b></"
+#~ "p><p>It will be nice if you`ll help us and boost plugin with <a href="
+#~ "\"https://wordpress.org/support/view/plugin-reviews/gallery-by-supsystic?"
+#~ "rate=5#postform/\">Five Stars rating on WordPress.org.</a></p><p>We hope "
+#~ "that you like this plugin and wish you all the best! Good luck!</p>"
+
+#~ msgid ""
+#~ "Thereâre really many options of photo gallery plugin customization. So as "
+#~ "soon as you close that page, Iâll show you step-by-step tutorial of how to "
+#~ "use plugin. Hope it will be usefull for you :)"
+#~ msgstr ""
+#~ "这里真的有许多关于图片图集插件的个性化操作。所以当您关闭那个页面，我将为您显"
+#~ "示分步骤引导介绍如何使用插件。希望它将对您有用哦:)"
+
+#~ msgid ""
+#~ "We love our plugin and do the best to improve all features you want and fix "
+#~ "all issues. But sometimes some issues happened or you canât find feature you "
+#~ "want :) Donât worry, just <a href=\"//supsystic.com/plugins/photo-gallery?"
+#~ "utm_source=plugin&utm_medium=welcomepage&utm_campaign=photo-gallery#contact"
+#~ "\" target=\"_blank\"> contact us </a> . Weâll answer in an hour and fix all "
+#~ "issues."
+#~ msgstr ""
+#~ "我们爱我们的插件，并尽最大努力改善所有的功能和您要解决所有问题。但有时会发生"
+#~ "一些问题，或者您找不到你想要的功能 :) 别担心，只需要 <a href=“//supsystic."
+#~ "com/plugins/photo-gallery?"
+#~ "utm_source=plugin&utm_medium=welcomepage&utm_campaign=photo-gallery#contact” "
+#~ "target=“_blank”> 联系我们 </a> 。我们将在一小时内回答并修正所有问题。"
+
+#~ msgid ""
+#~ "Gallery doesnât load on the front end. If the loading gallery icon just "
+#~ "keeps playing but never loads the gallery."
+#~ msgstr "图集不加载在前端，如果载入图集图标一直显示载入状态，但是从没载入图集。"
+
+#~ msgid ""
+#~ "Youâll see Gallery by Supsystic Widget on the left. Drag it to the area, "
+#~ "where you want it to appear."
+#~ msgstr ""
+#~ "您将在左侧看到Gallery by Supsystic小工具，拖拽它到您想要出现的指定区域。"

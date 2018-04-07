@@ -1,0 +1,1292 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distrubuted under the GPL-2.0+
+msgid ""
+msgstr ""
+"Project-Id-Version: Slideshow CK\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2017-08-29 12:45+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Cédric KEIFLIN <ced1870@gmail.com>\n"
+"Language-Team: Plugins CK\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../slideshow-ck-pro-addon\n"
+
+#: ../slideshow-ck-pro-addon/class-slideshow-ck-pro-addon.php:16
+#: includes/layout.edit.php:111 includes/slideshowck_edit.php:121
+msgid "Autoload from a folder"
+msgstr "Chargement automatique d'un dossier"
+
+#: ../slideshow-ck-pro-addon/class-slideshow-ck-pro-addon.php:19
+#: includes/class.fields.php:185 includes/layout.edit.php:128
+#: includes/slideshowck_edit.php:138 slideshow-ck.php:413
+msgid "Select"
+msgstr "Sélectionner"
+
+#: ../slideshow-ck-pro-addon/class-slideshow-ck-pro-addon.php:20
+#: includes/layout.edit.php:130 includes/slideshowck_edit.php:140
+msgid ""
+"Select the folder in the interface or write your own path. Example : wp-"
+"content/images"
+msgstr ""
+"Sélectionnez le dossier dans l'interface ou écrivez votre propre chemin. "
+"Exemple : wp-content/images"
+
+#: includes/class-ck-slideshow-table.php:155
+#: includes/class.list-table.general.php:155 includes/layout.edit.php:95
+#: includes/slideshowck_edit.php:105
+msgid "Name"
+msgstr "Nom"
+
+#: includes/class-ck-slideshow-table.php:156
+#: includes/class.list-table.general.php:156
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/class-ck-slideshow-table.php:157
+#: includes/class.list-table.general.php:157
+msgid "ID"
+msgstr "ID"
+
+#: includes/class-ck-slideshow-table.php:199
+#: includes/class.list-table.general.php:199
+msgid "Delete"
+msgstr "Supprimer"
+
+#: includes/class-ck-slideshow-table.php:200
+#: includes/class.list-table.general.php:201 includes/layout.edit.php:88
+#: includes/slideshowck_edit.php:98 slideshow-ck.php:248
+msgid "Edit"
+msgstr "Editer"
+
+#: includes/class.browse.php:57
+msgid "Drop files here to upload"
+msgstr "Glissez les fichiers ici pour les téléverser"
+
+#: includes/class.browse.php:58
+msgid "or Select Files"
+msgstr "ou sélectionnez les fichiers"
+
+#: includes/class.browse.php:295
+msgid "No file received"
+msgstr "Aucun fichier reçu"
+
+#: includes/class.browse.php:307
+msgid "File does not exists"
+msgstr "Le fichier n'existe pas"
+
+#: includes/class.browse.php:315
+msgid "Unable to create the folder"
+msgstr "Impossible de créer le dossier"
+
+#: includes/class.browse.php:323
+msgid "Unable to write the file"
+msgstr "Impossible de créer le fichier"
+
+#: includes/class.fields.php:114 includes/class.fields.php:150
+msgid "yes"
+msgstr "Oui"
+
+#: includes/class.fields.php:115 includes/class.fields.php:151
+msgid "no"
+msgstr "Non"
+
+#: includes/class.fields.php:186
+msgid "Clear"
+msgstr "Effacer"
+
+#: includes/class.file.php:204
+msgid "Can not find source file"
+msgstr "Impossible de trouver le fichier"
+
+#: includes/class.folder.php:297
+msgid "Error CK Folder Class : Can not find the source"
+msgstr "Erreur Class CK Folder : Ne peut pas trouver la source"
+
+#: includes/class.folder.php:302
+msgid "Error CK Folder Class : Folder already exists"
+msgstr "Erreur Class CK Folder : Le dossier existe déjà"
+
+#: includes/class.folder.php:307
+msgid "Error CK Folder Class : Rename failed"
+msgstr "Erreur Class CK Folder : Impossible de renommer"
+
+#: includes/class.list-table.general.php:200
+msgid "Copy"
+msgstr "Copier"
+
+#: includes/class.list-table.general.php:209
+msgid "You must select an item for this action."
+msgstr "Vous devez sélectionner un élément pour effectuer cette action."
+
+#: includes/class.list-table.php:180
+msgid "No items found."
+msgstr "Aucun élément trouvé"
+
+#: includes/class.list-table.php:304
+msgid "Bulk Actions"
+msgstr "Actions"
+
+#: includes/class.list-table.php:314
+msgid "Apply"
+msgstr "Appliquer"
+
+#: includes/class.list-table.php:398
+msgid "All dates"
+msgstr "Toutes les dates"
+
+#. translators: 1: month name, 2: 4-digit year
+#: includes/class.list-table.php:411
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: includes/class.list-table.php:427
+msgid "List View"
+msgstr "Vue en liste"
+
+#: includes/class.list-table.php:428
+msgid "Excerpt View"
+msgstr "Vue excerpt"
+
+#: includes/class.list-table.php:454
+#, php-format
+msgid "%s pending"
+msgstr "%s en attente"
+
+#: includes/class.list-table.php:522 includes/class.list-table.php:937
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 élément"
+msgstr[1] "%s éléments"
+
+#: includes/class.list-table.php:540
+msgid "Go to the first page"
+msgstr "Aller à la première page"
+
+#: includes/class.list-table.php:547
+msgid "Go to the previous page"
+msgstr "Aller à la page précedente"
+
+#: includes/class.list-table.php:556
+msgid "Current page"
+msgstr "Page courante"
+
+#: includes/class.list-table.php:562
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s de %2$s"
+
+#: includes/class.list-table.php:566
+msgid "Go to the next page"
+msgstr "Aller à la page suivante"
+
+#: includes/class.list-table.php:573
+msgid "Go to the last page"
+msgstr "Aller à la dernière page"
+
+#: includes/class.list-table.php:709
+msgid "Select All"
+msgstr "Sélectionner tous"
+
+#: includes/layout.edit.php:6 includes/slideshowck_edit.php:6
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas la permission d'accéder à cette page"
+
+#: includes/layout.edit.php:32 includes/slideshowck_edit.php:43
+#: slideshow-ck.php:215
+msgid "Invalid post type"
+msgstr "Type de post invalide"
+
+#: includes/layout.edit.php:89 includes/slideshowck_edit.php:99
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/layout.edit.php:97 includes/slideshowck_edit.php:107
+msgid "Load demo data"
+msgstr "Charger les données d'exemple"
+
+#: includes/layout.edit.php:102 includes/slideshowck_edit.php:112
+msgid "Images"
+msgstr "Images"
+
+#: includes/layout.edit.php:103 includes/slideshowck_edit.php:113
+msgid "Styles"
+msgstr "Styles"
+
+#: includes/layout.edit.php:104 includes/slideshowck_edit.php:114
+msgid "Effects"
+msgstr "Effets"
+
+#: includes/layout.edit.php:111 includes/slideshowck_edit.php:121
+msgid "Slides Manager"
+msgstr "Gestionnaire de slides"
+
+#: includes/layout.edit.php:121 includes/layout.edit.php:148
+#: includes/slideshowck_edit.php:131 includes/slideshowck_edit.php:155
+msgid "Add a Slide"
+msgstr "Ajouter un slide"
+
+#: includes/layout.edit.php:125 includes/layout.edit.php:133
+#: includes/slideshowck_edit.php:135
+msgid "Import slides from a folder"
+msgstr "Importer les images d'un dossier"
+
+#: includes/layout.edit.php:129 includes/slideshowck_edit.php:139
+msgid "Import"
+msgstr "Importer"
+
+#: includes/layout.edit.php:133 slideshow-ck.php:862
+msgid "Download the Pro Addon"
+msgstr "Télécharger l'addon Pro"
+
+#: includes/layout.edit.php:133
+msgid "to"
+msgstr "vers"
+
+#: includes/layout.edit.php:162 includes/slideshowck_edit.php:169
+msgid "Height"
+msgstr "Hauteur"
+
+#: includes/layout.edit.php:166 includes/slideshowck_edit.php:173
+msgid "Width"
+msgstr "Largeur"
+
+#: includes/layout.edit.php:171 includes/slideshowck_edit.php:178
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/layout.edit.php:172 includes/slideshowck_edit.php:179
+msgid "No"
+msgstr "Non"
+
+#: includes/layout.edit.php:176 includes/slideshowck_edit.php:183
+msgid "Loader icon"
+msgstr "Icône"
+
+#: includes/layout.edit.php:179 includes/slideshowck_edit.php:186
+msgid "Bar"
+msgstr "Barre"
+
+#: includes/layout.edit.php:180 includes/slideshowck_edit.php:187
+msgid "None"
+msgstr "Aucun"
+
+#: includes/layout.edit.php:186 includes/slideshowck_edit.php:193
+msgid "Navigation"
+msgstr "Navigation"
+
+#: includes/layout.edit.php:192 includes/slideshowck_edit.php:199
+msgid "Thumbnails"
+msgstr "Miniatures"
+
+#: includes/layout.edit.php:198 includes/slideshowck_edit.php:205
+msgid "Pagination"
+msgstr "Pagination"
+
+#: includes/layout.edit.php:206 includes/slideshowck_edit.php:213
+msgid "Theme"
+msgstr "Thème"
+
+#: includes/layout.edit.php:211 includes/slideshowck_edit.php:218
+msgid "Skin"
+msgstr "Apparence"
+
+#: includes/layout.edit.php:250 includes/slideshowck_edit.php:257
+msgid "Thumbnail height"
+msgstr "Hauteur de la miniature"
+
+#: includes/layout.edit.php:255 includes/slideshowck_edit.php:262
+msgid "Caption Title"
+msgstr "Titre"
+
+#: includes/layout.edit.php:257 includes/slideshowck_edit.php:264
+msgid "Title Color"
+msgstr "Couleur du titre"
+
+#: includes/layout.edit.php:262 includes/layout.edit.php:294
+#: includes/slideshowck_edit.php:269 includes/slideshowck_edit.php:301
+msgid "Font Size"
+msgstr "Taille de police"
+
+#: includes/layout.edit.php:267 includes/layout.edit.php:299
+#: includes/slideshowck_edit.php:274 includes/slideshowck_edit.php:306
+msgid "Font Family"
+msgstr "Famille de police"
+
+#: includes/layout.edit.php:280 includes/layout.edit.php:312
+#: includes/slideshowck_edit.php:287 includes/slideshowck_edit.php:319
+msgid "Font Weight"
+msgstr "Style de police"
+
+#: includes/layout.edit.php:283 includes/layout.edit.php:315
+#: includes/layout.edit.php:477 includes/slideshowck_edit.php:290
+#: includes/slideshowck_edit.php:322 includes/slideshowck_edit.php:484
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/layout.edit.php:283 includes/layout.edit.php:315
+#: includes/slideshowck_edit.php:290 includes/slideshowck_edit.php:322
+msgid "Bold"
+msgstr "Gras"
+
+#: includes/layout.edit.php:287 includes/slideshowck_edit.php:294
+msgid "Caption Description"
+msgstr "Description"
+
+#: includes/layout.edit.php:289 includes/slideshowck_edit.php:296
+msgid "Description Color"
+msgstr "Couleur de la description"
+
+#: includes/layout.edit.php:319 includes/slideshowck_edit.php:326
+msgid "Caption Styles"
+msgstr "Styles de la légende"
+
+#: includes/layout.edit.php:321 includes/slideshowck_edit.php:328
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+#: includes/layout.edit.php:327 includes/slideshowck_edit.php:334
+msgid "Opacity"
+msgstr "Opacité"
+
+#: includes/layout.edit.php:332 includes/slideshowck_edit.php:339
+msgid "Margin"
+msgstr "Marges"
+
+#: includes/layout.edit.php:334 includes/layout.edit.php:345
+#: includes/slideshowck_edit.php:341 includes/slideshowck_edit.php:352
+msgid "Top"
+msgstr "Haut"
+
+#: includes/layout.edit.php:336 includes/layout.edit.php:347
+#: includes/slideshowck_edit.php:343 includes/slideshowck_edit.php:354
+msgid "Right"
+msgstr "Droite"
+
+#: includes/layout.edit.php:338 includes/layout.edit.php:349
+#: includes/slideshowck_edit.php:345 includes/slideshowck_edit.php:356
+msgid "Bottom"
+msgstr "Bas"
+
+#: includes/layout.edit.php:340 includes/layout.edit.php:351
+#: includes/slideshowck_edit.php:347 includes/slideshowck_edit.php:358
+msgid "Left"
+msgstr "Gauche"
+
+#: includes/layout.edit.php:343 includes/slideshowck_edit.php:350
+msgid "Padding"
+msgstr "Marge interne"
+
+#: includes/layout.edit.php:354 includes/slideshowck_edit.php:361
+msgid "Border Radius"
+msgstr "Coins arrondis"
+
+#: includes/layout.edit.php:356 includes/slideshowck_edit.php:363
+msgid "Top Left"
+msgstr "Haut gauche"
+
+#: includes/layout.edit.php:358 includes/slideshowck_edit.php:365
+msgid "Top Right"
+msgstr "Haut droite"
+
+#: includes/layout.edit.php:360 includes/slideshowck_edit.php:367
+msgid "Bottom Right"
+msgstr "Bas droite"
+
+#: includes/layout.edit.php:362 includes/slideshowck_edit.php:369
+msgid "Bottom Left"
+msgstr "Bas gauche"
+
+#: includes/layout.edit.php:365 includes/slideshowck_edit.php:372
+msgid "Border"
+msgstr "Bordure"
+
+#: includes/layout.edit.php:372 includes/slideshowck_edit.php:379
+msgid "Shadow"
+msgstr "Ombre"
+
+#: includes/layout.edit.php:384 includes/slideshowck_edit.php:391
+msgid "Out"
+msgstr "Externe"
+
+#: includes/layout.edit.php:384 includes/slideshowck_edit.php:391
+msgid "In"
+msgstr "Interne"
+
+#: includes/layout.edit.php:391 includes/slideshowck_edit.php:398
+msgid "Animation"
+msgstr "Animation"
+
+#: includes/layout.edit.php:427 includes/slideshowck_edit.php:434
+msgid "Caption animation"
+msgstr "Animation de la légende"
+
+#: includes/layout.edit.php:443 includes/slideshowck_edit.php:450
+#: slideshow-ck.php:434
+msgid "Slide duration"
+msgstr "Durée du slide"
+
+#: includes/layout.edit.php:448 includes/slideshowck_edit.php:455
+msgid "Transition duration"
+msgstr "Durée de la transition"
+
+#: includes/layout.edit.php:453 includes/slideshowck_edit.php:460
+msgid "Crop images"
+msgstr "Ajuster les images"
+
+#: includes/layout.edit.php:460 includes/slideshowck_edit.php:467
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: includes/layout.edit.php:467 includes/slideshowck_edit.php:474
+msgid "Pause on mouseover"
+msgstr "Pause au survol"
+
+#: includes/layout.edit.php:474 includes/slideshowck_edit.php:481
+msgid "Display order"
+msgstr "Ordre d'affichage"
+
+#: includes/layout.edit.php:478 includes/slideshowck_edit.php:485
+msgid "Random"
+msgstr "Aléatoire"
+
+#: includes/layout.edit.php:483 includes/slideshowck_edit.php:490
+msgid "Full page background"
+msgstr "Fond de page pleine largeur"
+
+#: includes/layout.edit.php:490 includes/slideshowck_edit.php:497
+msgid "Container background"
+msgstr "Fond de conteneur"
+
+#: includes/layout.edit.php:495 includes/slideshowck_edit.php:502
+msgid ""
+"Write the css selector (e.g. : #main) of the element where to place the "
+"slideshow"
+msgstr ""
+"Ecrivez un sélecteur css (ex : #main) de l'élément dans lequel placer le "
+"slideshow en fond"
+
+#: includes/layout.edit.php:498 includes/slideshowck_edit.php:505
+msgid "Image link target"
+msgstr "Cible du lien"
+
+#: includes/layout.edit.php:503 includes/layout.edit.php:509
+#: includes/slideshowck_edit.php:510 includes/slideshowck_edit.php:516
+#: slideshow-ck.php:476 slideshow-ck.php:483
+msgid "Open in the same window"
+msgstr "Ouvrir dans la meme fenêtre"
+
+#: includes/layout.edit.php:504 includes/layout.edit.php:510
+#: includes/slideshowck_edit.php:511 includes/slideshowck_edit.php:517
+#: slideshow-ck.php:477 slideshow-ck.php:484
+msgid "Open in a new window"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+#: includes/layout.edit.php:505 includes/slideshowck_edit.php:512
+#: slideshow-ck.php:478
+msgid "Open in a Lightbox"
+msgstr "Ouvrir dans une Lightbox"
+
+#: includes/layout.edit.php:516 includes/slideshowck_edit.php:523
+msgid ""
+"The Lightbox option can be used with any plugin that uses the rel attribute "
+"\"lightbox\". You can use the plugin "
+msgstr ""
+"L'option lightbox fonctionne avec n'importe quel plugin utilisant l'attribut "
+"rel \"lightbox\". Vous pouvez utiliser le plugin "
+
+#: includes/layout.general.php:20 includes/slideshowck_general.php:20
+#: slideshow-ck.php:337 slideshow-ck.php:351
+msgid "Pro Addon must be updated !"
+msgstr "L'addon Pro doit être mis à jour !"
+
+#: includes/layout.general.php:24 includes/slideshowck_general.php:24
+#: slideshow-ck.php:248
+msgid "Add New"
+msgstr "Créer nouveau"
+
+#: includes/widget-slideshowck.php:9
+msgid "Display a Slideshow CK in your website"
+msgstr "Affiche un Slideshow CK dans votre site web"
+
+#: includes/widget-slideshowck.php:30
+msgid "Select the slideshow to load"
+msgstr "Sélectionner le slideshow à charger"
+
+#: slideshow-ck.php:156 slideshow-ck.php:157 slideshow-ck.php:247
+msgid "Slideshow CK"
+msgstr "Slideshow CK"
+
+#: slideshow-ck.php:158 slideshow-ck.php:159 slideshow-ck.php:161
+msgid "Add New Slideshow"
+msgstr "Ajouter un slideshow"
+
+#: slideshow-ck.php:160
+msgid "Edit Slideshow"
+msgstr "Editer le slideshow"
+
+#: slideshow-ck.php:162
+msgid "View Slideshow"
+msgstr "Voir le slideshow"
+
+#: slideshow-ck.php:163
+msgid "Search Slideshow"
+msgstr "Chercher un slidesho"
+
+#: slideshow-ck.php:164
+msgid "No events found"
+msgstr "Aucun élément trouvé"
+
+#: slideshow-ck.php:165
+msgid "No events found in trash"
+msgstr "Rien trouvé dans la poubelle"
+
+#: slideshow-ck.php:247
+msgid "All Slideshows"
+msgstr "Tous les slideshows"
+
+#: slideshow-ck.php:333 slideshow-ck.php:349
+msgid "Get the PRO Version"
+msgstr "Obtenir la version Complète"
+
+#: slideshow-ck.php:335
+msgid "You are using the PRO Version. Thank you !"
+msgstr "Vous utilisez la version PRO. Merci !"
+
+#: slideshow-ck.php:415
+msgid "Title"
+msgstr "Titre"
+
+#: slideshow-ck.php:418
+msgid "Description"
+msgstr "Description"
+
+#: slideshow-ck.php:423
+msgid "Options"
+msgstr "Options"
+
+#: slideshow-ck.php:426
+msgid "Duration"
+msgstr "Durée"
+
+#: slideshow-ck.php:427
+msgid "Alignment"
+msgstr "Alignement"
+
+#: slideshow-ck.php:428
+msgid "Link"
+msgstr "Lien"
+
+#: slideshow-ck.php:429
+msgid "Video"
+msgstr "Vidéo"
+
+#: slideshow-ck.php:439
+msgid "Leave it blank to use the global setting"
+msgstr "Laisser vide pour utiliser les paramètres globaux"
+
+#: slideshow-ck.php:444
+msgid "Image alignment"
+msgstr "Alignement de l'image"
+
+#: slideshow-ck.php:448
+msgid "default"
+msgstr "Défaut"
+
+#: slideshow-ck.php:449
+msgid "top left"
+msgstr "haut gauche"
+
+#: slideshow-ck.php:450
+msgid "top center"
+msgstr "haut centre"
+
+#: slideshow-ck.php:451
+msgid "top right"
+msgstr "haut droite"
+
+#: slideshow-ck.php:452
+msgid "center left"
+msgstr "centre gauche"
+
+#: slideshow-ck.php:453
+msgid "center"
+msgstr "centre"
+
+#: slideshow-ck.php:454
+msgid "center right"
+msgstr "centre droite"
+
+#: slideshow-ck.php:455
+msgid "bottom left"
+msgstr "bas gauche"
+
+#: slideshow-ck.php:456
+msgid "bottom center"
+msgstr "bas centre"
+
+#: slideshow-ck.php:457
+msgid "bottom right"
+msgstr "bas droite"
+
+#: slideshow-ck.php:465
+msgid "Link url"
+msgstr "Url du lien"
+
+#: slideshow-ck.php:470
+msgid "Target"
+msgstr "Cible"
+
+#: slideshow-ck.php:475 slideshow-ck.php:482
+msgid "Default"
+msgstr "Défaut"
+
+#: slideshow-ck.php:494
+msgid "Video url"
+msgstr "Url de la vidéo"
+
+#: slideshow-ck.php:558
+msgid "Only available in the Pro Addon"
+msgstr "Uniquement disponible dans la version Pro"
+
+#: slideshow-ck.php:860
+msgid "Developped By"
+msgstr "Développé par"
+
+#: slideshow-ck.php:861
+msgid "Download the documentation"
+msgstr "Télécharger la documentation"
+
+#~ msgid "Read more"
+#~ msgstr "En savoir plus"
+
+#~ msgid "Powered By"
+#~ msgstr "Développé par"
+
+#~ msgid "Parent window"
+#~ msgstr "Fenêtre parent"
+
+#~ msgid "New window"
+#~ msgstr "Nouvelle fenêtre"
+
+#~ msgid "Appearance"
+#~ msgstr "Apparence"
+
+#~ msgid "Dimensions"
+#~ msgstr "Dimensions"
+
+#~ msgid "Text"
+#~ msgstr "Texte"
+
+#~ msgid "Plus image"
+#~ msgstr "Image Plus"
+
+#~ msgid "Select the image to put as +"
+#~ msgstr "Sélectionner l'image à utiliser pour le +"
+
+#~ msgid "Minus image"
+#~ msgstr "Image Moins"
+
+#~ msgid "Select the image to put as -"
+#~ msgstr "Sélectionner l'image à utiliser pour le -"
+
+#~ msgid "Image width"
+#~ msgstr "Largeur de l'image"
+
+#~ msgid "Width of the element<br />Set the value in px."
+#~ msgstr "Largeur de l'élement. Définir la valeur en px"
+
+#~ msgid "Image position"
+#~ msgstr "Position de l'image"
+
+#~ msgid "Get more options with the Pro Addon"
+#~ msgstr "Obtenez plus d'options avec la version Pro"
+
+#~ msgid "Accordeon Menu CK Pro Addon must be updated !"
+#~ msgstr "Accordeon Menu CK Pro Addon doit être mise à jour !"
+
+#~ msgid "Created By"
+#~ msgstr "Créé par"
+
+#~ msgid "Accordeon Menu CK"
+#~ msgstr "Accordeon Menu CK"
+
+#~ msgid "Please select a .mmck file"
+#~ msgstr "Veuillez sélectionner un fichier .mmck"
+
+#~ msgid "Unable to read the file"
+#~ msgstr "Impossible de lire le fichier"
+
+#~ msgid "Error saving data"
+#~ msgstr "Erreur pendant l'enregistrement"
+
+#~ msgid "Background color"
+#~ msgstr "Couleur de fond"
+
+#~ msgid "Background color. Use the colorpicker or write your own value"
+#~ msgstr ""
+#~ "Couleur de fond. Utiliser la palette de couleur, ou écrire une valeur "
+#~ "personnalisée"
+
+#~ msgid ""
+#~ "Gradient color. Use the colorpicker or write your own value. Note that if "
+#~ "you use a gradient you can not use a background image."
+#~ msgstr ""
+#~ "Couleur dégradé. Utiliser la palette de couleur, ou écrire une valeur "
+#~ "personnalisée. Notez que si vous utilisez un dégradé vous ne pouvez pas "
+#~ "utiliser une image de fond"
+
+#~ msgid "Background opacity value from 0 to 1"
+#~ msgstr "Opacité du fond, valeur de 0 à 1"
+
+#~ msgid "Background image"
+#~ msgstr "Image de fond"
+
+#~ msgid ""
+#~ "Select the image to use as background. . Note that if you use a "
+#~ "background image you can not use a gradient"
+#~ msgstr ""
+#~ "Sélectionner une image de fond. Notez que si vous utiliser une image de "
+#~ "fond vous ne pouvez pas utiliser de dégradé pour le fond"
+
+#~ msgid "Background image position in the X axis (horizontal)"
+#~ msgstr "Position de l'image de fond dans l'axe X (horizontal)"
+
+#~ msgid "Background image position in the Y axis (vertical)"
+#~ msgstr "Position de l'image de fond dans l'axe Y (vertical)"
+
+#~ msgid "Border radius"
+#~ msgstr "Coins arrondis"
+
+#~ msgid ""
+#~ "Border radius Top Left width (set the value in px, em, or %, the default "
+#~ "unit is px)"
+#~ msgstr ""
+#~ "Coin supérieur gauche (définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid ""
+#~ "Border radius Top Right width (set the value in px, em, or %, the default "
+#~ "unit is px)"
+#~ msgstr ""
+#~ "Coin supérieur droit (définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid ""
+#~ "Border radius Bottom Right width (set the value in px, em, or %, the "
+#~ "default unit is px)"
+#~ msgstr ""
+#~ "Coin inférieur droit (définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid ""
+#~ "Border radius Bottom Left width (set the value in px, em, or %, the "
+#~ "default unit is px)"
+#~ msgstr ""
+#~ "Coin inférieur gauche (définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid "Blur distance"
+#~ msgstr "Diffusion"
+
+#~ msgid "Spread distance (optional)"
+#~ msgstr "Distance de propagation (optionnel)"
+
+#~ msgid "Shadow offset in the X axis (horizontal)"
+#~ msgstr "Décalage dans l'axe X (horizontal)"
+
+#~ msgid "Shadow offset in the Y axis (vertical)"
+#~ msgstr "Décalage dans l'axe Y (vertical)"
+
+#~ msgid "Text shadow"
+#~ msgstr "Ombre de texte"
+
+#~ msgid "Width of the element. Set the value in px."
+#~ msgstr "Largeur de l'élement. Définir la valeur en px"
+
+#~ msgid "Height of the element. Set the value in px."
+#~ msgstr "Hauteur de l'élément. Définir la valeur en px"
+
+#~ msgid "Margin top (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Marge haut (définir la valeur en px, em ou %. L'unité par défaut est le "
+#~ "px)"
+
+#~ msgid "Margin right (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Marge droite (définir la valeur en px, em ou %. L'unité par défaut est le "
+#~ "px)"
+
+#~ msgid ""
+#~ "Margin bottom (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Marge bas (définir la valeur en px, em ou %. L'unité par défaut est le px)"
+
+#~ msgid "Margin left (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Marge gauche (définir la valeur en px, em ou %. L'unité par défaut est le "
+#~ "px)"
+
+#~ msgid "Padding (inside margin)"
+#~ msgstr "Padding (marge interne)"
+
+#~ msgid "Padding top (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Padding haut (définir la valeur en px, em ou %. L'unité par défaut est le "
+#~ "px)"
+
+#~ msgid ""
+#~ "Padding right (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Padding droite (définir la valeur en px, em ou %. L'unité par défaut est "
+#~ "le px)"
+
+#~ msgid ""
+#~ "Padding bottom (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Padding bas (définir la valeur en px, em ou %. L'unité par défaut est le "
+#~ "px)"
+
+#~ msgid "Padding left(set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Padding gauche (définir la valeur en px, em ou %. L'unité par défaut est "
+#~ "le px)"
+
+#~ msgid "Border color. Use the colorpicker or write your own value"
+#~ msgstr ""
+#~ "Couleur de bordure. Utiliser la palette de couleur, ou écrire une valeur "
+#~ "personnalisée"
+
+#~ msgid ""
+#~ "Border top width (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Largeur bordure haut (définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid ""
+#~ "Border right width (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Largeur bordure droite (définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid ""
+#~ "Border bottom width (set the value in px, em, or %, the default unit is "
+#~ "px)"
+#~ msgstr ""
+#~ "Largeur bordure bas (définir la valeur en px, em ou %. L'unité par défaut "
+#~ "est le px)"
+
+#~ msgid ""
+#~ "Border left width  (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Largeur bordure gauche (définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid ""
+#~ "Enter the name of a google font to use, for example : Open+Sans"
+#~ "+Condensed:300"
+#~ msgstr ""
+#~ "Entrez le nom d'une police Google Font, par exemple : Open+Sans"
+#~ "+Condensed:300"
+
+#~ msgid "Font size (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Taille de police (définir la valeur en px, em ou %. L'unité par défaut "
+#~ "est le px)"
+
+#~ msgid "Link color. Use the colorpicker or write your own value"
+#~ msgstr ""
+#~ "Couleur du lien. Utiliser la palette de couleur, ou écrire une valeur "
+#~ "personnalisée"
+
+#~ msgid "Lowercase"
+#~ msgstr "Minuscule"
+
+#~ msgid "Uppercase"
+#~ msgstr "Majuscule"
+
+#~ msgid "Capitalize"
+#~ msgstr "Capital"
+
+#~ msgid "Delay"
+#~ msgstr "Délai"
+
+#~ msgid "Fade"
+#~ msgstr "Fondu"
+
+#~ msgid "Move"
+#~ msgstr "Mouvement"
+
+#~ msgid "Direction"
+#~ msgstr "Direction"
+
+#~ msgid "Top to bottom"
+#~ msgstr "Haut vers le bas"
+
+#~ msgid "Bottom to top"
+#~ msgstr "Bas vers le haut"
+
+#~ msgid "Distance"
+#~ msgstr "Distance"
+
+#~ msgid "Rotate"
+#~ msgstr "Rotation"
+
+#~ msgid "Scale"
+#~ msgstr "Echelle"
+
+#~ msgid "A customizable accordion menu."
+#~ msgstr "Un menu accordeon personnalisable"
+
+#~ msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+#~ msgstr ""
+#~ "Il n'existe aucun menu pour l'instant. <a href=\"%s\">Veuillez d'abord "
+#~ "créer un menu</a>."
+
+#~ msgid "Hide title if menu is empty"
+#~ msgstr "Cacher le titre si le menu est vide"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Select Menu"
+#~ msgstr "Sélectionner le menu"
+
+#~ msgid "How many levels to display"
+#~ msgstr "Nombre de niveaux à afficher"
+
+#~ msgid "Unlimited depth"
+#~ msgstr "Niveaux infinis"
+
+#~ msgid "1 level deep"
+#~ msgstr "1 niveau"
+
+#~ msgid "2 levels deep"
+#~ msgstr "2 niveaux"
+
+#~ msgid "3 levels deep"
+#~ msgstr "3 niveaux"
+
+#~ msgid "4 levels deep"
+#~ msgstr "4 niveaux"
+
+#~ msgid "5 levels deep"
+#~ msgstr "5 niveaux"
+
+#~ msgid "Include descriptions"
+#~ msgstr "Afficher les descriptions"
+
+#~ msgid "Menu Class"
+#~ msgstr "Classe du menu"
+
+#~ msgid "CSS class to use for the ul element which forms the menu."
+#~ msgstr "Classe CSS à utiliser pour la balise ul du menu"
+
+#~ msgid "Select Style"
+#~ msgstr "Sélectionner un style"
+
+#~ msgid "No style"
+#~ msgstr "Aucun style"
+
+#~ msgid "Edit the style"
+#~ msgstr "Editer le style"
+
+#~ msgid "You can create a new style in the Accordeon Menu CK plugin"
+#~ msgstr "Vous pouvez créer un nouveau style dans le plugin Accordeon Menu CK"
+
+#~ msgid "Choose a .mmck file"
+#~ msgstr "Choisir un fichier .mmck"
+
+#~ msgid "Install"
+#~ msgstr "Installer"
+
+#~ msgid "Export"
+#~ msgstr "Exporter"
+
+#~ msgid "Download"
+#~ msgstr "Télécharger"
+
+#~ msgid "Insert"
+#~ msgstr "Insérer"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
+
+#~ msgid "Preview"
+#~ msgstr "Prévisualiser"
+
+#~ msgid "Reset settings"
+#~ msgstr "Effacer les paramètres"
+
+#~ msgid "Main menu"
+#~ msgstr "Menu principal"
+
+#~ msgid "Submenu"
+#~ msgstr "Sous menu"
+
+#~ msgid "Level"
+#~ msgstr "Niveau"
+
+#~ msgid "Custom CSS"
+#~ msgstr "CSS Perso"
+
+#~ msgid "Presets"
+#~ msgstr "Suggestions"
+
+#~ msgid "Group of links"
+#~ msgstr "Groupe de liens"
+
+#~ msgid "Menu link"
+#~ msgstr "Lien de menu"
+
+#~ msgid "Menu link hover"
+#~ msgstr "Lien survolé"
+
+#~ msgid "Title style"
+#~ msgstr "Style du titre"
+
+#~ msgid "Hover"
+#~ msgstr "Survol"
+
+#~ msgid "Submenu link"
+#~ msgstr "Lien de sous menu"
+
+#~ msgid "Submenu link hover"
+#~ msgstr "Lien de sous menu survolé"
+
+#~ msgid "Font size  (set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Taille de police (définir la valeur en px, em ou %. L'unité par défaut "
+#~ "est le px)"
+
+#~ msgid ""
+#~ "Font size <br />(set the value in px, em, or %, the default unit is px)"
+#~ msgstr ""
+#~ "Taille de police <br />(définir la valeur en px, em ou %. L'unité par "
+#~ "défaut est le px)"
+
+#~ msgid "Link color<br />Use the colorpicker or write your own value"
+#~ msgstr ""
+#~ "Couleur du lien<br />Utiliser la palette de couleur, ou écrire une valeur "
+#~ "personnalisée"
+
+#~ msgid "Flat display"
+#~ msgstr "Affichage à plat"
+
+#, fuzzy
+#~ msgid "Title Attribute"
+#~ msgstr "Nom de l'attribut"
+
+#~ msgid "Readmore Link"
+#~ msgstr "Lien Lire la suite"
+
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+#~ msgid ""
+#~ "By visiting our website you agree that we are using cookies to ensure you "
+#~ "to get the best experience."
+#~ msgstr ""
+#~ "En visitant ce site, vous acceptez l'utilisation de cookies afin de vous "
+#~ "proposer les meilleurs services possibles."
+
+#~ msgid "I understand !"
+#~ msgstr "J'ai compris !"
+
+#~ msgid "Super Tooltip"
+#~ msgstr "Super Tooltip"
+
+#~ msgid "Dimensions and Position"
+#~ msgstr "Dimensions et Position"
+
+#~ msgid "Tooltip width"
+#~ msgstr "Largeur de la bulle"
+
+#~ msgid "Tooltip Offset X"
+#~ msgstr "Décalage horizontal"
+
+#~ msgid "Tooltip Offset Y"
+#~ msgstr "Décalage vertical"
+
+#~ msgid "Color"
+#~ msgstr "Couleur"
+
+#~ msgid "Decoration"
+#~ msgstr "Décoration"
+
+#~ msgid "solid"
+#~ msgstr "trait continu"
+
+#~ msgid "dashed"
+#~ msgstr "trait discontinu"
+
+#~ msgid "dotted"
+#~ msgstr "pointillé"
+
+#~ msgid "Italic"
+#~ msgstr "Italique"
+
+#~ msgid "Opening speed"
+#~ msgstr "Vitesse d'ouverture"
+
+#~ msgid "Closing delay"
+#~ msgstr "Vitesse de fermeture"
+
+#~ msgid "Background Image"
+#~ msgstr "Image de fond"
+
+#~ msgid "Blur"
+#~ msgstr "Largeur"
+
+#~ msgid "Spread"
+#~ msgstr "Dispersion"
+
+#~ msgid "Effect type"
+#~ msgstr "Effet"
+
+#~ msgid "Height and Width"
+#~ msgstr "Largeur et hauteur"
+
+#~ msgid "Height only"
+#~ msgstr "Hauteur seulement"
+
+#~ msgid "Visit Home page"
+#~ msgstr "Visiter la page du plugin"
+
+#~ msgid "Create your Tooltip"
+#~ msgstr "Créez votre Tooltip"
+
+#~ msgid "Enter the the text to mouseover"
+#~ msgstr "Saisir le texte à survoler"
+
+#~ msgid "Enter the tooltip content"
+#~ msgstr "Saisir le contenu du tooltip"
+
+#~ msgid ""
+#~ "If you leave these fields blank, the general settings from the plugin "
+#~ "will be used."
+#~ msgstr ""
+#~ "Si vous laissez ces champs vides, les valeurs par défaut du plugin seront "
+#~ "utilisées."
+
+#~ msgid "my test"
+#~ msgstr "Mon test !"
+
+#~ msgid "Mediabox CK"
+#~ msgstr "Mediabox CK"
+
+#~ msgid "General Options"
+#~ msgstr "Options générales"
+
+#~ msgid "Effects Options"
+#~ msgstr "Options des Effets"
+
+#~ msgid "Mobile Options"
+#~ msgstr "Options Mobile"
+
+#~ msgid "Link detection"
+#~ msgstr "Détection du lien"
+
+#~ msgid ""
+#~ "Set if you want to apply to the links that have for example : class=&quot;"
+#~ "lightbox&quot; or rel=&quot;lightbox&quot;"
+#~ msgstr ""
+#~ "Choisissez si vous voulez détecter les liens avec par exemple : "
+#~ "class=&quot;lightbox&quot; ou rel=&quot;lightbox&quot;"
+
+#~ msgid "Attribute detection"
+#~ msgstr "Attribut pour la détection"
+
+#~ msgid "Rel"
+#~ msgstr "Rel"
+
+#~ msgid "Default height"
+#~ msgstr "Hauteur par défaut"
+
+#~ msgid "Show the title attribute of the link as caption in the lightbox"
+#~ msgstr "Montrer l'attribut title du lien comme légende de la lightbox"
+
+#~ msgid "Show caption"
+#~ msgstr "Afficher la légende"
+
+#~ msgid "Display the number of medias beside the caption"
+#~ msgstr "Montrer le nombre de médias à côté de la légende"
+
+#~ msgid ""
+#~ "If you click the next button on the last media, it comes back to the "
+#~ "first one. Else the next button is not available"
+#~ msgstr ""
+#~ "Si vous cliquez sur le bouton suivant sur le dernier média, il retourne "
+#~ "sur le premier média. Sinon le bouton suivant n'est pas disponible sur le "
+#~ "dernier média"
+
+#~ msgid "Loop medias"
+#~ msgstr "Boucler les médias"
+
+#~ msgid "Overlay Color"
+#~ msgstr "Couleur du fond de la page"
+
+#~ msgid ""
+#~ "Resize the lightbox from the following values to the media width when it "
+#~ "opens"
+#~ msgstr ""
+#~ "Ajoute un effet de redimensionnement, depuis une petite taille définie ci-"
+#~ "dessous jusqu'à la taille du média à afficher lors de son ouverture"
+
+#~ msgid "Resize transition"
+#~ msgstr "Effet de redimensionnement"
+
+#~ msgid "Switch to a specific layout with full screen for mobile"
+#~ msgstr ""
+#~ "Bascule automatiquement sur un affichage plein écran spécial pour mobile"
+
+#~ msgid "Detection type"
+#~ msgstr "Type de détection"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablette"
+
+#~ msgid "Phone"
+#~ msgstr "Téléphone"
+
+#~ msgid "Mobile resolution"
+#~ msgstr "Résolution mobile"
+
+#~ msgid "Mediabox CK Settings"
+#~ msgstr "Paramètres Mediabox CK"
+
+#~ msgid "Mediabox CK is a product developped by"
+#~ msgstr "Mediabox CK est un produit développé par"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid "Mobile"
+#~ msgstr "Mobile"
+
+#~ msgid "Mediabox CK General"
+#~ msgstr "Mediabox CK Général"
+
+#~ msgid "Mediabox CK Styles"
+#~ msgstr "Mediabox CK Styles"
+
+#~ msgid "Mediabox CK Effects"
+#~ msgstr "Mediabox CK Effets"
+
+#~ msgid "Mediabox CK Mobile"
+#~ msgstr "Mediabox CK Mobile"
