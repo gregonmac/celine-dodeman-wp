@@ -1938,6 +1938,10 @@
 					<h3><label><?php _e('FAQ', 'Super-Socializer' ) ?></label></h3>
 					<div class="inside faq">
 						<p><?php _e('<strong>Note:</strong> Plugin will not work on local server. You should have an online website for the plugin to function properly.', 'Super-Socializer'); ?></p>
+						<p>
+						<a href="javascript:void(0)"><?php _e('Why is Instagram icon redirecting to Instagram website?', 'Super-Socializer'); ?></a>
+						<div><?php _e('Instagram icon is there to send website visitors to the Instagram page of your choice. You can save the desired Instagram handle in "Instagram Username" option in "Standard Interface" and "Floating Interface" sections.', 'Super-Socializer'); ?></div>
+						</p>
 						<p><a href="http://support.heateor.com/place-title-social-share-icons-row/" target="_blank"><?php _e('How to Place Title and Social Share Icons in the Same Row?', 'Super-Socializer' ) ?></a></p>
 						<p><a href="https://www.heateor.com/recover-social-share-counts/" target="_blank"><?php _e('How to restore Social Share counts lost after moving my website to SSL/Https?', 'Super-Socializer' ) ?></a></p>
 						<p><a href="http://support.heateor.com/browser-blocking-social-features/" target="_blank"><?php _e('Why is my browser blocking some features of the plugin?', 'Super-Socializer' ) ?></a></p>

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Email Subscribers & Newsletters 3.4.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-26 12:00:36+00:00\n"
-"PO-Revision-Date: Tue Oct 31 2017 16:32:54 GMT+0530 (IST)\n"
+"PO-Revision-Date: Fri Nov 17 2017 15:31:48 GMT+0530 (IST)\n"
 "Last-Translator: admin <mansi.shah@appsmagnet.com>\n"
 "Language-Team: StoreApps <support@storeapps.org>, Icegram <hello@icegram."
 "com>\n"
@@ -437,6 +437,10 @@ msgstr ""
 msgid "How to add captcha in Subscribe form of Email Subscribers?"
 msgstr ""
 
+#: ../help/help.php:308
+msgid "General Plugin Configuration"
+msgstr ""
+
 #: ../help/help.php:311
 #, php-format
 msgid "Modify %s"
@@ -460,47 +464,47 @@ msgstr ""
 msgid "How to change/update/translate any texts from the plugin?"
 msgstr ""
 
-#: ../help/help.php:333
-msgid "Usage"
+#: ../help/help.php:326
+msgid "How to check sent emails?"
 msgstr ""
 
-#: ../help/help.php:336
-msgid "Compose and Send Newsletter Emails"
+#: ../help/help.php:338
+msgid "Create and Send Newsletter Emails"
 msgstr ""
 
-#: ../help/help.php:339
-msgid "Compose and Send Post Notification Emails when new posts are published"
-msgstr ""
-
-#: ../help/help.php:342
-msgid "Keywords in the Post Notifications"
-msgstr ""
-
-#: ../help/help.php:345
-msgid "Send a test post notification email to myself/testgroup"
+#: ../help/help.php:341
+msgid "Keywords in the Newsletters"
 msgstr ""
 
 #: ../help/help.php:348
-msgid "Check sent emails"
+msgid "Create and Send Post Notification Emails when new posts are published"
 msgstr ""
 
-#: ../help/help.php:355
+#: ../help/help.php:351
+msgid "Keywords in the Post Notifications"
+msgstr ""
+
+#: ../help/help.php:354
+msgid "Send a test post notification email to myself/testgroup"
+msgstr ""
+
+#: ../help/help.php:359
 msgid "Cron Job Setup"
 msgstr ""
 
-#: ../help/help.php:358
-msgid "How to Schedule Cron Emails?"
+#: ../help/help.php:362
+msgid "What is Cron and how to Schedule Cron Emails?"
 msgstr ""
 
-#: ../help/help.php:361
+#: ../help/help.php:365
 msgid "Schedule Cron Emails in cPanel"
 msgstr ""
 
-#: ../help/help.php:364
+#: ../help/help.php:368
 msgid "Schedule Cron Emails in Parallels Plesk"
 msgstr ""
 
-#: ../help/help.php:367
+#: ../help/help.php:371
 msgid "Hosting doesn’t support Cron Jobs?"
 msgstr ""
 
@@ -512,90 +516,90 @@ msgstr ""
 msgid "FAQ's"
 msgstr ""
 
-#: ../help/help.php:389
+#: ../help/help.php:388
 msgid "Want to do more? Here's how.."
 msgstr ""
 
-#: ../help/help.php:392
+#: ../help/help.php:391
 msgid "Allow Subscribers to get subscribed to any group"
 msgstr ""
 
-#: ../help/help.php:397
+#: ../help/help.php:396
 msgid "Using our free "
 msgstr ""
 
-#: ../help/help.php:398
+#: ../help/help.php:397
 msgid "Group Selector"
 msgstr ""
 
-#: ../help/help.php:399
+#: ../help/help.php:398
 msgid ""
 "plugin, you can extend Email Subscribers Form functionality by providing an "
 "grouping option right next to the form."
 msgstr ""
 
-#: ../help/help.php:402
+#: ../help/help.php:401
 msgid "The user can then subscribe to whichever group most appeals to them."
 msgstr ""
 
-#: ../help/help.php:405
+#: ../help/help.php:404
 msgid "For example: Subscribe either to Updates or to Offers."
 msgstr ""
 
-#: ../help/help.php:409
+#: ../help/help.php:408
 msgid "Show your subscribe form inside attractive popups"
 msgstr ""
 
-#: ../help/help.php:414
+#: ../help/help.php:413
 msgid ""
 "Don't limit your subscriber form to a widget. Embed it within popups, hello "
 "bars, slide-ins, sidebars, full screen popups etc."
 msgstr ""
 
-#: ../help/help.php:417
+#: ../help/help.php:416
 msgid "Using Email Subscribers you can achieve this easily with our free plugin "
 msgstr ""
 
-#: ../help/help.php:421
+#: ../help/help.php:420
 msgid ""
 "Icegram's beautiful designs instantly capture user attention and help "
 "increase sign-ups to your WordPress website."
 msgstr ""
 
-#: ../help/help.php:424 ../help/help.php:444
+#: ../help/help.php:423 ../help/help.php:443
 #, php-format
 msgid "How to %s"
 msgstr ""
 
-#: ../help/help.php:424
+#: ../help/help.php:423
 msgid "show subscribe form inside a popup"
 msgstr ""
 
-#: ../help/help.php:428
+#: ../help/help.php:427
 msgid "Get beautiful and elegant form styles"
 msgstr ""
 
-#: ../help/help.php:434
+#: ../help/help.php:433
 msgid "Email subscribers easily integrates with another free plugin "
 msgstr ""
 
-#: ../help/help.php:435
+#: ../help/help.php:434
 msgid "Rainmaker"
 msgstr ""
 
-#: ../help/help.php:438
+#: ../help/help.php:437
 msgid ""
 "Rainmaker extends the core features of Email Subscribers and provides "
 "elegant form styles."
 msgstr ""
 
-#: ../help/help.php:441
+#: ../help/help.php:440
 msgid ""
 "These styles are well designed and beautify your subscription form making it "
 "more appealing."
 msgstr ""
 
-#: ../help/help.php:444
+#: ../help/help.php:443
 msgid "add Rainmaker’s form in Email Subscribers"
 msgstr ""
 
@@ -603,9 +607,129 @@ msgstr ""
 msgid "Email sent successfully. "
 msgstr ""
 
+#: ../classes/es-survey.php:21 ../classes/es-register.php:716 ../classes/es-offer.
+#: php:72
+msgctxt "timezone date format"
+msgid "Y-m-d"
+msgstr ""
+
+#: ../classes/es-survey.php:232
+msgid "is getting even better!"
+msgstr ""
+
+#: ../classes/es-survey.php:233
+msgid "But I need you to"
+msgstr ""
+
+#: ../classes/es-survey.php:233
+msgid "help me prioritize"
+msgstr ""
+
+#: ../classes/es-survey.php:233
+msgid "Please send your response today."
+msgstr ""
+
+#: ../classes/es-survey.php:240
+msgid "Here's how you use ES:"
+msgstr ""
+
+#: ../classes/es-survey.php:245
+msgid "Post Notifications more often than Newsletter"
+msgstr ""
+
+#: ../classes/es-survey.php:247
+msgid "Newsletter more often than Post Notifications"
+msgstr ""
+
+#: ../classes/es-survey.php:249
+msgid "Post Notification &amp; Newsletter equally"
+msgstr ""
+
+#: ../classes/es-survey.php:253
+msgid "Have "
+msgstr ""
+
+#: ../classes/es-survey.php:253
+msgid " Active Subscribers"
+msgstr ""
+
+#: ../classes/es-survey.php:254
+msgid "Post "
+msgstr ""
+
+#: ../classes/es-survey.php:254
+msgid " blog per week"
+msgstr ""
+
+#: ../classes/es-survey.php:258
+msgid "Send emails via Cron"
+msgstr ""
+
+#: ../classes/es-survey.php:260
+msgid "Send emails Immediately"
+msgstr ""
+
+#: ../classes/es-survey.php:267
+msgid "Using Double Opt In"
+msgstr ""
+
+#: ../classes/es-survey.php:269
+msgid "Using Single Opt In"
+msgstr ""
+
+#: ../classes/es-survey.php:287
+msgid "How soon do you want these new features?"
+msgstr ""
+
+#: ../classes/es-survey.php:291
+msgid "Beautiful Email Designs"
+msgstr ""
+
+#: ../classes/es-survey.php:292 ../classes/es-survey.php:297 ../classes/es-survey.
+#: php:302 ../classes/es-survey.php:307
+msgid "Right now!"
+msgstr ""
+
+#: ../classes/es-survey.php:293 ../classes/es-survey.php:298 ../classes/es-survey.
+#: php:303 ../classes/es-survey.php:308
+msgid "Soon"
+msgstr ""
+
+#: ../classes/es-survey.php:294 ../classes/es-survey.php:299 ../classes/es-survey.
+#: php:304 ../classes/es-survey.php:309
+msgid "Later"
+msgstr ""
+
+#: ../classes/es-survey.php:296
+msgid "Spam Check, Scheduling... (Better Email Delivery)"
+msgstr ""
+
+#: ../classes/es-survey.php:301
+msgid "Discard Fake / Bouncing Emails"
+msgstr ""
+
+#: ../classes/es-survey.php:306
+msgid "Advanced Reporting"
+msgstr ""
+
+#: ../classes/es-survey.php:318
+msgid "Nah, I don't like improvements"
+msgstr ""
+
+#: ../classes/es-survey.php:324
+msgid "Next"
+msgstr ""
+
+#: ../classes/es-survey.php:334
+msgid "Thank you!"
+msgstr ""
+
+#: ../classes/es-survey.php:335
+msgid "No issues, have a nice day!"
+msgstr ""
+
 #: ../classes/es-register.php:168 ../classes/es-register.php:169 ../classes/es-
-#: register.php:1181 ../classes/es-register.php:1182 ../classes/es-register.php:
-#: 1187
+#: register.php:853 ../classes/es-register.php:854 ../classes/es-register.php:859
 msgid "Templates"
 msgstr ""
 
@@ -618,198 +742,79 @@ msgctxt "compose-enhanced-select"
 msgid "Please enter the Email Subject."
 msgstr ""
 
-#: ../classes/es-register.php:720
+#: ../classes/es-register.php:756
 msgid ""
-"Keyword structure has been simplified. All your previously set keywords have "
-"been automatically updated to the new structure."
+"Compose is now changed to <b>Templates</b> and Keyword structure has been "
+"simplified. All your previously created templates and keywords have been "
+"automatically updated to the new structure.<br>"
 msgstr ""
 
-#: ../classes/es-register.php:721
-msgid "Check the updated structure"
+#: ../classes/es-register.php:757
+msgid "Check all the changes&nbsp;&nbsp;"
 msgstr ""
 
-#: ../classes/es-register.php:721
-msgid "Okay, I got it."
+#: ../classes/es-register.php:757
+msgid "No thanks, I know about it already."
 msgstr ""
 
-#: ../classes/es-register.php:930
-msgctxt "timezone date format"
-msgid "Y-m-d"
-msgstr ""
-
-#: ../classes/es-register.php:947
-msgid "is getting even better!"
-msgstr ""
-
-#: ../classes/es-register.php:948
-msgid "But I need you to"
-msgstr ""
-
-#: ../classes/es-register.php:948
-msgid "help me prioritize"
-msgstr ""
-
-#: ../classes/es-register.php:948
-msgid "Please send your response today."
-msgstr ""
-
-#: ../classes/es-register.php:955
-msgid "Here's how you use ES:"
-msgstr ""
-
-#: ../classes/es-register.php:960
-msgid "Post Notifications more often than Newsletter"
-msgstr ""
-
-#: ../classes/es-register.php:962
-msgid "Newsletter more often than Post Notifications"
-msgstr ""
-
-#: ../classes/es-register.php:964
-msgid "Post Notification &amp; Newsletter equally"
-msgstr ""
-
-#: ../classes/es-register.php:968
-msgid "Have "
-msgstr ""
-
-#: ../classes/es-register.php:968
-msgid " Active Subscribers"
-msgstr ""
-
-#: ../classes/es-register.php:969
-msgid "Post "
-msgstr ""
-
-#: ../classes/es-register.php:969
-msgid " blog per week"
-msgstr ""
-
-#: ../classes/es-register.php:973
-msgid "Send emails via Cron"
-msgstr ""
-
-#: ../classes/es-register.php:975
-msgid "Send emails Immediately"
-msgstr ""
-
-#: ../classes/es-register.php:982
-msgid "Using Double Opt In"
-msgstr ""
-
-#: ../classes/es-register.php:984
-msgid "Using Single Opt In"
-msgstr ""
-
-#: ../classes/es-register.php:1002
-msgid "How soon do you want these new features?"
-msgstr ""
-
-#: ../classes/es-register.php:1006
-msgid "Beautiful Email Designs"
-msgstr ""
-
-#: ../classes/es-register.php:1007 ../classes/es-register.php:1012 ../classes/es-
-#: register.php:1017 ../classes/es-register.php:1022
-msgid "Right now!"
-msgstr ""
-
-#: ../classes/es-register.php:1008 ../classes/es-register.php:1013 ../classes/es-
-#: register.php:1018 ../classes/es-register.php:1023
-msgid "Soon"
-msgstr ""
-
-#: ../classes/es-register.php:1009 ../classes/es-register.php:1014 ../classes/es-
-#: register.php:1019 ../classes/es-register.php:1024
-msgid "Later"
-msgstr ""
-
-#: ../classes/es-register.php:1011
-msgid "Spam Check, Scheduling... (Better Email Delivery)"
-msgstr ""
-
-#: ../classes/es-register.php:1016
-msgid "Discard Fake / Bouncing Emails"
-msgstr ""
-
-#: ../classes/es-register.php:1021
-msgid "Advanced Reporting"
-msgstr ""
-
-#: ../classes/es-register.php:1033
-msgid "Nah, I don't like improvements"
-msgstr ""
-
-#: ../classes/es-register.php:1039
-msgid "Next"
-msgstr ""
-
-#: ../classes/es-register.php:1049
-msgid "Thank you!"
-msgstr ""
-
-#: ../classes/es-register.php:1050
-msgid "No issues, have a nice day!"
-msgstr ""
-
-#: ../classes/es-register.php:1172
+#: ../classes/es-register.php:844
 #, php-format
 msgid "Email Subscribers version: <strong>%s</strong>"
 msgstr ""
 
-#: ../classes/es-register.php:1183 ../classes/es-register.php:1184
+#: ../classes/es-register.php:855 ../classes/es-register.php:856
 msgid "Add new Template"
 msgstr ""
 
-#: ../classes/es-register.php:1185
+#: ../classes/es-register.php:857
 msgid "Edit Templates"
 msgstr ""
 
-#: ../classes/es-register.php:1186
+#: ../classes/es-register.php:858
 msgid "New Templates"
 msgstr ""
 
-#: ../classes/es-register.php:1188
+#: ../classes/es-register.php:860
 msgid "View Templates"
 msgstr ""
 
-#: ../classes/es-register.php:1189
+#: ../classes/es-register.php:861
 msgid "Search Templates"
 msgstr ""
 
-#: ../classes/es-register.php:1190
+#: ../classes/es-register.php:862
 msgid "No Templates found"
 msgstr ""
 
-#: ../classes/es-register.php:1191
+#: ../classes/es-register.php:863
 msgid "No Templates found in Trash"
 msgstr ""
 
-#: ../classes/es-register.php:1194
+#: ../classes/es-register.php:866
 msgid "Thumbnail (For Visual Representation only)"
 msgstr ""
 
-#: ../classes/es-register.php:1195
+#: ../classes/es-register.php:867
 msgid "Set thumbnail"
 msgstr ""
 
-#: ../classes/es-register.php:1231
+#: ../classes/es-register.php:904
 msgid "Template Type"
 msgstr ""
 
-#: ../classes/es-register.php:1297
+#: ../classes/es-register.php:970
 msgid "Available Keyword for Post Notification: {{POSTTITLE}}"
 msgstr ""
 
-#: ../classes/es-register.php:1300
+#: ../classes/es-register.php:973
 msgid "Select your Email Template Type"
 msgstr ""
 
-#: ../classes/es-register.php:1350
+#: ../classes/es-register.php:1023
 msgid "Preview Template"
 msgstr ""
 
-#: ../classes/es-register.php:1364
+#: ../classes/es-register.php:1037
 #, php-format
 msgid ""
 "%s for Post Notification: {{NAME}}, {{EMAIL}}, {{DATE}}, {{POSTTITLE}}, "
@@ -817,7 +822,7 @@ msgid ""
 "WITHTITLE}}, {{POSTLINK-ONLY}}, {{POSTFULL}}"
 msgstr ""
 
-#: ../classes/es-register.php:1365
+#: ../classes/es-register.php:1038
 msgid "<br/><br/>Available Keywords for Newsletter: {{NAME}}, {{EMAIL}}"
 msgstr ""
 
@@ -950,8 +955,8 @@ msgstr "Vybrané podrobnosti neexistují."
 msgid "Selected record deleted."
 msgstr "Vybraný záznam byl smazán."
 
-#: ../notification/notification-show.php:52 ../classes/es-register.php:171 ..
-#: classes/es-register.php:172
+#: ../notification/notification-show.php:52 ../help/help.php:345 ../classes/es-
+#: register.php:171 ../classes/es-register.php:172
 msgid "Post Notifications"
 msgstr "Oznámení o příspěvcích"
 
@@ -1102,7 +1107,7 @@ msgstr "Plná velikost"
 msgid "Medium Size"
 msgstr "Střední velikost"
 
-#: ../settings/settings-edit.php:123 ../classes/es-register.php:1232
+#: ../settings/settings-edit.php:123 ../classes/es-register.php:905
 msgid "Thumbnail"
 msgstr "Náhled"
 
@@ -1127,12 +1132,12 @@ msgstr ""
 "nastavit na ANO."
 
 #: ../settings/settings-edit.php:142 ../settings/settings-edit.php:217 ..
-#: subscribers/view-subscriber-sync.php:107 ../classes/es-register.php:1501
+#: subscribers/view-subscriber-sync.php:107 ../classes/es-register.php:1174
 msgid "YES"
 msgstr "ANO"
 
 #: ../settings/settings-edit.php:143 ../settings/settings-edit.php:218 ..
-#: subscribers/view-subscriber-sync.php:106 ../classes/es-register.php:1502
+#: subscribers/view-subscriber-sync.php:106 ../classes/es-register.php:1175
 msgid "NO"
 msgstr "NE"
 
@@ -1212,8 +1217,8 @@ msgstr "Administrátor/Editor/Autor/Spolupracovník"
 msgid "Post Notifications Menu"
 msgstr "Oznámení o příspěvcích"
 
-#: ../settings/settings-edit.php:324 ../sendmail/sendmail.php:93 ../classes/es-
-#: register.php:174 ../classes/es-register.php:175
+#: ../settings/settings-edit.php:324 ../help/help.php:335 ../sendmail/sendmail.
+#: php:93 ../classes/es-register.php:174 ../classes/es-register.php:175
 msgid "Newsletters"
 msgstr "Zpravodaje"
 
@@ -1308,7 +1313,7 @@ msgstr "Zobrazit hlášení"
 
 #: ../sentmail/sentmail-show.php:108 ../sentmail/sentmail-show.php:121 ..
 #: compose/compose-edit.php:103 ../compose/compose-show.php:80 ..
-#: compose/compose-show.php:88 ../classes/es-register.php:1280
+#: compose/compose-show.php:88 ../classes/es-register.php:953
 msgid "Preview"
 msgstr "Náhled"
 
@@ -1636,7 +1641,7 @@ msgid "Email Address"
 msgstr "Emailová adresa"
 
 #: ../subscribers/view-subscriber-show.php:361 ../subscribers/view-subscriber-
-#: show.php:374 ../classes/es-register.php:1443 ../classes/es-loadwidget.php:28
+#: show.php:374 ../classes/es-register.php:1116 ../classes/es-loadwidget.php:28
 msgid "Name"
 msgstr "Jméno"
 
@@ -1820,12 +1825,12 @@ msgid "Edit Email"
 msgstr "Upravit e-mail"
 
 #: ../compose/compose-edit.php:92 ../compose/compose-add.php:80 ../classes/es-
-#: register.php:1302
+#: register.php:975
 msgid "Newsletter"
 msgstr "Zpravodaj"
 
 #: ../compose/compose-edit.php:93 ../compose/compose-add.php:81 ../classes/es-
-#: register.php:1303
+#: register.php:976
 msgid "Post Notification"
 msgstr "Potvrzení příspěvku"
 
@@ -1838,7 +1843,7 @@ msgid "Enter Content for your Email"
 msgstr "Zadejte obsah emailu"
 
 #: ../compose/compose-edit.php:111 ../compose/compose-add.php:93 ../classes/es-
-#: register.php:1364
+#: register.php:1037
 msgid "Available Keywords"
 msgstr "Dostupná klíčová slova"
 
@@ -1891,17 +1896,17 @@ msgstr "Vítá vás plugin Email Subscribers!"
 msgid "Thanks for installing and we hope you will enjoy using Email Subscribers."
 msgstr "Děkujeme vám za instalaci a doufáme, že se vám Email Subscribers bude líbit."
 
-#: ../help/help.php:183 ../classes/es-register.php:1453 ../classes/es-loadwidget.
+#: ../help/help.php:183 ../classes/es-register.php:1126 ../classes/es-loadwidget.
 #: php:38
 msgid "Subscribe"
 msgstr "Odebírat"
 
 #: ../help/help.php:288 ../help/help.php:299 ../help/help.php:302 ../help/help.
 #: php:314 ../help/help.php:317 ../help/help.php:320 ../help/help.php:323 ..
-#: help/help.php:336 ../help/help.php:339 ../help/help.php:342 ../help/help.php:
-#: 345 ../help/help.php:348 ../help/help.php:358 ../help/help.php:361 ..
-#: help/help.php:364 ../help/help.php:367 ../help/help.php:377 ../help/help.php:
-#: 380 ../help/help.php:382
+#: help/help.php:326 ../help/help.php:338 ../help/help.php:341 ../help/help.php:
+#: 348 ../help/help.php:351 ../help/help.php:354 ../help/help.php:362 ..
+#: help/help.php:365 ../help/help.php:368 ../help/help.php:371 ../help/help.php:
+#: 377 ../help/help.php:380 ../help/help.php:382
 #, php-format
 msgid "%s"
 msgstr "%s"
@@ -1909,10 +1914,6 @@ msgstr "%s"
 #: ../help/help.php:288
 msgid "How to Add Subscription box to website?"
 msgstr "Jak na web přidat přihlašovací formulář?"
-
-#: ../help/help.php:308
-msgid "General Plugin Settings"
-msgstr "Základní nastavení pluginu"
 
 #: ../help/help.php:314
 msgid "How to Import or Export Email Addresses?"
@@ -2041,8 +2042,8 @@ msgstr "<span style=\"color:#20b2aa;font-weight:bold;\">Cron email</span>"
 msgid "<span style=\"color:#993399;\">Immediately</span>"
 msgstr "<span style=\"color:#993399;\">Okamžitý email</span>"
 
-#: ../classes/es-register.php:162 ../classes/es-register.php:163 ../classes/es-
-#: register.php:947 ../classes/es-register.php:1193
+#: ../classes/es-survey.php:232 ../classes/es-register.php:162 ../classes/es-
+#: register.php:163 ../classes/es-register.php:865
 msgid "Email Subscribers"
 msgstr "Email Subscribers"
 
@@ -2304,7 +2305,7 @@ msgctxt "widget-page-enhanced-select"
 msgid "There was a problem with the request"
 msgstr "Došlo k potížím s požadavkem"
 
-#: ../classes/es-register.php:1158
+#: ../classes/es-register.php:830
 msgid ""
 "If you like <strong>Email Subscribers</strong>, please consider leaving us a "
 "<a target=\"_blank\" href=\"https://wordpress.org/support/plugin/email-"
@@ -2316,22 +2317,22 @@ msgstr ""
 "org/support/plugin/email-subscribers/reviews/?filter=5#new-post\">&#9733;"
 "&#9733;&#9733;&#9733;&#9733;</a> hodnocení. Icegram předem mnohokrát děkuje!"
 
-#: ../classes/es-register.php:1448 ../classes/es-loadwidget.php:33
+#: ../classes/es-register.php:1121 ../classes/es-loadwidget.php:33
 msgid "Email *"
 msgstr "Email *"
 
-#: ../classes/es-register.php:1491
+#: ../classes/es-register.php:1164
 msgid "Widget Title"
 msgstr "Nadpis widgetu"
 
-#: ../classes/es-register.php:1495
+#: ../classes/es-register.php:1168
 msgid "Short description about subscription form"
 msgstr "Krátký popis k vašemu přihlašovacímu formuláři"
 
-#: ../classes/es-register.php:1499
+#: ../classes/es-register.php:1172
 msgid "Display Name Field"
 msgstr "Zobrazit pole „Jméno“"
 
-#: ../classes/es-register.php:1506
+#: ../classes/es-register.php:1179
 msgid "Subscriber Group"
 msgstr "Skupina odběratelů"

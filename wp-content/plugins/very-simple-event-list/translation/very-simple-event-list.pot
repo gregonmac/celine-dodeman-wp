@@ -1,0 +1,371 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Very Simple Event List\n"
+"POT-Creation-Date: 2017-12-02 16:10+0100\n"
+"PO-Revision-Date: 2015-09-10 13:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: vsel.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: vsel-list.php:37 vsel-options.php:235 vsel-options.php:357
+#: vsel-single.php:34 vsel-widget-list.php:37
+#, php-format
+msgid "Date: %s"
+msgstr ""
+
+#: vsel-list.php:40 vsel-options.php:241 vsel-options.php:363
+#: vsel-single.php:37 vsel-widget-list.php:40
+#, php-format
+msgid "Start date: %s"
+msgstr ""
+
+#: vsel-list.php:43 vsel-options.php:247 vsel-options.php:369
+#: vsel-single.php:40 vsel-widget-list.php:43
+#, php-format
+msgid "End date: %s"
+msgstr ""
+
+#: vsel-list.php:46 vsel-options.php:253 vsel-options.php:375
+#: vsel-single.php:43 vsel-widget-list.php:46
+#, php-format
+msgid "Time: %s"
+msgstr ""
+
+#: vsel-list.php:49 vsel-options.php:259 vsel-options.php:381
+#: vsel-single.php:46 vsel-widget-list.php:49
+#, php-format
+msgid "Location: %s"
+msgstr ""
+
+#: vsel-list.php:54 vsel-single.php:51 vsel-widget-list.php:54
+msgid "More info"
+msgstr ""
+
+#: vsel-list.php:91 vsel-single.php:72 vsel-widget-list.php:87
+msgid "Error: please reset date"
+msgstr ""
+
+#: vsel-options.php:9
+msgid "VSEL"
+msgstr ""
+
+#: vsel-options.php:15
+msgid "General"
+msgstr ""
+
+#: vsel-options.php:17
+msgid "Uninstall"
+msgstr ""
+
+#: vsel-options.php:20
+msgid "Page"
+msgstr ""
+
+#: vsel-options.php:22 vsel-options.php:72 vsel-widget.php:33
+msgid "Title"
+msgstr ""
+
+#: vsel-options.php:25 vsel-options.php:46 vsel-options.php:75
+#: vsel-options.php:96
+msgid "Image"
+msgstr ""
+
+#: vsel-options.php:28 vsel-options.php:78
+msgid "Image size"
+msgstr ""
+
+#: vsel-options.php:31 vsel-options.php:81
+msgid "Summary"
+msgstr ""
+
+#: vsel-options.php:34 vsel-options.php:37 vsel-options.php:55
+#: vsel-options.php:84 vsel-options.php:87 vsel-options.php:105
+msgid "Date"
+msgstr ""
+
+#: vsel-options.php:40 vsel-options.php:64 vsel-options.php:90
+#: vsel-options.php:114 vsel.php:149 vsel.php:217
+msgid "Time"
+msgstr ""
+
+#: vsel-options.php:43 vsel-options.php:67 vsel-options.php:93
+#: vsel-options.php:117 vsel.php:151 vsel.php:218
+msgid "Location"
+msgstr ""
+
+#: vsel-options.php:49 vsel-options.php:99
+msgid "Content"
+msgstr ""
+
+#: vsel-options.php:52 vsel-options.php:102 vsel.php:153
+msgid "Link to more info"
+msgstr ""
+
+#: vsel-options.php:58 vsel-options.php:108 vsel.php:145 vsel.php:215
+msgid "Start date"
+msgstr ""
+
+#: vsel-options.php:61 vsel-options.php:111 vsel.php:147 vsel.php:216
+msgid "End date"
+msgstr ""
+
+#: vsel-options.php:70
+msgid "Widget"
+msgstr ""
+
+#: vsel-options.php:123
+msgid "General Settings"
+msgstr ""
+
+#: vsel-options.php:127
+msgid "Page Settings"
+msgstr ""
+
+#: vsel-options.php:131
+msgid "Widget Settings"
+msgstr ""
+
+#: vsel-options.php:138
+msgid "Do not delete events and settings."
+msgstr ""
+
+#: vsel-options.php:146 vsel-options.php:154 vsel-options.php:268
+#: vsel-options.php:276
+msgid "Link to the event page."
+msgstr ""
+
+#: vsel-options.php:162 vsel-options.php:284
+msgid "Default"
+msgstr ""
+
+#: vsel-options.php:163 vsel-options.php:285
+msgid "Large"
+msgstr ""
+
+#: vsel-options.php:164 vsel-options.php:286
+msgid "Medium"
+msgstr ""
+
+#: vsel-options.php:165 vsel-options.php:287
+msgid "Small"
+msgstr ""
+
+#: vsel-options.php:174 vsel-options.php:296
+msgid "Show a summary instead of all content."
+msgstr ""
+
+#: vsel-options.php:182 vsel-options.php:304
+msgid "Combine start date and end date in one label."
+msgstr ""
+
+#: vsel-options.php:190 vsel-options.php:198 vsel-options.php:206
+#: vsel-options.php:214 vsel-options.php:222 vsel-options.php:230
+msgid "Hide on page with all events."
+msgstr ""
+
+#: vsel-options.php:312 vsel-options.php:320 vsel-options.php:328
+#: vsel-options.php:336 vsel-options.php:344 vsel-options.php:352
+msgid "Hide"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: vsel-options.php:391 vsel-widget.php:11 vsel-widget.php:24
+msgid "Very Simple Event List"
+msgstr ""
+
+#: vsel-shortcodes.php:13 vsel-widget-shortcodes.php:13
+msgid "There are no upcoming events."
+msgstr ""
+
+#: vsel-shortcodes.php:67 vsel-shortcodes.php:145 vsel-shortcodes.php:238
+#: vsel-shortcodes.php:305
+msgid "Next &raquo;"
+msgstr ""
+
+#: vsel-shortcodes.php:68 vsel-shortcodes.php:146 vsel-shortcodes.php:239
+#: vsel-shortcodes.php:306
+msgid "&laquo; Previous"
+msgstr ""
+
+#: vsel-shortcodes.php:91 vsel-widget-shortcodes.php:76
+msgid "There are no past events."
+msgstr ""
+
+#: vsel-shortcodes.php:169 vsel-widget-shortcodes.php:139
+msgid "There are no current events."
+msgstr ""
+
+#: vsel-shortcodes.php:262 vsel-widget-shortcodes.php:217
+msgid "There are no events."
+msgstr ""
+
+#: vsel-widget.php:10
+msgid "Display your events in a widget."
+msgstr ""
+
+#: vsel-widget.php:37
+msgid "Information"
+msgstr ""
+
+#: vsel-widget.php:41
+msgid "List"
+msgstr ""
+
+#: vsel-widget.php:43
+msgid "Upcoming events"
+msgstr ""
+
+#: vsel-widget.php:44
+msgid "Past events"
+msgstr ""
+
+#: vsel-widget.php:45
+msgid "Current events"
+msgstr ""
+
+#: vsel-widget.php:46 vsel-widget.php:84
+msgid "All events"
+msgstr ""
+
+#: vsel-widget.php:50
+msgid "Attributes"
+msgstr ""
+
+#: vsel-widget.php:51
+msgid "Example: posts_per_page=2"
+msgstr ""
+
+#: vsel-widget.php:54
+msgid "Link to all events"
+msgstr ""
+
+#: vsel-widget.php:55
+msgid "Example: www.mydomain.com/events"
+msgstr ""
+
+#: vsel-widget.php:58 vsel.php:155
+msgid "Link label"
+msgstr ""
+
+#: vsel-widget.php:59
+msgid "Example: All events"
+msgstr ""
+
+#: vsel-widget.php:61
+msgid "Info about attributes"
+msgstr ""
+
+#: vsel-widget.php:61 vsel-widget.php:62
+msgid "click here"
+msgstr ""
+
+#: vsel-widget.php:62 vsel.php:310
+msgid "Settings"
+msgstr ""
+
+#: vsel.php:72
+msgid "Events"
+msgstr ""
+
+#: vsel.php:73
+msgid "All Events"
+msgstr ""
+
+#: vsel.php:74
+msgid "Event"
+msgstr ""
+
+#: vsel.php:75
+msgid "Add New Event"
+msgstr ""
+
+#: vsel.php:76
+msgid "Edit Event"
+msgstr ""
+
+#: vsel.php:77 vsel.php:78
+msgid "New Event"
+msgstr ""
+
+#: vsel.php:79
+msgid "View Event"
+msgstr ""
+
+#: vsel.php:80
+msgid "Search Events"
+msgstr ""
+
+#: vsel.php:81
+msgid "No events found"
+msgstr ""
+
+#: vsel.php:82
+msgid "No events found in Trash"
+msgstr ""
+
+#: vsel.php:100
+msgid "Event Categories"
+msgstr ""
+
+#: vsel.php:108
+msgid "Event Meta"
+msgstr ""
+
+#: vsel.php:146 vsel.php:148
+msgid "Use datepicker"
+msgstr ""
+
+#: vsel.php:150
+msgid "Example: 16.00 - 18.00"
+msgstr ""
+
+#: vsel.php:152
+msgid "Example: Times Square"
+msgstr ""
+
+#: vsel.php:154
+msgid "Example: www.wordpress.org"
+msgstr ""
+
+#: vsel.php:156
+msgid "Example: More info"
+msgstr ""
+
+#: vsel.php:158
+msgid "Open link in new window"
+msgstr ""
+
+#: vsel.php:159
+msgid "Custom summary"
+msgstr ""
+
+#: vsel.php:160
+msgid "This will replace the default summary"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a very simple plugin to display a list of events. Use a shortcode "
+"to display events on a page or use the widget. For more info please check "
+"readme file."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Guido van der Leest"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.guidovanderleest.nl"
+msgstr ""

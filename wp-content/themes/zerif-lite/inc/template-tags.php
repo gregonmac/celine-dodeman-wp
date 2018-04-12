@@ -342,7 +342,6 @@ if ( ! function_exists( 'zerif_testimonials_header_title_function' ) ) :
 		} else {
 			$zerif_testimonials_title = get_theme_mod( 'zerif_testimonials_title' );
 		}
-
 		if ( ! empty( $zerif_testimonials_title ) ) :
 
 			echo '<h2 class="white-text">' . wp_kses_post( $zerif_testimonials_title ) . '</h2>';

@@ -1501,7 +1501,7 @@ if ( ! class_exists( 'zerif_team_widget' ) && zerif_check_if_old_version_of_them
 
 			echo $before_widget;
 
-			echo '<div class="col-lg-3 col-sm-3 team-box">';
+			echo '<div class="col-md-8 team-box">';
 
 				echo '<div class="team-member" tabindex="0">';
 

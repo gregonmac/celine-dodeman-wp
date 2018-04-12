@@ -3,7 +3,7 @@
  * Plugin Name: Slideshow CK
  * Plugin URI: http://www.wp-pluginsck.com
  * Description: Slideshow CK is a responsive slideshow plugin that show your images with nice effects.
- * Version: 1.1.1
+ * Version: 1.1.4
  * Author: Cédric KEIFLIN
  * Author URI: http://www.wp-pluginsck.com/
  * License: GPL2
@@ -243,9 +243,10 @@ class Slideshowck {
 	 * Create menu links in the admin
 	 */
 	function create_admin_menu() {
-		$this->pagehook = $page = add_menu_page('Slideshow CK', 'Slideshow CK', 'administrator', 'slideshowck_general', array($this, 'render_general'), SLIDESHOWCK_MEDIA_URL . '/images/admin_menu.png');
-		add_submenu_page('slideshowck_general', __('Slideshow CK'), __('All Slideshows', 'slideshow-ck'), 'administrator', 'slideshowck_general', array($this, 'render_general'));
-		$editpage = add_submenu_page('slideshowck_general', __('Edit'), __('Add New', 'slideshow-ck'), 'administrator', 'slideshowck_edit', array($this, 'render_edit'));
+		$user_capability = apply_filters('slideshow_ck_capability', 'manage_options');
+		$this->pagehook = $page = add_menu_page('Slideshow CK', 'Slideshow CK', $user_capability, 'slideshowck_general', array($this, 'render_general'), SLIDESHOWCK_MEDIA_URL . '/images/admin_menu.png');
+		add_submenu_page('slideshowck_general', __('Slideshow CK'), __('All Slideshows', 'slideshow-ck'), $user_capability, 'slideshowck_general', array($this, 'render_general'));
+		$editpage = add_submenu_page('slideshowck_general', __('Edit'), __('Add New', 'slideshow-ck'), $user_capability, 'slideshowck_edit', array($this, 'render_edit'));
 		// for a nice menu icon
 		add_action('admin_head', array($this, 'set_admin_menu_image_position'), 20);
 		
@@ -929,3 +930,15 @@ function shortcode_slideshowck($attr) {
 	}
 	return null;
 }
+
+/**
+ * for info only, use this code to overwrite your user access 
+ *
+add_filter('slideshow_ck_capability', 'set_slideshow_ck_capability', 10, 1);
+
+function set_slideshow_ck_capability($cap) {
+    $cap = 'edit_posts';
+    
+    return $cap;
+}
+*/

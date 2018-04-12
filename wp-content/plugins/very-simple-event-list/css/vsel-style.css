@@ -1,0 +1,186 @@
+/* Very Simple Event List stylesheet */
+
+/* Wrapper around all events in list */
+#vsel {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin: 0 auto 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Paragraph tag */
+#vsel p {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+/* Wrapper around single event in list */
+#vsel .vsel-content {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Meta section */
+#vsel .vsel-meta {
+    width: 36%;
+    float: left;
+}
+
+#vsel .vsel-meta-full {
+    width: 100%;
+    clear: both;
+}
+
+#vsel .vsel-meta-title {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+#vsel .vsel-meta-date {
+}
+
+#vsel .vsel-meta-error-date {
+}
+
+#vsel .vsel-meta-single-date
+#vsel .vsel-meta-start-date {
+}
+
+#vsel .vsel-meta-end-date {
+}
+
+#vsel .vsel-meta-time {
+}
+
+#vsel .vsel-meta-location {
+}
+
+#vsel .vsel-meta-link {
+}
+
+/* Image and info section */
+#vsel .vsel-image-info {
+    width: 60%;
+    float: right;
+}
+
+#vsel .vsel-image {
+    max-width: 40%;
+    height: auto;
+    float: right;
+    margin: 0.3em 0 0.3em 1em;
+    padding: 0;
+    border: 0;
+}
+
+#vsel .vsel-info {
+}
+
+/* Navigation */
+#vsel .vsel-nav {
+    clear: both;
+}
+
+#vsel a.next {
+    float: right;
+}
+
+#vsel a.prev {
+    float: left;
+}
+
+/* No events notification */
+#vsel .no-events {
+}
+
+/* Widget wrapper */
+.vsel-widget {
+}
+
+.vsel-widget:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/* Widget text above list */
+.vsel-widget .vsel-widget-text {
+    clear: both;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Widget meta section */
+.vsel-widget #vsel .vsel-meta {
+    width: 100%;
+    clear: both;
+
+}
+
+/* Widget image and info section */
+.vsel-widget #vsel .vsel-image-info {
+    width: 100%;
+    clear: both;
+    float: left;
+}
+
+/* Widget link to all events */
+.vsel-widget .vsel-widget-link {
+    clear: both;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    #vsel .vsel-meta {
+        width: 100%;
+        clear: both;
+    }
+
+    #vsel .vsel-image-info {
+        width: 100%;
+        clear: both;
+        float: left;
+    }
+}
+
+.vsel-tile-container {
+    margin-bottom: 10px;
+}
+
+.vsel-tile-title {
+    color:black;
+    font-size: 15px;
+}
+.vsel-tile {
+    border: solid 1px;
+    -moz-box-shadow: 3px 3px 5px 0px #656565;
+    -webkit-box-shadow: 3px 3px 5px 0px #656565;
+    -o-box-shadow: 3px 3px 5px 0px #656565;
+    box-shadow: 3px 3px 5px 0px #656565;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=5);
+}
+
+.vsel-tile-image {
+    max-width: 180px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.vsel-tile-date {
+    font-size: 12px;
+    color: #000;
+    border-radius: 30px;
+    background: #A48841;
+    padding: 10px;
+    width: 90px;
+    /* height: 150px; */
+    margin: auto;
+}

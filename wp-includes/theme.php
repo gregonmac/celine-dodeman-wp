@@ -854,7 +854,6 @@ function get_theme_mods() {
  */
 function get_theme_mod( $name, $default = false ) {
 	$mods = get_theme_mods();
-
 	if ( isset( $mods[$name] ) ) {
 		/**
 		 * Filters the theme modification, or 'theme_mod', value.

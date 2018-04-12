@@ -2,7 +2,7 @@
 Contributors: themeisle, codeinwp, rodicaelena, baicusandrei
 Tags: widget, admin, widgets, sharing, reporting, sections, themes, stock photos, custom icons, icons, menu icons, stock
 Requires at least: 3.0
-Tested up to: 4.8
+Tested up to: 4.9
 Requires PHP: 5.3
 Stable tag: trunk
 License: GPLv2 or later
@@ -86,6 +86,42 @@ Activating the Orbit Fox Companion plugin is just like any other plugin. If you'
 3. Screenshot 3. How reports module is looking
 
 == Changelog ==
+= 2.2.4 - 2017-12-04  = 
+
+* Fixed issue with menu icons module loading.
+
+
+= 2.2.3 - 2017-11-27  = 
+
+* [Hestia] Fixed issue with Team member section not opening external links in a new tab
+* [Hestia] Fixed alignment issues with the front page sections
+
+
+= 2.2.2 - 2017-11-24  = 
+
+* Renamed flickr api util file.
+* Fixed issue with template directory preview plugin install modal.
+
+
+= 2.2.1 - 2017-11-24  = 
+
+* Fixed module loading for Elementor widgets module.
+
+
+= 2.2.0 - 2017-11-23  = 
+
+* - Added new Elementor Widgets module;
+* - Added new Template Directory module;
+* - Bug fixes for the Photos Import Module;
+* - Bug fixes for the Social Sharing module backend interface;
+* - Moved Orbit Fox Companion out of Tools Menu;
+
+
+= 2.1.1 - 2017-11-16  = 
+
+* Adds compatibility with WordPress 4.9.
+
+
 = 2.1.0 - 2017-11-08  = 
 
 * Adds custom icons menu module.

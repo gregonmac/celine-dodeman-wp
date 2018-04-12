@@ -123,7 +123,7 @@ function the_champ_login_user($userId, $profileData = array(), $socialId = '', $
 	
 	wp_set_current_user($userId, $user -> user_login);
 	wp_set_auth_cookie($userId);
-	do_action('wp_login', $user -> user_login);
+	do_action('wp_login', $user -> user_login, $user);
 }
 
 /**
@@ -289,68 +289,70 @@ function the_champ_create_user($profileData, $verification = false){
 /**
  * Replace default avatar with social avatar
  */
-function the_champ_social_avatar($avatar, $avuser, $size, $default, $alt = '') {
+function the_champ_social_avatar($avatar, $avuser, $size, $default, $alt = ''){
 	global $theChampLoginOptions;
-	if(isset($theChampLoginOptions['avatar_quality']) && $theChampLoginOptions['avatar_quality'] == 'better'){
-		$avatarType = 'thechamp_large_avatar';
-	}else{
-		$avatarType = 'thechamp_avatar';
-	}
-	$userId = 0;
-	if(is_numeric($avuser)){
-		if($avuser > 0){
-			$userId = $avuser;
+	if(isset($theChampLoginOptions['enable']) && isset($theChampLoginOptions['avatar'])){
+		if(isset($theChampLoginOptions['avatar_quality']) && $theChampLoginOptions['avatar_quality'] == 'better'){
+			$avatarType = 'thechamp_large_avatar';
+		}else{
+			$avatarType = 'thechamp_avatar';
 		}
-	}elseif(is_object($avuser)){
-		if(property_exists($avuser, 'user_id') AND is_numeric($avuser->user_id)){
-			$userId = $avuser->user_id;
+		$userId = 0;
+		if(is_numeric($avuser)){
+			if($avuser > 0){
+				$userId = $avuser;
+			}
+		}elseif(is_object($avuser)){
+			if(property_exists($avuser, 'user_id') AND is_numeric($avuser->user_id)){
+				$userId = $avuser->user_id;
+			}
+		}elseif(is_email($avuser)){
+			$user = get_user_by('email', $avuser);
+			$userId = isset($user->ID) ? $user->ID : 0;
 		}
-	}elseif(is_email($avuser)){
-		$user = get_user_by('email', $avuser);
-		$userId = isset($user->ID) ? $user->ID : 0;
-	}
 
-	if($avatarType == 'thechamp_large_avatar' && get_user_meta($userId, $avatarType, true) == ''){
-		$avatarType = 'thechamp_avatar';
-	}
-	if(!empty($userId) && ($userAvatar = get_user_meta($userId, $avatarType, true)) !== false && strlen(trim($userAvatar)) > 0){
-		return '<img alt="' . esc_attr($alt) . '" src="' . $userAvatar . '" class="avatar avatar-' . $size . ' " height="' . $size . '" width="' . $size . '" style="height:'. $size .'px;width:'. $size .'px" />';
+		if($avatarType == 'thechamp_large_avatar' && get_user_meta($userId, $avatarType, true) == ''){
+			$avatarType = 'thechamp_avatar';
+		}
+		if(!empty($userId) && ($userAvatar = get_user_meta($userId, $avatarType, true)) !== false && strlen(trim($userAvatar)) > 0){
+			return '<img alt="' . esc_attr($alt) . '" src="' . $userAvatar . '" class="avatar avatar-' . $size . ' " height="' . $size . '" width="' . $size . '" style="height:'. $size .'px;width:'. $size .'px" />';
+		}
 	}
 	return $avatar;
 }
-if(isset($theChampLoginOptions['avatar']) && $theChampLoginOptions['avatar'] == 1){
-	add_filter('get_avatar', 'the_champ_social_avatar', 100000, 5);
-	add_filter('bp_core_fetch_avatar', 'the_champ_buddypress_avatar', 10, 2);
-}
+add_filter('get_avatar', 'the_champ_social_avatar', 100000, 5);
+add_filter('bp_core_fetch_avatar', 'the_champ_buddypress_avatar', 10, 2);
 
 /**
  * Enable social avatar in Buddypress
  */
 function the_champ_buddypress_avatar($text, $args){
-	if(is_array($args)){
-		if(!empty($args['object']) && strtolower($args['object']) == 'user'){
-			if(!empty($args['item_id']) && is_numeric($args['item_id'])){
-				if(($userData = get_userdata($args['item_id'])) !== false){
-					global $theChampLoginOptions;
-					if(isset($theChampLoginOptions['avatar_quality']) && $theChampLoginOptions['avatar_quality'] == 'better'){
-						$avatarType = 'thechamp_large_avatar';
-					}else{
-						$avatarType = 'thechamp_avatar';
-					}
-					if($avatarType == 'thechamp_large_avatar' && get_user_meta($args['item_id'], $avatarType, true) == ''){
-						$avatarType = 'thechamp_avatar';
-					}
-					$avatar = '';
-					if(($userAvatar = get_user_meta($args['item_id'], $avatarType, true)) !== false && strlen(trim($userAvatar)) > 0){
-						$avatar = $userAvatar;
-					}
-					if($avatar != ""){
-							$imgAlt = (!empty($args['alt']) ? 'alt="'.esc_attr($args['alt']).'" ' : '');
-							$imgAlt = sprintf($imgAlt, htmlspecialchars($userData->user_login));
-							$imgClass = ('class="'.(!empty ($args['class']) ? ($args['class'].' ') : '').'avatar-social-login" ');
-							$imgWidth = (!empty ($args['width']) ? 'width="'.$args['width'].'" ' : 'width="50"');
-							$imgHeight = (!empty ($args['height']) ? 'height="'.$args['height'].'" ' : 'height="50"');
-							$text = preg_replace('#<img[^>]+>#i', '<img src="'.$avatar.'" '.$imgAlt.$imgClass.$imgHeight.$imgWidth.' style="float:left; margin-right:10px" />', $text);
+	global $theChampLoginOptions;
+	if(isset($theChampLoginOptions['enable']) && isset($theChampLoginOptions['avatar'])){
+		if(is_array($args)){
+			if(!empty($args['object']) && strtolower($args['object']) == 'user'){
+				if(!empty($args['item_id']) && is_numeric($args['item_id'])){
+					if(($userData = get_userdata($args['item_id'])) !== false){
+						if(isset($theChampLoginOptions['avatar_quality']) && $theChampLoginOptions['avatar_quality'] == 'better'){
+							$avatarType = 'thechamp_large_avatar';
+						}else{
+							$avatarType = 'thechamp_avatar';
+						}
+						if($avatarType == 'thechamp_large_avatar' && get_user_meta($args['item_id'], $avatarType, true) == ''){
+							$avatarType = 'thechamp_avatar';
+						}
+						$avatar = '';
+						if(($userAvatar = get_user_meta($args['item_id'], $avatarType, true)) !== false && strlen(trim($userAvatar)) > 0){
+							$avatar = $userAvatar;
+						}
+						if($avatar != ""){
+								$imgAlt = (!empty($args['alt']) ? 'alt="'.esc_attr($args['alt']).'" ' : '');
+								$imgAlt = sprintf($imgAlt, htmlspecialchars($userData->user_login));
+								$imgClass = ('class="'.(!empty ($args['class']) ? ($args['class'].' ') : '').'avatar-social-login" ');
+								$imgWidth = (!empty ($args['width']) ? 'width="'.$args['width'].'" ' : 'width="50"');
+								$imgHeight = (!empty ($args['height']) ? 'height="'.$args['height'].'" ' : 'height="50"');
+								$text = preg_replace('#<img[^>]+>#i', '<img src="'.$avatar.'" '.$imgAlt.$imgClass.$imgHeight.$imgWidth.' style="float:left; margin-right:10px" />', $text);
+						}
 					}
 				}
 			}

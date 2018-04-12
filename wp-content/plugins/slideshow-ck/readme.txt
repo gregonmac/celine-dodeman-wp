@@ -2,8 +2,8 @@
 Contributors: ced1870
 Tags: slideshow, image, diaporama
 Requires at least: 4.0
-Tested up to: 4.8.1
-Stable tag: 1.1.1
+Tested up to: 4.9
+Stable tag: 1.1.4
 License: GPLv2 or later
 
 Slideshow CK is a responsive slideshow plugin that shows your images with nice effects.
@@ -42,6 +42,15 @@ Slideshow CK is an image slider can display your images or videos with nice effe
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1.4 =
+* Add filter slideshow_ck_capability for user access
+
+= 1.1.3 =
+* Fix capapility definition
+
+= 1.1.2 =
+* Fix issue with access to the list of slideshows
 
 = 1.1.1 =
 * Add new option to copy a slideshow

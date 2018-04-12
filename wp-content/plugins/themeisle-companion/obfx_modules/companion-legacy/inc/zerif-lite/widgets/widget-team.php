@@ -53,7 +53,7 @@ if ( ! class_exists( 'zerif_team_widget' ) ) {
 
 			?>
 
-			<div class="<?= ($args['id']=='sidebar-ourteam'?'col-lg-3 col-sm-3':'')?> team-box">
+			<div class="col-md-8 team-box">
 
 				<div class="team-member" tabindex="0">
 
@@ -90,14 +90,14 @@ if ( ! class_exists( 'zerif_team_widget' ) ) {
 
 						<?php if ( ! empty( $instance['name'] ) ) :  ?>
 
-							<h2 class="<?= ($args['id']=='sidebar-ourteam'?'':'widget-title')?> red-border-bottom"><?php echo apply_filters( 'widget_title', $instance['name'] ); ?></h2>
+							<h3 class="dark-text red-border-bottom"><?php echo apply_filters( 'widget_title', $instance['name'] ); ?></h3>
 
 						<?php endif; ?>
 
 						<?php if ( ! empty( $instance['position'] ) ) :  ?>
 
 							<div
-								class="position"><i style="color:#d4ce97" class="fa fa-quote-left"></i> <?php echo htmlspecialchars_decode( apply_filters( 'widget_title', $instance['position'] ) ); ?></div>
+								class="position"><?php echo htmlspecialchars_decode( apply_filters( 'widget_title', $instance['position'] ) ); ?></div>
 
 						<?php endif; ?>
 

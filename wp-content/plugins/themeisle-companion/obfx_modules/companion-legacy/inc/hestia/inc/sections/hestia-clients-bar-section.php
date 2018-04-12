@@ -25,13 +25,13 @@ if ( ! function_exists( 'hestia_clients_bar' ) ) :
 		}
 
 		$hide_section = get_theme_mod( 'hestia_clients_bar_hide', true );
-		$hestia_clients_bar_content = get_theme_mod( 'hestia_clients_bar_content' );
+		$hestia_clients_bar_content = get_theme_mod( 'hestia_clients_bar_content', apply_filters( 'hestia_clients_bar_default_content', false ) );
 		$hestia_clients_bar_content_decoded = json_decode( $hestia_clients_bar_content );
 
 		/* Don't show section if Disable section is checked or it doesn't have any content. Show it if it's called as a shortcode */
 		if ( $is_shortcode === false && ( empty( $hestia_clients_bar_content ) || (bool) $hide_section === true ) || empty( $hestia_clients_bar_content_decoded ) ) {
 			if ( is_customize_preview() ) {
-				echo '<section class="hestia-clients-bar text-center" data-sorder="hestia_clients_bar" style="display: none"></section>';
+				echo '<section class="hestia-clients-bar text-center" id="clients" data-sorder="hestia_clients_bar" style="display: none"></section>';
 			}
 			return;
 		}
@@ -39,11 +39,10 @@ if ( ! function_exists( 'hestia_clients_bar' ) ) :
 		$wrapper_class = $is_shortcode === true ? 'is-shortcode' : '';
 
 		?>
-		<section class="hestia-clients-bar text-center <?php echo esc_attr( $wrapper_class ); ?>" data-sorder="hestia_clients_bar">
+		<section class="hestia-clients-bar text-center <?php echo esc_attr( $wrapper_class ); ?>" id="clients" data-sorder="hestia_clients_bar">
 			<div class="container">
 				<div class="row">
 					<?php
-					$i = 1;
 					$array_length = sizeof( $hestia_clients_bar_content_decoded );
 					foreach ( $hestia_clients_bar_content_decoded as $client ) {
 						$image = ! empty( $client->image_url ) ? apply_filters( 'hestia_translate_single_string', $client->image_url, 'Clients bar section' ) : '';
@@ -71,12 +70,6 @@ if ( ! function_exists( 'hestia_clients_bar' ) ) :
 							}
 							echo '</div>';
 						}
-
-						if ( $i % 4 == 0 && $i !== $array_length ) {
-							echo '</div><!-- /.row -->';
-							echo '<div class="row">';
-						}
-						$i++;
 					}
 					?>
 				</div>

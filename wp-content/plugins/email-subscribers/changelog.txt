@@ -4,6 +4,17 @@ Author		: Icegram
 Author URI	: https://www.icegram.com/
 License		: GPLv3
 
+************************************************************Version 3.4.4************************************************************
+
+* New: Introduce [Email Subscribers Pro](https://www.icegram.com/email-subscribers-pricing/) plan
+
+************************************************************Version 3.4.3************************************************************
+
+* Fix: Templates showing up in frontend search results
+* Update: Documentation links on Help & Info page
+* Update: POT file
+* Localization: Made all translation files up-to-date with latest POT file
+
 ************************************************************Version 3.4.2************************************************************
 
 * Fix: User roles not working

@@ -3,8 +3,8 @@ Contributors: Heateor, the_champ, Hungarian Translator: László Tavaszi http://
 Donate link: https://www.heateor.com/donate?action=Super+Socializer
 Tags: social login, social share, social commenting, social comments, social plugin, profile data, social analytics, online identity, social profile storage, single sign-on, social media, facebook login
 Requires at least: 2.5.0
-Tested up to: 4.8.1
-Stable tag: 7.9.4
+Tested up to: 4.8.3
+Stable tag: 7.9.5
 License: GPLv2 or later
 
 The unique Social Plugin to let you integrate Social Login, Social Share and Social Comments at your website
@@ -15,8 +15,6 @@ Integrate Social Login, Social Share and Social Comments at your website easiest
 **Note:**
 1. Plugin will not work on local server. You should have an online website for the plugin to function properly.
 2. If you want to integrate only Facebook Comments, you should install <a target="_blank" href="https://wordpress.org/plugins/fancy-facebook-comments/">Fancy Facebook Comments</a>
-
-**Available in English, <a target="_blank" href="https://en-ca.wordpress.org/plugins/super-socializer/">English (Canada)</a>, <a target="_blank" href="https://ja.wordpress.org/plugins/super-socializer/">Japanese</a>, Spanish, Hungarian, Portuguese, Chinese, Italian, Arabic, <a target="_blank" href="https://ru.wordpress.org/plugins/super-socializer/">Russian</a> and Ukrainian languages**
 
 = Feature list =
 * Social Share from around 100 social networks
@@ -206,6 +204,14 @@ Yes, we can help you with it. Just drop an email at support[ at ]heateor[ dot ]c
 8. **Social Commenting**: Disqus Commenting selected
 
 == Changelog ==
+= 7.9.5 =
+* [Bugfix] Pinterest save button was misaligned
+* [Bugfix] Viber logo was not appearing in Viber share icon, in a few cases
+* [Bugfix] "Auto-adjust according to screen width" option was not working for horizontal sticky interface, in a few cases
+* [Bugfix] Plugin was overriding user avatars even when social login was not enabled, in a few cases
+* [Bugfix] Social Login was causing PHP warning "Missing argument 2 for wc_maybe_store_user_agent()" with WooCommerce
+* [Improvement] Improved Vkontakte login functionality
+
 = 7.9.4 =
 * [Improvement] Google Plus share counts are no longer supported, as the official API no longer serves the share count
 
@@ -1307,3 +1313,11 @@ Yes, we can help you with it. Just drop an email at support[ at ]heateor[ dot ]c
 
 = 7.9.4 =
 * [Improvement] Google Plus share counts are no longer supported, as the official API no longer serves the share count
+
+= 7.9.5 =
+* [Bugfix] Pinterest save button was misaligned
+* [Bugfix] Viber logo was not appearing in Viber share icon, in a few cases
+* [Bugfix] "Auto-adjust according to screen width" option was not working for horizontal sticky interface, in a few cases
+* [Bugfix] Plugin was overriding user avatars even when social login was not enabled, in a few cases
+* [Bugfix] Social Login was causing PHP warning "Missing argument 2 for wc_maybe_store_user_agent()" with WooCommerce
+* [Improvement] Improved Vkontakte login functionality

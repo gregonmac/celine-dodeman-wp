@@ -471,6 +471,9 @@ function the_champ_render_sharing($content){
 	}
 
 	global $post;
+	if(!$post){
+		return $content;
+	}
 	// hook to bypass sharing
 	$disable = apply_filters('the_champ_bypass_sharing', $post, $content);
 	// if $disable value is 1, return content without sharing interface

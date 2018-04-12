@@ -305,7 +305,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 			<br />
 			<div class="es-setting">
-				<h3><?php echo __( 'General Plugin Settings', ES_TDOMAIN ); ?></h3>
+				<h3><?php echo __( 'General Plugin Configuration', ES_TDOMAIN ); ?></h3>
 				<ul class="es_faq_list">
 					<li class="es_faq">
 						<?php echo sprintf(__( 'Modify %s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-general-plugin-settings/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'default text, email contents', ES_TDOMAIN ) . '</a>' . __( ' (like Confirmation, Welcome, Admin emails), Cron Settings and Assign User Roles', ES_TDOMAIN ) ); ?>
@@ -322,67 +322,66 @@ if ( ! defined( 'ABSPATH' ) ) {
 					<li class="es_faq">
 						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-add-unsubscribe-link-in-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'How to add Unsubscribe link in emails?', ES_TDOMAIN ) . '</a>' ); ?>
 					</li>
+					<li class="es_faq">
+						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-check-sent-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'How to check sent emails?', ES_TDOMAIN ) . '</a>' ); ?>
+					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<hr />
-	<div class="feature-section col three-col">
-		<div class="col-1">
-			<div class="es-usage">
-				<h3><?php echo __( 'Usage', ES_TDOMAIN ); ?></h3>
-				<ul class="es_faq_list">
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-compose-and-send-newsletter-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Compose and Send Newsletter Emails', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-configure-and-send-notification-emails-to-subscribers-when-new-posts-are-published/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Compose and Send Post Notification Emails when new posts are published', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-are-the-available-keywords-in-the-post-notifications/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Keywords in the Post Notifications', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-send-a-sample-new-post-notification-email-to-testgroup-myself/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Send a test post notification email to myself/testgroup', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-check-sent-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Check sent emails', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-				</ul>
-			</div>
+	<div class="feature-section col two-col">
+		<div class="col">
+			<h3><?php echo __( 'Newsletters', ES_TDOMAIN ); ?></h3>
+			<ul class="es_faq_list">
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-create-and-send-newsletter-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Create and Send Newsletter Emails', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-are-the-available-keywords-in-the-newsletters/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Keywords in the Newsletters', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+			</ul>
+			<br><br>
+			<h3><?php echo __( 'Post Notifications', ES_TDOMAIN ); ?></h3>
+			<ul class="es_faq_list">
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-create-and-send-post-notification-emails-when-new-posts-are-published/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Create and Send Post Notification Emails when new posts are published', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-are-the-available-keywords-in-the-post-notifications/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Keywords in the Post Notifications', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-send-a-sample-new-post-notification-email-to-testgroup-myself/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Send a test post notification email to myself/testgroup', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+			</ul>
 		</div>
-		<div class="col-2">
-			<div class="es-cron-job">
-				<h3><?php echo __( 'Cron Job Setup', ES_TDOMAIN ); ?></h3>
-				<ul class="es_faq_list">
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'How to Schedule Cron Emails?', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-cpanel/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Schedule Cron Emails in cPanel', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-parallels-plesk/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Schedule Cron Emails in Parallels Plesk', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-to-do-if-hosting-doesnt-support-cron-jobs/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Hosting doesn’t support Cron Jobs?', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="col-3 last-feature">
-			<div class="es-troubleshooting-steps">
-				<h3><?php echo __( 'Troubleshooting Steps', ES_TDOMAIN ); ?></h3>
-				<ul class="es_faq_list">
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-subscribers-are-not-receiving-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Subscribers are not receiving Emails?', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-css-help/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'CSS Help', ES_TDOMAIN ) . '</a>' ); ?>
-					<li class="es_faq">
-						<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-faq/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'FAQ\'s', ES_TDOMAIN ) . '</a>' ); ?>
-					</li>
-				</ul>
-			</div>
+		<div class="col last-feature">
+			<h3><?php echo __( 'Cron Job Setup', ES_TDOMAIN ); ?></h3>
+			<ul class="es_faq_list">
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'What is Cron and how to Schedule Cron Emails?', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-cpanel/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Schedule Cron Emails in cPanel', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-parallels-plesk/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Schedule Cron Emails in Parallels Plesk', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-to-do-if-hosting-doesnt-support-cron-jobs/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Hosting doesn’t support Cron Jobs?', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+			</ul>
+			<h3><?php echo __( 'Troubleshooting Steps', ES_TDOMAIN ); ?></h3>
+			<ul class="es_faq_list">
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-subscribers-are-not-receiving-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Subscribers are not receiving Emails?', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-css-help/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'CSS Help', ES_TDOMAIN ) . '</a>' ); ?>
+				<li class="es_faq">
+					<?php echo sprintf(__( '%s', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-faq/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'FAQ\'s', ES_TDOMAIN ) . '</a>' ); ?>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<hr />

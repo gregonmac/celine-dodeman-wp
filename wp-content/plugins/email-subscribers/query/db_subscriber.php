@@ -83,6 +83,12 @@ class es_cls_dbquery {
 			return "invalid";
 		}
 
+		$data["es_email_mail"] = apply_filters('es_validate_subscribers_email', $data["es_email_mail"]);
+
+		if($data["es_email_mail"] === 'invalid'){
+			return "invalid";
+		}
+
 		$es_subscriber_name = sanitize_text_field(esc_attr($data["es_email_name"]));
 		$es_subscriber_status = sanitize_text_field(esc_attr($data["es_email_status"]));
 		$es_subscriber_group = sanitize_text_field(esc_attr($data["es_email_group"]));
@@ -125,6 +131,7 @@ class es_cls_dbquery {
 						}
 					}
 				}
+				// do_action('es_post_add_subscriber', $es_subscriber_email);
 				return "sus";
 			}
 		} elseif($action == "update") {
@@ -138,6 +145,7 @@ class es_cls_dbquery {
 						`es_email_status` = %s, `es_email_group` = %s WHERE es_email_id = %d LIMIT 1", array($es_subscriber_name, $es_subscriber_email,
 						$es_subscriber_status, $es_subscriber_group, $data["es_email_id"]));
 				$wpdb->query($sSql);
+				// do_action('es_post_add_subscriber', $es_subscriber_email);
 				return "sus";
 			}
 		}

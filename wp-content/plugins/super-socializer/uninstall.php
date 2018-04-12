@@ -31,17 +31,11 @@ if(isset($theChampGeneralOptions['delete_options'])){
 			foreach($theChampOptions as $option){
 				delete_site_option($option);
 			}
-			$wpdb->query("DELETE FROM $wpdb->usermeta WHERE meta_key LIKE 'thechamp%'");
-			$wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key LIKE '_the_champ%'");
-			$wpdb->query("DELETE FROM $wpdb->options WHERE option_name LIKE '_transient_heateor_ss_%'");
 		}
 		switch_to_blog($theChampOriginalBlogId);
 	}else{
 		foreach($theChampOptions as $option){
 			delete_option( $option );
 		}
-		$wpdb->query("DELETE FROM $wpdb->usermeta WHERE meta_key LIKE 'thechamp%'");
-		$wpdb->query("DELETE FROM $wpdb->postmeta WHERE meta_key LIKE '_the_champ%'");
-		$wpdb->query("DELETE FROM $wpdb->options WHERE option_name LIKE '_transient_heateor_ss_%'");
 	}
 }

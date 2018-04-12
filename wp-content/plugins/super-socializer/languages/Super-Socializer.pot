@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Super Socializer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-24 18:15+0530\n"
-"PO-Revision-Date: 2017-07-24 18:15+0530\n"
+"POT-Creation-Date: 2017-11-15 15:09+0530\n"
+"PO-Revision-Date: 2017-11-15 15:09+0530\n"
 "Last-Translator: The Champ <lordofthechamps@gmail.com>\n"
 "Language-Team: Heateor <hello@heateor.com>\n"
 "Language: en_IN\n"
@@ -245,7 +245,7 @@ msgid "Large Avatar"
 msgstr ""
 
 #: ../helper.php:935 ../admin/general_options.php:128
-#: ../admin/social_sharing.php:1969 ../admin/social_commenting.php:487
+#: ../admin/social_sharing.php:1973 ../admin/social_commenting.php:487
 #: ../admin/social_login.php:938 ../admin/like_buttons.php:822
 msgid "Save Changes"
 msgstr ""
@@ -308,13 +308,13 @@ msgstr ""
 msgid "You can specify any additional CSS rules (without &lt;style&gt; tag)"
 msgstr ""
 
-#: ../admin/general_options.php:139 ../admin/social_sharing.php:1974
+#: ../admin/general_options.php:139 ../admin/social_sharing.php:1978
 #: ../admin/social_commenting.php:492 ../admin/social_login.php:943
 #: ../admin/like_buttons.php:827
 msgid "Instagram Shoutout"
 msgstr ""
 
-#: ../admin/general_options.php:141 ../admin/social_sharing.php:1976
+#: ../admin/general_options.php:141 ../admin/social_sharing.php:1980
 #: ../admin/social_commenting.php:494 ../admin/social_login.php:945
 #: ../admin/like_buttons.php:829
 msgid ""
@@ -323,7 +323,7 @@ msgid ""
 "hashtags and people to mention in the Instagram post."
 msgstr ""
 
-#: ../admin/general_options.php:142 ../admin/social_sharing.php:1977
+#: ../admin/general_options.php:142 ../admin/social_sharing.php:1981
 #: ../admin/social_commenting.php:495 ../admin/social_login.php:946
 #: ../admin/like_buttons.php:830
 msgid ""
@@ -334,7 +334,7 @@ msgid ""
 "time."
 msgstr ""
 
-#: ../admin/general_options.php:143 ../admin/social_sharing.php:1978
+#: ../admin/general_options.php:143 ../admin/social_sharing.php:1982
 #: ../admin/social_commenting.php:496 ../admin/social_login.php:947
 #: ../admin/like_buttons.php:831
 msgid ""
@@ -1193,81 +1193,93 @@ msgid ""
 "an online website for the plugin to function properly."
 msgstr ""
 
-#: ../admin/social_sharing.php:1941 ../admin/like_buttons.php:810
+#: ../admin/social_sharing.php:1942
+msgid "Why is Instagram icon redirecting to Instagram website?"
+msgstr ""
+
+#: ../admin/social_sharing.php:1943
+msgid ""
+"Instagram icon is there to send website visitors to the Instagram page of "
+"your choice. You can save the desired Instagram handle in \"Instagram "
+"Username\" option in \"Standard Interface\" and \"Floating Interface\" "
+"sections."
+msgstr ""
+
+#: ../admin/social_sharing.php:1945 ../admin/like_buttons.php:810
 msgid "How to Place Title and Social Share Icons in the Same Row?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1942
+#: ../admin/social_sharing.php:1946
 msgid ""
 "How to restore Social Share counts lost after moving my website to SSL/Https?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1943 ../admin/social_commenting.php:476
+#: ../admin/social_sharing.php:1947 ../admin/social_commenting.php:476
 #: ../admin/social_login.php:927
 msgid "Why is my browser blocking some features of the plugin?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1944
+#: ../admin/social_sharing.php:1948
 msgid "Why the color of share icons is not being updated?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1945
+#: ../admin/social_sharing.php:1949
 msgid ""
 "Why is sharer not showing the correct image, title and other meta tags "
 "content?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1946
+#: ../admin/social_sharing.php:1950
 msgid "Why Facebook share counts are not appearing?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1947
+#: ../admin/social_sharing.php:1951
 msgid ""
 "How can I show share counts of my website rather than of individual pages/"
 "posts?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1948
+#: ../admin/social_sharing.php:1952
 msgid "How can I disable sharing on particular page/post?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1949
+#: ../admin/social_sharing.php:1953
 msgid "How can I specify minimum sharing count for sharing networks?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1950
+#: ../admin/social_sharing.php:1954
 msgid "How to share specific page?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1951
+#: ../admin/social_sharing.php:1955
 msgid "How to integrate Google Analytics with sharing?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1952
+#: ../admin/social_sharing.php:1956
 msgid "How to customize the look of total share counts?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1953
+#: ../admin/social_sharing.php:1957
 msgid "How to customize the look of individual share counts?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1954
+#: ../admin/social_sharing.php:1958
 msgid "How to show Whatsapp icon only on mobile devices?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1955
+#: ../admin/social_sharing.php:1959
 msgid "How to hide arrow after floating sharing bar?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1956
+#: ../admin/social_sharing.php:1960
 msgid "Why is share count not getting updated?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1957 ../admin/like_buttons.php:808
+#: ../admin/social_sharing.php:1961 ../admin/like_buttons.php:808
 msgid "Why is there so much space between like buttons?"
 msgstr ""
 
-#: ../admin/social_sharing.php:1958 ../admin/like_buttons.php:809
+#: ../admin/social_sharing.php:1962 ../admin/like_buttons.php:809
 msgid "Why are floating sharing/like buttons not appearing at homepage?"
 msgstr ""
 
@@ -2203,35 +2215,35 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: ../inc/social_sharing.php:839 ../inc/social_sharing.php:1043
+#: ../inc/social_sharing.php:842 ../inc/social_sharing.php:1046
 msgid "Invalid request"
 msgstr ""
 
-#: ../inc/social_sharing.php:846
+#: ../inc/social_sharing.php:849
 msgid "Providers not selected"
 msgstr ""
 
-#: ../inc/social_login.php:718
+#: ../inc/social_login.php:720
 msgid "Email"
 msgstr ""
 
-#: ../inc/social_login.php:719
+#: ../inc/social_login.php:721
 msgid "Confirm email"
 msgstr ""
 
-#: ../inc/social_login.php:721
+#: ../inc/social_login.php:723
 msgid "Save"
 msgstr ""
 
-#: ../inc/social_login.php:722
+#: ../inc/social_login.php:724
 msgid "Cancel"
 msgstr ""
 
-#: ../inc/social_login.php:796
+#: ../inc/social_login.php:798
 msgid "Email Verification"
 msgstr ""
 
-#: ../inc/social_login.php:798
+#: ../inc/social_login.php:800
 msgid ""
 "Please click on the following link or paste it in browser to verify your "
 "email"

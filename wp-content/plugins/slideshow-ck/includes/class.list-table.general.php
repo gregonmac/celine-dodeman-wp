@@ -220,7 +220,7 @@ class SlideshowckListTableGeneral extends SlideshowckListTable {
 	 * ************************************************************************ */
 	function process_bulk_action() {
 
-		if (! current_user_can('edit_plugins', 'delete_page')) {
+		if (! current_user_can('manage_options')) {
 			wp_die('You are not allowed to edit !');
 		}
 		//Detect when a bulk action is being triggered...

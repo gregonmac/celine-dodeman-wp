@@ -32,6 +32,7 @@ class Menu_Icons_OBFX_Module extends Orbit_Fox_Module_Abstract {
 		parent::__construct();
 		$this->name        = __( 'Menu Icons', 'themeisle-companion' );
 		$this->description = __( 'Module to define menu icons for navigation.', 'themeisle-companion' );
+		$this->active_default = true;
 	}
 
 
@@ -194,6 +195,10 @@ class Menu_Icons_OBFX_Module extends Orbit_Fox_Module_Abstract {
 			return;
 		}
 
+		if ( ! function_exists( 'get_current_screen' ) ) {
+		    return;
+        }
+        
 		$screen = get_current_screen();
 		if ( ! $screen instanceof WP_Screen || 'nav-menus' !== $screen->id ) {
 			return;

@@ -16,7 +16,7 @@ get_header(); ?>
 
 	<?php zerif_before_archive_content_trigger(); ?>
 
-	<div class="content-left-wrap col-md-9">
+	<div class="content-left-wrap ">
 
 		<?php zerif_top_archive_content_trigger(); ?>
 
@@ -79,7 +79,6 @@ get_header(); ?>
 
 	<?php zerif_after_archive_content_trigger(); ?>
 
-	<?php zerif_sidebar_trigger(); ?>
 
 </div><!-- .container -->
 

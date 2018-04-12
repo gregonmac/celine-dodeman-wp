@@ -70,6 +70,8 @@ if( (isset($_GET['es'])) && ($_GET['es'] == "subscribe") ) {
 				}
 				elseif($action == "ext") {
 					echo "already-exist";
+				}else if($action == "invalid"){
+					echo "invalid-email";
 				}
 			} else {
 				echo "unexpected-error";
