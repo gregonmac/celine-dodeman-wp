@@ -31,6 +31,106 @@ html {
     -ms-text-size-adjust: 100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
 }
 
+.fond-1 {
+    background: #3C4B7A;
+}
+
+.fond-2 {
+    background: #71B0CB;
+}
+
+.fond-3 {
+    background: #CA4851;
+}
+
+.fond-4 {
+    background: #ebebeb;
+}
+
+.fond-5 {
+    background: #A48841;
+}
+
+.fond-6 {
+    background: #9D9C9C;
+}
+
+.fond-7 {
+    background: #606C91;
+}
+
+.fond-8 {
+    background: #C5C7D1;
+}
+
+.fond-9 {
+    background: #FFFFFF;
+}
+
+.fond-10 {
+    background: #8c7620;
+}
+
+.bord-arrondi {
+    border-radius: 4px;
+}
+
+.bord-1 {
+    border: 1px solid;
+}
+
+.bord-3 {
+    border: 1px solid;
+}
+
+.bord-5 {
+    border: 5px solid;
+}
+
+.bord-10 {
+    border: 10px solid;
+}
+
+.bord-color-1 {
+    border-color: #3C4B7A;
+}
+
+.bord-color-2 {
+    border-color: #71B0CB;
+}
+
+.bord-color-3 {
+    border-color: #CA4851;
+}
+
+.bord-color-4 {
+    border-color: #ebebeb;
+}
+
+.bord-color-5 {
+    border-color: #A48841;
+}
+
+.bord-color-6 {
+    border-color: #9D9C9C;
+}
+
+.bord-color-7 {
+    border-color: #606C91;
+}
+
+.bord-color-8 {
+    border-color: #C5C7D1;
+}
+
+.bord-color-9 {
+    border-color: #FFFFFF;
+}
+
+.bord-color-10 {
+    border-color: #8c7620;
+}
+
 html,
 body,
 div,
@@ -111,6 +211,27 @@ td {
 
 body {
     background: #fff;
+}
+
+.content-left-wrap .listpost-content-wrap .entry-content > p > a {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: unset;
+    background-color: unset;
+    box-shadow: unset;
+    text-shadow: unset;
+    font-size: unset;
+    font-weight: unset;
+    text-align: unset;
+    vertical-align: unset;
+    white-space: unset;
+    text-transform: unset;
+    text-decoration: underline;
+}
+
+.content-left-wrap .listpost-content-wrap .entry-content > p > a:hover {
+    color: #71B0CB;
 }
 
 .content-left-wrap .entry-content > p > a {
@@ -1056,12 +1177,12 @@ a:active {
     width: 100%;
 }
 
-.nav .has_children > a:after {
-    margin: 0 0 0 6px;
-    color: inherit;
-    font-family: FontAwesome;
-    content: "\f0d7";
-}
+/*.nav .has_children > a:after {*/
+    /*margin: 0 0 0 6px;*/
+    /*color: inherit;*/
+    /*font-family: FontAwesome;*/
+    /*content: "\f0d7";*/
+/*}*/
 
 .nav .sub-menu .has_children > a:after {
     content: "\f0da";
@@ -1732,7 +1853,7 @@ object {
 .products,
 .testimonial,
 .contact-us {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .section-header {
@@ -1751,7 +1872,7 @@ object {
     margin-top: 15px;
     margin-bottom: 0;
     padding-bottom: 10px;
-    font-size: 45px;
+    font-size: 75px;
     line-height: 40px;
     text-transform: capitalize;
 }
@@ -2216,7 +2337,7 @@ ul.nav > li.current_page_item.current > a:before {
 
 /*----  SECTION:  HOME > LATEST NEWS   ----*/
 .latest-news {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 66px;
     background: #fff;
 }
@@ -3103,9 +3224,9 @@ ul.nav > li.current_page_item.current > a:before {
 -----------------------------------------*/
 
 .our-team {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 66px;
-    background: #fff;
+    background: #606C91;
 }
 
 .team-member {
@@ -3180,6 +3301,7 @@ ul.nav > li.current_page_item.current > a:before {
 }
 
 .team-member h3 {
+    letter-spacing: 1px;
     position: relative;
     margin-top: 15px;
     color: #404040;
@@ -3599,7 +3721,7 @@ ul.nav > li.current_page_item.current > a:before {
 -----------------------------------------*/
 
 .testimonial {
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     background: #8c7620;
 }
 
@@ -4007,7 +4129,7 @@ textarea {
 }
 
 .post-img-wrap {
-    width: 220px;
+    width: 220px !important;
     height: 250px;
     padding: 10px;
     display: inline-block;
@@ -4129,15 +4251,15 @@ article .posted-on a:hover {
 }
 
 /*.entry-title:after {*/
-    /*position: absolute;*/
-    /*z-index: 1;*/
-    /*bottom: -9px;*/
-    /*left: 0;*/
-    /*width: 10%;*/
-    /*height: 2px;*/
-    /*margin: auto;*/
-    /*background: #71B0CB;*/
-    /*content: "";*/
+/*position: absolute;*/
+/*z-index: 1;*/
+/*bottom: -9px;*/
+/*left: 0;*/
+/*width: 10%;*/
+/*height: 2px;*/
+/*margin: auto;*/
+/*background: #71B0CB;*/
+/*content: "";*/
 /*}*/
 
 .listpost-content-wrap .entry-title a:after {
@@ -4180,6 +4302,9 @@ article .posted-on a:hover {
 
 .listpost-content-wrap .entry-footer {
     padding-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #71B0CB;
 }
 
 .listpost-content-wrap-full .entry-footer > span,

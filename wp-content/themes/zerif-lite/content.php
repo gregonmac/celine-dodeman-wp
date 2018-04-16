@@ -90,12 +90,12 @@
 
 			if ( $categories_list && zerif_categorized_blog() ) {
 
-				echo '<span class="cat-links">';
-
-				/* Translators: Categories list */
-				printf( __( 'Posted in %1$s', 'zerif-lite' ), $categories_list );
-
-				echo '</span>';
+//				echo '<span class="cat-links">';
+//
+//				/* Translators: Categories list */
+//				printf( __( 'Posted in %1$s', 'zerif-lite' ), $categories_list );
+//
+//				echo '</span>';
 
 			} // End if categories
 

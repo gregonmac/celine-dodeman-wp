@@ -117,11 +117,11 @@
 
 				?>
 
-				<span class="cat-links">
-
-				<?php /* translators: Categories list */ printf( __( 'Posted in %1$s', 'zerif-lite' ), $categories_list ); ?>
-
-				</span>
+<!--				<span class="cat-links">-->
+<!---->
+<!--				--><?php ///* translators: Categories list */ printf( __( 'Posted in %1$s', 'zerif-lite' ), $categories_list ); ?>
+<!---->
+<!--				</span>-->
 
 				<?php endif; ?>
 

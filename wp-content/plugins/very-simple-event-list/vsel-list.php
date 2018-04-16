@@ -76,30 +76,36 @@ if ($page_image_size == "small") {
 $url=get_the_post_thumbnail(null, $page_post_thumbnail, array('alt' => '' . get_the_title() . ''));
 $title = get_the_title();
 $content = get_the_content();
-$date = date_i18n(get_option('date_format'), esc_attr($page_start_date)) . " " . $page_time;
+$date = date_i18n(get_option('date_format'), esc_attr($page_start_date));
 $id=get_the_ID();
-
+$location=esc_attr($page_location);
 $output .= <<<EOT
   <article id="event-$id" class="post-725 post type-post status-publish format-video has-post-thumbnail hentry category-video post_format-post-format-video" itemtype="http://schema.org/BlogPosting">
-	<div class="post-img-wrap latestnews-box"><div class="">
-	    $url
-	 </div>
+	<div class="post-img-wrap latestnews-box">
+        <div class="">
+            <a href="#">    
+                $url
+            </a>
+         </div>
 	 </div>
     <div class="listpost-content-wrap">
-	<div class="list-post-top">
-
-	<header class="entry-header">
-		<h1 class="entry-title"><a>$title</a></h1>
-	</header><!-- .entry-header -->
-
-	<div class="entry-content"><p>$content</p>
-
-	<footer class="entry-footer">
-        $date
-	</footer><!-- .entry-footer -->
-	</div><!-- .entry-content --><!-- .entry-summary -->
-	</div><!-- .list-post-top -->
-</div><!-- .listpost-content-wrap -->
+        <div class="list-post-top">
+            <header class="entry-header">
+                <h1 class="entry-title"><a>$title</a></h1>
+            </header>
+            <div class="entry-content">
+                <p>$content</p>
+                <span>
+                    $location
+                    <br>
+                    $page_time
+                    <footer class="entry-footer">
+                        $date
+                    </footer>
+                </span>
+            </div>
+        </div>
+    </div>
 </article>
 EOT;
 //// display the event list

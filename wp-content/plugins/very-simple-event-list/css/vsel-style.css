@@ -160,6 +160,7 @@
     font-size: 15px;
 }
 .vsel-tile {
+    background-color: #fff;
     border: solid 1px;
     -moz-box-shadow: 3px 3px 5px 0px #656565;
     -webkit-box-shadow: 3px 3px 5px 0px #656565;

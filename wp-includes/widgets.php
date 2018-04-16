@@ -247,7 +247,7 @@ function register_sidebar($args = array()) {
 		'class' => '',
 		'before_widget' => '<li id="%1$s" class="widget %2$s">',
 		'after_widget' => "</li>\n",
-		'before_title' => '<h2 class="dark-text" style="font-size:45px">',
+		'before_title' => '<h2 class="white-text" style="font-size:64px;line-height:75px">',
 		'after_title' => "</h2>\n",
 	);
 
