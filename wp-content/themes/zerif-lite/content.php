@@ -14,14 +14,15 @@
 
 		if ( ! empty( $post_thumbnail_url ) ) {
 
-			echo '<div class="post-img-wrap">';
-
+			echo '<div class="post-img-wrap latestnews-box" >';
+            echo '<div class="">';
 				echo '<a href="' . esc_url( get_permalink() ) . '" title="' . the_title_attribute( 'echo=0' ) . '" >';
 
 					echo $post_thumbnail_url;
 
 				echo '</a>';
 
+			echo '</div>';
 			echo '</div>';
 
 			echo '<div class="listpost-content-wrap">';
@@ -89,12 +90,12 @@
 
 			if ( $categories_list && zerif_categorized_blog() ) {
 
-				echo '<span class="cat-links">';
-
-				/* Translators: Categories list */
-				printf( __( 'Posted in %1$s', 'zerif-lite' ), $categories_list );
-
-				echo '</span>';
+//				echo '<span class="cat-links">';
+//
+//				/* Translators: Categories list */
+//				printf( __( 'Posted in %1$s', 'zerif-lite' ), $categories_list );
+//
+//				echo '</span>';
 
 			} // End if categories
 

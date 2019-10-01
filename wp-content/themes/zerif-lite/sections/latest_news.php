@@ -68,8 +68,9 @@ if ( ! empty( $zerif_total_posts ) && ( $zerif_total_posts > 0 ) ) :
 					echo $newSlide;
 				}
 
-					echo '<div class="col-sm-3 latestnews-box">';
+					echo '<div class="col-sm-3 ">';
 
+						echo '<div class="latestnews-box">';
 						echo '<div class="latestnews-img">';
 
 							echo '<a class="latestnews-img-a" href="' . esc_url( get_permalink() ) . '" title="' . esc_attr( get_the_title() ) . '">';
@@ -88,14 +89,15 @@ if ( ! empty( $zerif_total_posts ) && ( $zerif_total_posts > 0 ) ) :
 
 								echo '<h3 class="latestnews-title"><a href="' . esc_url( get_permalink() ) . '" title="' . esc_attr( get_the_title() ) . '">' . wp_kses_post( get_the_title() ) . '</a></h3>';
 
-								$ismore = ! empty( $post->post_content ) ? strpos( $post->post_content, '<!--more-->' ) : '';
+//								$ismore = ! empty( $post->post_content ) ? strpos( $post->post_content, '<!--more-->' ) : '';
+//
+//								if ( ! empty( $ismore ) ) {
+//									the_content( esc_html__( 'Read more', 'zerif-lite' ) . ' <span class="sr-only">' . esc_html__( 'about ', 'zerif-lite' ) . get_the_title() );
+//								} else {
+//									the_excerpt();
+//								}
 
-								if ( ! empty( $ismore ) ) {
-									the_content( esc_html__( 'Read more', 'zerif-lite' ) . ' <span class="sr-only">' . esc_html__( 'about ', 'zerif-lite' ) . get_the_title() );
-								} else {
-									the_excerpt();
-								}
-
+								echo '</div>';
 								echo '</div>';
 
 								echo '</div><!-- .latestnews-box"> -->';
@@ -113,7 +115,8 @@ if ( ! empty( $zerif_total_posts ) && ( $zerif_total_posts > 0 ) ) :
 				}
 
 							echo '<div class="item ' . $active . '" role="option">';
-							echo '<div class="col-md-3 latestnews-box">';
+							echo '<div class="col-md-3 ">';
+							echo '<div class="latestnews-box">';
 							echo '<div class="latestnews-img">';
 							echo '<a class="latestnews-img-a" href="' . get_permalink() . '" title="' . get_the_title() . '">';
 				if ( has_post_thumbnail() ) :
@@ -125,16 +128,17 @@ if ( ! empty( $zerif_total_posts ) && ( $zerif_total_posts > 0 ) ) :
 						echo '</div>';
 						echo '<div class="latesnews-content">';
 						echo '<h3 class="latestnews-title"><a href="' . esc_url( get_permalink() ) . '" title="' . esc_attr( get_the_title() ) . '">' . wp_kses_post( get_the_title() ) . '</a></h3>';
-
-						if ( ! empty( $post->post_content ) ) {
-							$ismore = strpos( $post->post_content, '<!--more-->' );
-						}
-
-						if ( $ismore ) {
-							the_content( esc_html__( 'Read more', 'zerif-lite' ) . ' <span class="sr-only">' . esc_html__( 'about ', 'zerif-lite' ) . get_the_title() );
-						} else {
-							the_excerpt();
-						}
+//                        echo "AZERTY";
+//						if ( ! empty( $post->post_content ) ) {
+//							$ismore = strpos( $post->post_content, '<!--more-->' );
+//						}
+//
+//						if ( $ismore ) {
+//							the_content( esc_html__( 'Read more', 'zerif-lite' ) . ' <span class="sr-only">' . esc_html__( 'about ', 'zerif-lite' ) . get_the_title() );
+//						} else {
+//							the_excerpt();
+//						}
+						echo '</div>';
 						echo '</div>';
 						echo '</div>';
 						echo '</div>';

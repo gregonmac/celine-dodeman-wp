@@ -35,7 +35,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-
 		<?php
 
 			/* translators: used between list items, there is a space after the comma */
