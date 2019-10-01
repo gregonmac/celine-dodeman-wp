@@ -1,0 +1,518 @@
+CHANGELOG
+=========
+
+= Version 10.7 =
+* fix: forgot to add the "alt" attribute to the featured image
+* Minor changes in code
+
+= Version 10.6 =
+* Changed file names to make file structure more clear
+* Added file vsel-acf
+* Relocated code of the Advanced Custom Fields plugin to this file
+* Changed code structure of theme template support file
+* Now code structure matches the code structure of other template files
+* Removed ID "vsel" from the single event container and added class "vsel-content" instead
+* Because this ID was being used as container for all events, but also as container for a single event
+* If you have added custom CSS to this ID or class, you might have to change it
+* Removed the "srcset" attribute from the featured image (thanks Ladislav)
+* Because this was overriding the source image that was selected on settingspage
+
+= Version 10.5 =
+* Minor changes in code
+
+= Version 10.4 =
+* Fix: forgot to add this notification for the widget
+
+= Version 10.3 =
+* Added notification if field type of the Advanced Custom Fields plugin is not supported
+* This notification will be displayed in the frontend of your website
+
+= Version 10.2 =
+* Fix: added an array check to avoid warning (thanks Todd)
+
+= Version 10.1 =
+* More fields of the Advanced Custom Fields plugin are supported
+* You can now also add fields for URL, Link, Email and Image
+* And field order in frontend of your website is now similar to order in dashboard
+
+= Version 10.0 =
+* Added basic support for the Advanced Custom Fields plugin
+* You can now add extra fields to the meta section
+* New setting to hide these fields in page or widget event list
+
+= Version 9.9 =
+* After some discussion I have decided to remove the max character length of most inputs again
+
+= Version 9.8 =
+* SEO: changed title of event in list from H4 into H3
+* This applies to events on pages where you have added the shortcode and to events listed with the VSEL widget
+* Minor changes in code
+
+= Version 9.7 =
+* Added settings to disable support for post type (event) archive page, post attributes and menu page
+* The 3 features above were recently added to support the Elementor page builder plugin
+* Minor changes in code
+* Added, removed and changed escaping and sanitizing of many items
+
+= Version 9.6 =
+* Increased max character length of inputs
+
+= Version 9.5 =
+* Added CSS class to the events list: vsel-container
+* Added attribute to change this CSS class per event list
+* This can be useful if you want to apply different styling when having multiple event lists
+* Stylesheet: removed the unnecessary #vsel prefix from most variables
+* Increased max character length of URL inputs
+* Removed unnecessary escaping
+
+= Version 9.4 =
+* Fix: datepicker of end date (thanks Simon)
+* New setting to change slug base for event and event category
+
+= Version 9.3 =
+* Many minor changes in code
+* These changes have no visible effect
+
+= Version 9.2 =
+* New setting to link or unlink category to the event category page
+* Added files vsel-variables and vsel-widget-variables
+* Relocated all event variables to these 2 files
+* Removed files vsel-meta and vsel-widget-meta
+* Many minor changes in code
+* Some textual changes on settingspage
+
+= Version 9.1 =
+* Changed order of tabs on settingspage
+* Added minified CSS files in folder /css (kept the original CSS files for reference)
+* Removed unnecessary whitespaces from most files
+
+= Version 9.0 =
+* New function: vsel_event_status()
+* Changed function name vsel_event_class() into vsel_event_cats()
+* Event status and event categories are added to the CSS class of each event in list
+* This only applies to events on pages where you have added the shortcode and to the widget
+* Event status can be: vsel-upcoming, vsel-current, vsel-past
+* This can be useful if you want to apply styling for certain events or certain event categories
+* Added extra check for date fields (error message in case of missing start or end date)
+* Have set show_in_nav_menus to true, events are now available for selection in navigation menus
+* The only reason for adding feature above, is to support the Elementor page builder plugin
+
+= Version 8.9 =
+* Fix: forgot to add updated file vsel-templates
+
+= Version 8.8 =
+* Added support for page attributes and the post type (event) archive page
+* The only reason for adding both features above, is to support the Elementor page builder plugin
+* You can now select a custom template for a single event, if available
+* You can now list all your events via your-domain/event
+* New setting to disable support for the post type (event) archive page template
+* Added hook to flush rewrite rules on plugin activation
+* File vsel-style: removed margin from the #vsel container
+* Did this to avoid a conflict with Twenty Nineteen theme
+* Added new icon in dashboard
+* Thanks again Torsten and Hanna
+
+= Version 8.7 =
+* Fix: wrong escaping and sanitization for some fields in file vsel-options
+
+= Version 8.6 =
+* Fix: the new setting to change date format wasn't working properly
+
+= Version 8.5 =
+* New setting to change date format for the frontend of your website (thanks Torsten)
+* New settings to disable support for theme template files (thanks Hanna)
+* You can disable theme template files in case of a conflict with your theme or page builder plugin
+* New setting to disable pagination
+* Some textual changes
+* Removed unnecessary notifications from changelog (such as "updated readme file" and "updated FAQ")
+
+= Version 8.4 =
+* New settings to left or right align meta section and featured image
+* Now you don't have to use custom CSS for this
+* Added tabbed navigation on settingspage
+* Some textual changes
+* Updated stylesheet
+
+= Version 8.3 =
+* Readme file: removed donate link
+* Updated theme author info
+* Credits in changelog: removed all full names (because of the GDPR)
+
+= Version 8.2 =
+* Fix: the default order of the past and all events list is descending (thanks gahmedova)
+* Updated both shortcode files
+
+= Version 8.1 =
+* Dashboard: relocated the event meta section to underneath text editor
+* Minor textual change on settingspage
+* Minor change in stylesheet
+
+= Version 8.0 =
+* Changed CSS class no-events into vsel-no-events
+* File vsel-templates: removed unnecessary escaping from empty variables
+* File vsel: changed the ID of variable event_date into event_end_date
+* File vsel: changed the ID of one of the custom columns on the events page (again)
+* These ID changes have no effect on your events or settings
+
+= Version 7.9 =
+* Removed files vsel-single and vsel-category
+* Added file vsel-templates
+* Relocated content of the removed files to this file
+* Now plugin support for theme template files is located in 1 file
+* File vsel: minor textual change
+
+= Version 7.8 =
+* Some textual changes on settingspage
+* File vsel: changed the id of the custom columns on the events page
+
+= Version 7.7 =
+* Some textual changes on settingspage
+* Updated file vsel-options
+
+= Version 7.6 =
+* New: added support for the search results page
+* Updated file vsel-category
+
+= Version 7.5 =
+* New: added support for the category (archive) page
+* New: display (or hide) event categories
+* New: added basic support for the Gutenberg editor
+* When using Gutenberg: meta section is located in the Extended Settings tab
+* Added file vsel-category
+* Added files vsel-meta and vsel-widget-meta
+* Relocated all meta related settings to these 2 files
+* Updated most files
+
+= Version 7.4 =
+* New: event class also contains the event category (if set)
+* New: setting to link featured image to single event page
+* New: setting to set the image size that is being used
+* Removed shortcode attribute to set the image size
+* Updated shortcode files
+* Updated files vsel, vsel-options and uninstall
+
+= Version 7.3 =
+* Fix: custom excerpt supports punctuation now (thanks rbnetit)
+* New: hide featured image and/or text in event list via the settingspage
+* You can now display the event meta only and in full width
+* Updated files vsel, vsel-list, vsel-options, vsel-style and uninstall
+
+= Version 7.2 =
+* Fix: custom more info label did not display properly
+* Changed prefix of even more elements to make code structure more clear
+* Updated files vsel-shortcodes and vsel-list
+* Updated files vsel-widget-shortcodes and vsel-widget-list
+* File vsel-single: added escaping to empty variables
+
+= Version 7.1 =
+* Changed CSS class vsel_widget into vsel-widget
+* Files vsel-shortcodes and vsel-list: changed prefix of most elements
+* Files vsel-widget-shortcodes and vsel-widget-list: changed prefix of most elements
+* File vsel-single: changed prefix of most elements
+* Changed prefix of most elements in above files to make code structure more clear
+* Several minor changes
+
+= Version 7.0 =
+* Minor textual change
+* Minor change in file vsel-single
+
+= Version 6.9 =
+* New: change labels via the settingspage
+* New: display start date and end date on the same line via the settingspage
+* Removed label attributes
+* Removed attribute to display start date and end date on the same line
+* Attributes mentioned above were not supported on the single event page
+* Updated most files
+
+= Version 6.8 =
+* Reduce space in widget and mobile screen: the featured image is not full width anymore
+* But you can still undo this, by using some custom CSS
+* New: activate link to single event for page or widget separately
+* New: activate excerpt for page or widget separately
+* You might have to reset both settings on the settingspage
+* New: added CSS class to start date and end date on the same line: vsel-meta-combined-date
+* Increased the custom excerpt lenght from 150 to 250 characters
+* Updated most files
+
+= Version 6.7 =
+* Changed and simplyfied code and file structure regarding the shortcodes
+* Widget uses its own shortcode files now
+* Removed files vsel-upcoming, vsel-past, vsel-current and vsel-all
+* Added files vsel-shortcodes and vsel-widget-shortcodes
+* Added files vsel-list and vsel-widget-list
+* New: added extra settings to hide elements
+* New: added event ID to each event in list
+* New: shortcode attribute to display start date and end date on the same line
+* New: shortcode attribute to set the image size that is being used
+* Changed default image width from 40% into max. 40% (to avoid blurry image)
+* Changed default image width in widget from 100% into max. 100% (to avoid blurry image)
+* Updated most files
+
+= Version 6.6 =
+* Fix: used wrong CSS class for several date fields
+* Added extra CSS class to all date fields for better customization
+* Updated file vsel-style
+* Updated all shortcode files
+* Best practice: removed closing PHP tag from most files
+* Best practice: added newline at end of most files
+
+= Version 6.5 =
+* Events are now listed on start date instead of end date
+* Removed support for events without start date
+* These events are posted with version 4.0 and older
+* This also means they are not listed anymore
+* To solve this please reset date for each of these events
+* New attribute to change no events text: no_events_text
+* Updated all shortcode files
+* Updated pot file
+
+= Version 6.4 =
+* Fixed pagination when event list is on static front page (thanks bcworkz and Alan)
+* Changed custom query names into unique ones to avoid conflict
+* Wrapped meta variables date, time and location in span tags
+* Now you can apply custom CSS to the variable itself instead to whole label
+* Added CSS class to no events text: no-events
+* Updated all shortcode files
+* Updated file vsel-style
+* Updated file vsel-datepicker (new jQuery version)
+
+= Version 6.3 =
+* File vsel: fixed mistake in user permission check
+* New setting: hide date on page or in widget
+* New setting: hide link to more info on page with all events
+* Updated all shortcode files
+* Updated file vsel-style
+* Minor textual changes
+
+= Version 6.2 =
+* Minor textual changes
+
+= Version 6.1 =
+* Added shortcode attribute to change default order of events (asc or desc)
+* Fix: changed time format in shortcode files
+
+= Version 6.0 =
+* You can now also list all events
+* Added file vsel-all
+* Changed time format in shortcode files: now time of your website is used
+* Updated files vsel and vsel-widget
+
+= Version 5.9 =
+* Widget information field: save HTML is allowed
+* Added filter wp_kses_post
+* Updated file vsel-widget
+
+= Version 5.8 =
+* All PHP files: disable direct access to file
+
+= Version 5.7 =
+* File vsel-single: forgot to change class .vsel-info into .vsel-image-info
+
+= Version 5.6 =
+* Hide image or event info in widget, instead of both simultaneously
+* Changed class .vsel-info into .vsel-image-info
+* Added class .vsel-info to event info
+* Updated shortcode files
+* Updated file vsel-options
+
+= Version 5.5 =
+* File vsel-widget: fixed PHP 7 error (thanks nx3d)
+
+= Version 5.4 =
+* File vsel-upcoming: forgot to support multi-day events as well (thanks Tom)
+* Changed class .hide into .vsel-hide to avoid conflict with CSS in other stylesheets
+
+= Version 5.3 =
+* Files vsel-upcoming, vsel-past and vsel-current: fix in display order of excerpt and content
+
+= Version 5.2 =
+* Fix: date display
+* Fix: single event template
+* Added feature: custom summary while adding an event
+* Added new event list: current events
+* Updated file uninstall
+
+= Version 5.1 =
+* Updated file vsel-widget: no shortcode needed to display your upcoming or past events
+* Widget now only accepts attributes
+* Updated files vsel-upcoming, vsel-past and vsel-single: error message in case of wrong date
+
+= Version 5.0 =
+* Updated files vsel and vsel-widget
+* Updated JS file vsel-datepicker
+* Updated CSS file vsel-datepicker
+* Removed localization from datepicker (supported in WordPress 4.6)
+* Localized all placeholders
+* Added link to settingspage
+* Changed classes vsel-meta-text and vsel-all-events into vsel-widget-text and vsel-widget-link
+
+= Version 4.9 =
+* Only updated readme file
+
+= Version 4.8 =
+* Added file changelog
+
+= Version 4.7 =
+* Updated files vsel-widget and style
+* Widget: set a link to all events
+* Updated text strings
+
+= Version 4.6 =
+* Fix: setting to hide date in single event
+
+= Version 4.5 =
+* Added feature to link title to single event
+* Added the read more link on single event list too
+* Updated settingspage
+
+= Version 4.4 =
+* Relocated setting (hide date) from event form to settingspage 
+* Updated settingspage
+* Changed file names
+* Several minor changes
+
+= Version 4.3 =
+* Settingspage: show a summary instead of all info in event list
+
+= Version 4.2 =
+* Updated the multi-day event display in frontend
+
+= Version 4.1 =
+* Added file vsel_single: VSEL now supports single events
+* Added multi-day feature with start date and end date
+* Both shortcode files: hide pagination in widget because it's not working properly
+
+= Version 4.0 =
+* Fix: changed US dateformat in datepicker back to year-month-day
+
+= Version 3.9 =
+* Added checkbox to open link in new window or the same window
+* Changed US dateformat in datepicker from year-month-day into month-day-year
+* Both shortcode files: wrapped next/prev link in div instead of paragraph tag 
+* Updated file uninstall
+
+= Version 3.8 =
+* File vsel: date column in dashboard is sortable now
+* Both shortcode files: wrapped next/prev link in paragraph tag
+* Updated file vsel_style
+
+= Version 3.7 =
+* File vsel: changed filter name
+* Updated text strings
+
+= Version 3.6 =
+* Important: changed past events shortcode into vsel-past-events
+
+= Version 3.5 =
+* Added shortcode attributes for event date, event time and event location
+* Updated settings to hide elements in widget event list (thanks Danny)
+* Added argument in query to avoid issue with very old events (thanks hallvors)
+* Updated text strings
+
+= Version 3.4 =
+* Added widget functionality
+* Settingspage: added settings to hide elements in widget event list
+* Updated file uninstall (thanks Danny)
+* Updated file vsel_style
+* Removed info about add-on (premium) version
+
+= Version 3.3 =
+* Added settingspage 
+* Added checkbox to keep all events and settings when uninstalling plugin
+* Added info about add-on (premium) version
+
+= Version 3.2 =
+* Request and fix: changed alignment of next and prev link
+
+= Version 3.1 =
+* Localized the datepicker
+* Localized dateformat: European and US dateformat
+* Request: added checkbox to hide date in frontend
+* Added a PayPal donate link
+
+= Version 3.0 =
+* Relocated file vsel_style to folder /css
+* Updated file vsel
+
+= Version 2.9 =
+* Fix in file style: in some cases event was not displayed full width (thanks Emmy)
+* File style: added class for event title
+
+= Version 2.8 =
+* Request: added shortcode attribute to set number of event on page
+* Request: added class for each meta-tag paragraph
+* Updated file vsel_style
+
+= Version 2.7 =
+* Removed translations: plugin now supports WordPress language packs
+* Added event categories: display events from certain categories using a shortcode attribute
+* Added custom URL link label to replace the static "More info"
+
+= Version 2.6 =
+* Added file uninstall so settings in database (including all events) are removed when uninstalling plugin
+* Datepicker update
+
+= Version 2.5 =
+* Updated Data Validation and Escaping
+* Fixed mistake in French translation (thanks Sylva) 
+
+= Version 2.4 =
+* Fix: in previous versions info was displayed without linebreaks (thanks Jesper) 
+
+= Version 2.3 =
+* Changed text domain for the wordpress.org translation system
+* Fixed next/prev posts navigation
+
+= Version 2.2 =
+* Updated files vsel_shortcode and vsel_past_events_shortcode
+* Added Czech translation (thanks Jiri)
+* Updated language files
+
+= Version 2.1 =
+* Files vsel_shortcode and vsel_past_events_shortcode: replaced echo with return (thanks Sebastian)
+
+= Version 2.0 =
+* For frontend you can set date format in WP dashboard via Settings > General
+* Updated files vsel_shortcode and vsel_past_events_shortcode 
+
+= Version 1.9 =
+* Only updated readme file
+
+= Version 1.8 =
+* Updated language files
+* Added French translation (thanks Claire)
+* Added Portuguese translation (thanks Marta)
+
+= Version 1.7 =
+* Added Brazilian Portuguese translation (thanks Fernando)
+* Added Ukrainian translation (thanks Kuda Poltava Team)
+
+= Version 1.6 =
+* Added German translation (thanks Andrea)
+
+= Version 1.5 =
+* File vsel: changed date format in backend
+
+= Version 1.4 =
+* Request: display past events too
+* Added file vsel_past_events_shortcode: now you can display past events too
+* File vsel: increased max. input from 50 to 150 characters
+* File vsel: added sanitize_text_field and esc_url to input
+* Added Swedish translation (thanks Cecilia)
+
+= Version 1.3 =
+* File vsel: changed URL validation from sanitize_text_field into esc_url
+* File vsel_shortcode: changed display of URL in frontend
+* Updated language files
+
+= Version 1.2 =
+* Request: add field for event URL (link)
+* Updated language files
+
+= Version 1.1 =
+* Added featured image
+* Added pagination
+* Several minor changes
+
+= Version 1.0 =
+* First stable release
