@@ -3385,6 +3385,11 @@ ul.nav > li.current_page_item.current > a:before {
 }
 
 @media (min-width: 1200px) {
+    .vsel-widget {
+        /* margin:0 10px !important; */
+    clear: none !important;
+    }
+    
     .our-team .row > #vsel_widget-4 {
         float: left;
         position: relative;
@@ -3394,8 +3399,111 @@ ul.nav > li.current_page_item.current > a:before {
         width: 33.33333333%;
     }
 }
+@media (max-width: 480px){
+    .vsel-image-info {
+    margin-top: 20px;
+}
+}
+@media (min-width: 768px) {
+.vsel-image-info {
+    width: 75%;
+    float: right;
+}
+}
+.entry-content .vsel-image-info a{
+    margin: 10px;
+    padding: 8px 25px 8px 25px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #71B0CB;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.vsel-polaroid{
+    background: white;
+    border: solid 1px;
+    -moz-box-shadow: 3px 3px 5px 0px #656565;
+    -webkit-box-shadow: 3px 3px 5px 0px #656565;
+    -o-box-shadow: 3px 3px 5px 0px #656565;
+    box-shadow: 3px 3px 5px 0px #656565;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=135, Strength=5);
+    max-width: 228px;
+    max-height: 285px;
+    min-height: 285px;
+    margin: auto;
+}
+
+.vsel-container-widget .vsel-widget-meta-title{
+    margin-top: -40px;
+
+}
+
+#vsel_widget-4 h2{
+    font-size:75px;
+    padding-bottom: 30px;
+}
+
+.vsel-container-widget .vsel-widget-meta-title a{
+    font-size: 1em;
+    color:black;
+}
+.vsel-widget-meta-single-date{
+    font-size: 0.6em;
+}
+.vsel-container-widget .vsel-meta-single-date{
+
+    border: solid 0.5px grey;
+    background-color: #e7ac44;
+    height: 40px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    width: 40px;
+    margin: auto !important;
+    margin-top: 5px !important;
+    padding-top: 6px !important;
+}
+
+
+.vsel-widget {
+    clear: none !important;
+}
+.widget-vsel{
+    max-width: 80% !important;
+    height: auto;
+    float: none !important;
+    margin: none !important;
+    padding: 0;
+    border: 0;
+}
+
+.entry-content .vsel-content h3 {
+    margin: 0 0 10px;
+    color: #404040;
+    font-size: 20px;
+    line-height: 60px;
+    font-family: 'AvenirRoman';
+    text-transform: none !important;
+}
+
+.vsel-content .vsel-image {max-width:40%; height:auto; float:right; 
+    margin: 10px 0 0 0px; padding:0; border:0;}
+
+#vsel .vsel-content {
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
 
 @media (min-width: 768px) {
+
+    
     .our-team .row > #vsel_widget-4 {
         float: left;
         position: relative;

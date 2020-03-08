@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function vsel_widget_shortcode( $vsel_atts ) {
 	// shortcode attributes
 	$vsel_atts = shortcode_atts(array(
-		'class' => 'vsel-container',
+		'class' => 'vsel-container vsel-container-widget',
 		'event_cat' => '',
 		'posts_per_page' => '',
 		'order' => 'asc',
@@ -18,7 +18,7 @@ function vsel_widget_shortcode( $vsel_atts ) {
 	// initialize output
 	$output = '';
 	// main container
-	$output .= '<div id="vsel" class="'.$vsel_atts['class'].'">';
+	$output .= '<div id="vsel" class="row '.$vsel_atts['class'].'">';
 		// query
 		$today = strtotime( 'today' );
 		$vsel_meta_query = array(

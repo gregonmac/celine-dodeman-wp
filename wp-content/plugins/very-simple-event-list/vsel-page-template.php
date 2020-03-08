@@ -7,6 +7,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 // event container
 $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_cats().vsel_event_status().'">';
 	// meta section
+	
+	if ( ($page_image_hide != 'yes') ) {
+			if ( has_post_thumbnail() ) {
+				$image_attributes = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), $page_image_source );
+				$image_title = get_the_title( get_post_thumbnail_id( get_the_ID() ) );
+				if ($page_link_image != 'yes') {
+					$output .= '<div class="vsel-polaroid" style="float: left;max-height: 200px;max-width: 200px;min-height: 220px;min-width: 220px;"><img style="padding:0px 10px 25px 10px;max-width: 100%;max-height: 90%;" class ="'.$page_img_class.'" src="'.$image_attributes[0].'" width="100%" height="100%" alt="'.$image_title.'" /></div>';
+				} else {
+					$output .=  '<a href="'. get_permalink() .'"><img class ="'.$page_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
+				}
+			}
+		}
+	
+	// image info section
+	$output .= $page_image_info_section_start;
+
 	$output .= $page_meta_section_start;
 		// title
 		if ($page_link_title != 'yes') {
@@ -86,20 +102,18 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_ca
 			}
 		}
 	$output .= $page_meta_section_end;
-	// image info section
-	$output .= $page_image_info_section_start;
 		// featured image
-		if ( ($page_image_hide != 'yes') ) {
-			if ( has_post_thumbnail() ) {
-				$image_attributes = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), $page_image_source );
-				$image_title = get_the_title( get_post_thumbnail_id( get_the_ID() ) );
-				if ($page_link_image != 'yes') {
-					$output .= '<img class ="'.$page_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" />';
-				} else {
-					$output .=  '<a href="'. get_permalink() .'"><img class ="'.$page_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
-				}
-			}
-		}
+		// if ( ($page_image_hide != 'yes') ) {
+		// 	if ( has_post_thumbnail() ) {
+		// 		$image_attributes = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), $page_image_source );
+		// 		$image_title = get_the_title( get_post_thumbnail_id( get_the_ID() ) );
+		// 		if ($page_link_image != 'yes') {
+		// 			$output .= '<div class="vsel-polaroid" style="float: right;margin-left: 10px;margin-left: 10px;max-height: 250px;max-width: 250px;min-height: 250px;min-width: 250px;"><img style="padding:0px 10px 25px 10px;max-width: 100%;max-height: 90%;" class ="'.$page_img_class.'" src="'.$image_attributes[0].'" width="100%" height="100%" alt="'.$image_title.'" /></div>';
+		// 		} else {
+		// 			$output .=  '<a href="'. get_permalink() .'"><img class ="'.$page_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
+		// 		}
+		// 	}
+		// }
 		// info
 		if ( ($page_info_hide != 'yes') ) {
 			$output .= '<div class="vsel-info">';

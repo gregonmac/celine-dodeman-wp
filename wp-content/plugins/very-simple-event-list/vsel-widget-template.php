@@ -5,14 +5,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // event container
-$output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_cats().vsel_event_status().'">';
+$output .= '<div id="event-'.get_the_ID().'" class="vsel-widget col-sm-3 col-lg-3 vsel-content '.vsel_event_cats().vsel_event_status().'">';
 	// meta section
+	$output .= '<div class="vsel-image-info">';
+			// featured image
+			if ($widget_image_hide != 'yes') {
+				if ( has_post_thumbnail() ) {
+					$image_attributes = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), $widget_image_source );
+					$image_title = get_the_title( get_post_thumbnail_id( get_the_ID() ) );
+					if ($widget_link_image != 'yes') {
+						$output .= '<a href="'. get_permalink() .'"><div class="vsel-polaroid" ><img class ="'.$widget_img_class.' widget-vsel" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></div></a>';
+					} else {
+						$output .=  '<a href="'. get_permalink() .'"><img class ="'.$widget_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
+					}
+				}
+			}
+			// info
+			if ($widget_info_hide != 'yes') {
+				$output .= '<div class="vsel-info">';
+					if ($widget_excerpt != 'yes') {
+						$output .= apply_filters( 'the_content', get_the_content() );
+					} elseif (!empty($widget_summary)) {
+						$output .= apply_filters( 'the_excerpt', $widget_summary );
+					}  else {
+						$output .= apply_filters( 'the_excerpt', get_the_excerpt() );
+					}
+				$output .= '</div>';
+			}
+		$output .= '</div>';
 	$output .= '<div class="vsel-meta">';
-		// title
+		// titl		
 		if ($widget_link_title != 'yes') {
 			$output .= '<h3 class="vsel-meta-title">' . get_the_title() . '</h3>';
 		} else {
-			$output .=  '<h3 class="vsel-meta-title"><a href="'. get_permalink() .'" rel="bookmark" title="'. get_the_title() .'">'. get_the_title() .'</a></h3>';
+			$output .=  '<div class="vsel-widget-meta-title"><a href="'. get_permalink() .'" rel="bookmark" title="'. get_the_title() .'">'. get_the_title() .'</a></div>';
 		}
 		// date
 		if ( ($widget_date_hide != 'yes') ) {
@@ -31,13 +57,13 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_ca
 					$output .= '<p class="vsel-meta-date vsel-meta-start-date">';
 					$output .= sprintf(esc_attr($widget_start_label), '<span>'.date_i18n( esc_attr($date_format), esc_attr($widget_start_date) ).'</span>' );
 					$output .= '</p>';
-					$output .= '<p class="vsel-meta-date vsel-meta-end-date">';
+					$output .= '<p class="vsel-meta-date vsel-meta-end-date ">';
 					$output .= sprintf(esc_attr($widget_end_label), '<span>'.date_i18n( esc_attr($date_format), esc_attr($widget_end_date) ).'</span>' );
 					$output .= '</p>';
 				}
 			} elseif ($widget_end_date == $widget_start_date) {
 				$output .= '<p class="vsel-meta-date vsel-meta-single-date">';
-				$output .= sprintf(esc_attr($widget_date_label), '<span>'.date_i18n( esc_attr($date_format), esc_attr($widget_end_date) ).'</span>' );
+				$output .= sprintf(esc_attr($widget_date_label), '<span class=" vsel-widget-meta-single-date">'.date_i18n( __( 'j M' ) , esc_attr($widget_end_date) ).'</span>' );
 				$output .= '</p>';
 			}
 		}
@@ -90,31 +116,31 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_ca
 	if ( ($widget_image_hide == 'yes') && ($widget_info_hide == 'yes') ) {
 		$output .= '';
 	} else {
-		$output .= '<div class="vsel-image-info">';
-			// featured image
-			if ($widget_image_hide != 'yes') {
-				if ( has_post_thumbnail() ) {
-					$image_attributes = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), $widget_image_source );
-					$image_title = get_the_title( get_post_thumbnail_id( get_the_ID() ) );
-					if ($widget_link_image != 'yes') {
-						$output .= '<img class ="'.$widget_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" />';
-					} else {
-						$output .=  '<a href="'. get_permalink() .'"><img class ="'.$widget_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
-					}
-				}
-			}
-			// info
-			if ($widget_info_hide != 'yes') {
-				$output .= '<div class="vsel-info">';
-					if ($widget_excerpt != 'yes') {
-						$output .= apply_filters( 'the_content', get_the_content() );
-					} elseif (!empty($widget_summary)) {
-						$output .= apply_filters( 'the_excerpt', $widget_summary );
-					}  else {
-						$output .= apply_filters( 'the_excerpt', get_the_excerpt() );
-					}
-				$output .= '</div>';
-			}
-		$output .= '</div>';
+		// $output .= '<div class="vsel-image-info">';
+		// 	// featured image
+		// 	if ($widget_image_hide != 'yes') {
+		// 		if ( has_post_thumbnail() ) {
+		// 			$image_attributes = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), $widget_image_source );
+		// 			$image_title = get_the_title( get_post_thumbnail_id( get_the_ID() ) );
+		// 			if ($widget_link_image != 'yes') {
+		// 				$output .= '<img class ="'.$widget_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" />';
+		// 			} else {
+		// 				$output .=  '<a href="'. get_permalink() .'"><img class ="'.$widget_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
+		// 			}
+		// 		}
+		// 	}
+		// 	// info
+		// 	if ($widget_info_hide != 'yes') {
+		// 		$output .= '<div class="vsel-info">';
+		// 			if ($widget_excerpt != 'yes') {
+		// 				$output .= apply_filters( 'the_content', get_the_content() );
+		// 			} elseif (!empty($widget_summary)) {
+		// 				$output .= apply_filters( 'the_excerpt', $widget_summary );
+		// 			}  else {
+		// 				$output .= apply_filters( 'the_excerpt', get_the_excerpt() );
+		// 			}
+		// 		$output .= '</div>';
+		// 	}
+		// $output .= '</div>';
 	}
 $output .= '</div>';

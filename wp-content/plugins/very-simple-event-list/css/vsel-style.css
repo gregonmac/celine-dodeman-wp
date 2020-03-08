@@ -43,7 +43,8 @@
 /* Info and featured image section */
 .vsel-image-info {width:60%; float:right;}
 .vsel-image-info-left {width:60%; float:left;}
-.vsel-content .vsel-image {max-width:40%; height:auto; float:right; margin:5px 0 5px 10px; padding:0; border:0;}
+.vsel-content .vsel-image {max-width:40%; height:auto; float:right; 
+    margin: 10px 0 0 0px; padding:0; border:0;}
 .vsel-content .vsel-image-left {max-width:40%; height:auto; float:left; margin:5px 10px 5px 0; padding:0; border:0;}
 .vsel-info {}
 
@@ -67,7 +68,9 @@
 .vsel-widget .vsel-meta {width:100%; clear:both;}
 
 /* Widget info and featured image section */
-.vsel-widget .vsel-image-info {width:100%; clear:both; float:left;}
+.vsel-widget .vsel-image-info {width:100%; clear:both; float:left;
+    
+	}
 
 /* Widget link to all events */
 .vsel-widget .vsel-widget-link {clear:both;}
