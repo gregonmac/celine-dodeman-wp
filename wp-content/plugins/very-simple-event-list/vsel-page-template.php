@@ -53,7 +53,8 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_ca
 				}
 			} elseif ($page_end_date == $page_start_date) {
 				$output .= '<p class="vsel-meta-date vsel-meta-single-date">';
-				$output .= sprintf(esc_attr($page_date_label), '<span>'.date_i18n( esc_attr($date_format), esc_attr($page_end_date) ).'</span>' );
+				// $output .= sprintf(esc_attr($page_date_label), '<span>'.date_i18n( esc_attr($date_format), esc_attr($page_end_date) ).'</span>' );
+				$output .= '<span>'.date_i18n( esc_attr($date_format), esc_attr($page_end_date) ).'</span>' ;
 				$output .= '</p>';
 			}
 		}
@@ -61,7 +62,8 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_ca
 		if ( ($page_time_hide != 'yes') ) {
 			if (!empty($page_time)) {
 				$output .= '<p class="vsel-meta-time">';
-				$output .= sprintf(esc_attr($page_time_label), '<span>'.esc_attr($page_time).'</span>' );
+				// $output .= sprintf(esc_attr($page_time_label), '<span>'.esc_attr($page_time).'</span>' );
+				$output .= '<span>'.esc_attr($page_time).'</span>' ;
 				$output .= '</p>';
 			}
 		}
@@ -69,7 +71,8 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_ca
 		if ( ($page_location_hide != 'yes') ) {
 			if (!empty($page_location)) {
 				$output .= '<p class="vsel-meta-location">';
-				$output .= sprintf(esc_attr($page_location_label), '<span>'.esc_attr($page_location).'</span>' );
+				// $output .= sprintf(esc_attr($page_location_label), '<span>'.esc_attr($page_location).'</span>' );
+				$output .= '<span>'.esc_attr($page_location).'</span>' ;
 				$output .= '</p>';
 			}
 		}
@@ -86,21 +89,21 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-content '.vsel_event_ca
 			}
 		}
 		// categories
-		if ( ($page_cats_hide != 'yes') ) {
-			$cats_raw = wp_strip_all_tags( get_the_term_list( get_the_ID(), 'event_cat', '<span>', ' | ', '</span>' ) );
-			$cats = get_the_term_list( get_the_ID(), 'event_cat', '<span>', ' | ', '</span>' );
-			if( has_term( '', 'event_cat', get_the_ID() ) ) {
-				if ($page_link_cat != 'yes') {
-					$output .= '<p class="vsel-meta-cats">';
-					$output .= $cats_raw;
-					$output .= '</p>';
-				} else {
-					$output .= '<p class="vsel-meta-cats">';
-					$output .= $cats;
-					$output .= '</p>';
-				}
-			}
-		}
+		// if ( ($page_cats_hide != 'yes') ) {
+		// 	$cats_raw = wp_strip_all_tags( get_the_term_list( get_the_ID(), 'event_cat', '<span>', ' | ', '</span>' ) );
+		// 	$cats = get_the_term_list( get_the_ID(), 'event_cat', '<span>', ' | ', '</span>' );
+		// 	if( has_term( '', 'event_cat', get_the_ID() ) ) {
+		// 		if ($page_link_cat != 'yes') {
+		// 			$output .= '<p class="vsel-meta-cats">';
+		// 			$output .= $cats_raw;
+		// 			$output .= '</p>';
+		// 		} else {
+		// 			$output .= '<p class="vsel-meta-cats">';
+		// 			$output .= $cats;
+		// 			$output .= '</p>';
+		// 		}
+		// 	}
+		// }
 	$output .= $page_meta_section_end;
 		// featured image
 		// if ( ($page_image_hide != 'yes') ) {

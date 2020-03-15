@@ -14,9 +14,9 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-widget col-sm-3 col-lg-
 					$image_attributes = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), $widget_image_source );
 					$image_title = get_the_title( get_post_thumbnail_id( get_the_ID() ) );
 					if ($widget_link_image != 'yes') {
-						$output .= '<a href="'. get_permalink() .'"><div class="vsel-polaroid" ><img class ="'.$widget_img_class.' widget-vsel" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></div></a>';
+						$output .= '<a href="http://www.celine-dodeman.com/agenda-stages/"><div class="vsel-polaroid" ><img class ="'.$widget_img_class.' widget-vsel" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></div></a>';
 					} else {
-						$output .=  '<a href="'. get_permalink() .'"><img class ="'.$widget_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
+						$output .=  '<a href="http://www.celine-dodeman.com/agenda-stages/"><img class ="'.$widget_img_class.'" src="'.$image_attributes[0].'" width="'.$image_attributes[1].'" height="'.$image_attributes[2].'" alt="'.$image_title.'" /></a>';
 					}
 				}
 			}
@@ -38,7 +38,7 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-widget col-sm-3 col-lg-
 		if ($widget_link_title != 'yes') {
 			$output .= '<h3 class="vsel-meta-title">' . get_the_title() . '</h3>';
 		} else {
-			$output .=  '<div class="vsel-widget-meta-title"><a href="'. get_permalink() .'" rel="bookmark" title="'. get_the_title() .'">'. get_the_title() .'</a></div>';
+			$output .=  '<div class="vsel-widget-meta-title"><a href="http://www.celine-dodeman.com/agenda-stages/" rel="bookmark" title="'. get_the_title() .'">'. get_the_title() .'</a></div>';
 		}
 		// date
 		if ( ($widget_date_hide != 'yes') ) {
@@ -71,7 +71,8 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-widget col-sm-3 col-lg-
 		if ($widget_time_hide != 'yes') {
 			if (!empty($widget_time)){
 				$output .= '<p class="vsel-meta-time">';
-				$output .= sprintf(esc_attr($widget_time_label), '<span>'.esc_attr($widget_time).'</span>' );
+				// $output .= sprintf(esc_attr($widget_time_label), '<span>'.esc_attr($widget_time).'</span>' );
+				$output .= '<span>'.esc_attr($widget_time).'</span>' ;
 				$output .= '</p>';
 			}
 		}
@@ -79,7 +80,8 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-widget col-sm-3 col-lg-
 		if ($widget_location_hide != 'yes') {
 			if (!empty($widget_location)){
 				$output .= '<p class="vsel-meta-location">';
-				$output .= sprintf(esc_attr($widget_location_label), '<span>'.esc_attr($widget_location).'</span>' );
+				// $output .= sprintf(esc_attr($widget_location_label), '<span>'.esc_attr($widget_location).'</span>' );
+				$output .= '<span>'.esc_attr($widget_location).'</span>' ;
 				$output .= '</p>';
 			}
 		}
@@ -91,6 +93,7 @@ $output .= '<div id="event-'.get_the_ID().'" class="vsel-widget col-sm-3 col-lg-
 		if ($widget_link_hide != 'yes') {
 			if (!empty($widget_link)){
 				$output .= '<p class="vsel-meta-link">';
+				// $output .= sprintf( '<a href="%1$s"'. $widget_link_target .'>%2$s</a>', esc_url($widget_link), esc_attr($widget_link_label) );
 				$output .= sprintf( '<a href="%1$s"'. $widget_link_target .'>%2$s</a>', esc_url($widget_link), esc_attr($widget_link_label) );
 				$output .= '</p>';
 			}

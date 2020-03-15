@@ -3455,19 +3455,21 @@ ul.nav > li.current_page_item.current > a:before {
     color:black;
 }
 .vsel-widget-meta-single-date{
-    font-size: 0.6em;
+    font-size: 0.9em;
+    font-family: 'AvenirRoman';
+    color: white;
 }
 .vsel-container-widget .vsel-meta-single-date{
 
-    border: solid 0.5px grey;
-    background-color: #e7ac44;
-    height: 40px;
+    border: solid 0.5px rgb(140, 118, 32);
+    background-color: rgb(140, 118, 32);
+    height: 50px;
     -moz-border-radius: 75px;
     -webkit-border-radius: 75px;
-    width: 40px;
+    width: 50px;
     margin: auto !important;
     margin-top: 5px !important;
-    padding-top: 6px !important;
+    padding-top: 12px !important;
 }
 
 
@@ -3498,7 +3500,7 @@ ul.nav > li.current_page_item.current > a:before {
 #vsel .vsel-content {
     margin: 0 0 20px;
     padding: 0 0 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 0px solid rgba(0, 0, 0, 0.05);
 }
 
 @media (min-width: 768px) {
